@@ -1,13 +1,20 @@
 /*
  * Minimal cc2538 code
  *
- * Blinks an LED on the Atum board. (https://github.com/lab11/atum)
- * Expects a UART bootloader to already be programmed onto the Atum.
+ * Blinks an LED on the Atum board (https://github.com/lab11/atum) or SDL board
+ *  (https://github.com/lab11/torch). Expects a UART bootloader to already be
+ *  programmed onto the cc2538
  *
  * Branden Ghena (brghena@umich.edu) - 2015
  */
 
 /* No includes necessary */
+
+/* GPIO pin definitions */
+#define GPIO_C_BASE  0x400DB000  // GPIO C base address
+#define GPIO_D_BASE  0x400DC000  // GPIO D base address
+#define GPIO_DIR     0x00000400  // Direction offset
+#define GPIO_DATA    0x00000000  // Data offset
 
 /* Prototype for system handler */
 void reset_handler(void);
@@ -67,12 +74,16 @@ void(*const vectors[])(void) = {
     0,                /* 12 Debug monitor handler */
 };
 
-/* GPIO pin definitions */
-#define GPIO_D_BASE  0x400DC000  // GPIO D base address
-#define GPIO_DIR     0x00000400  // Direction offset
-#define GPIO_DATA    0x00000000  // Data offset
-#define LED_RED_MASK  (1 << (3)) // Pin 3 is the Red LED
-#define LED_BLUE_MASK (1 << (4)) // Pin 4 is the Blue LED
+/* Pin definitions for various cc2538 systems */
+#define ATUM_LEDS_BASE GPIO_D_BASE
+#define ATUM_RED_LED   3
+#define ATUM_BLUE_LED  4
+#define ATUM_GREEN_LED 5
+
+#define SDL_LEDS_BASE  GPIO_C_BASE
+#define SDL_RED_LED    1
+#define SDL_GREEN_LED  0
+#define SDL_BIG_LED    5
 
 /* Main code
  *
@@ -80,15 +91,19 @@ void(*const vectors[])(void) = {
  *  that runs when the microcontroller starts.
  */
 void reset_handler(void) {
-    *((volatile unsigned int*)(GPIO_D_BASE | GPIO_DIR)) |= LED_RED_MASK; // Sets the LED pin to be an output
+    // Select which LED to blink
+    const unsigned int LED_BASE = SDL_LEDS_BASE;
+    const unsigned int LED_NUM = SDL_GREEN_LED;
+
+    *((volatile unsigned int*)(LED_BASE | GPIO_DIR)) |= (1 << LED_NUM); // Sets the LED pin to be an output
 
     while(1) {
         volatile int i;
 
-        *((volatile unsigned int*)(((GPIO_D_BASE) | GPIO_DATA) + ((LED_RED_MASK) << 2))) = 0x00; // LED on
+        *((volatile unsigned int*)(((LED_BASE) | GPIO_DATA) + ((1 << LED_NUM) << 2))) = 0x00; // LED on
         for (i=0; i<400000; i++);
 
-        *((volatile unsigned int*)(((GPIO_D_BASE) | GPIO_DATA) + ((LED_RED_MASK) << 2))) = 0xFF; // LED off
+        *((volatile unsigned int*)(((LED_BASE) | GPIO_DATA) + ((1 << LED_NUM) << 2))) = 0xFF; // LED off
         for (i=0; i<400000; i++);
     }
 }
