@@ -18,29 +18,29 @@ CFLAGS += -Wall -O0
 LDFLAGS += -nostartfiles
 LDFLAGS += -T cc2538.ld
 LDFLAGS += -Wl,-gc-sections,--sort-section=alignment
-LDFLAGS += -Wl,-Map=objs/blink.map,--cref,--no-warn-mismatch
+LDFLAGS += -Wl,-Map=objs/movable.map,--cref,--no-warn-mismatch
 OBJCOPY_BIN += -O binary
 OBJCOPY_HEX += -O ihex
 OBJCOPY_FLAGS += --gap-fill 0xff
 OBJDUMP_FLAGS += --disassemble-all --source --disassembler-options=force-thumb
 
-all: blink.bin debug objs
+all: movable.bin debug objs
 
-blink.elf : blink.c objs
+movable.elf : movable.c objs
 	$(CC) $(CFLAGS) $(LDFLAGS) $< -o objs/$@
 
-blink.bin : blink.elf objs
+movable.bin : movable.elf objs
 	$(OBJCOPY) $(OBJCOPY_BIN) $(OBJCOPY_FLAGS) objs/$< objs/$@
 
-debug: blink.c objs
-	$(CC) $(CFLAGS) -g -w $(LDFLAGS) $< -o objs/blink.debug.elf
-	$(OBJDUMP) $(OBJDUMP_FLAGS) objs/blink.debug.elf > objs/blink.lst
+debug: movable.c objs
+	$(CC) $(CFLAGS) -g -w $(LDFLAGS) $< -o objs/movable.debug.elf
+	$(OBJDUMP) $(OBJDUMP_FLAGS) objs/movable.debug.elf > objs/movable.lst
 
 install: all
 ifeq ($(wildcard $(BSL)), )
 	@echo "ERROR: Could not find the cc2538-bsl script. Did you run 'git submodule update --init' ?"
 else
-	python $(BSL) -b 115200 -e -w -v objs/blink.bin
+	python $(BSL) -b 115200 -e -w -v objs/movable.bin
 endif
 
 code: code.c objs

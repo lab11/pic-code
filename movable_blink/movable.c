@@ -1,14 +1,5 @@
-/*
- * Code that loads a blink app into memory
- *
- * Blinks an LED on the Atum board (https://github.com/lab11/atum) or SDL board
- *  (https://github.com/lab11/torch). Expects a UART bootloader to already be
- *  programmed onto the cc2538
- *
- * Branden Ghena (brghena@umich.edu) - 2015
- */
-
-/* No includes necessary */
+/* Byte array of code to be executed */
+#include "code.h"
 
 /* GPIO pin definitions */
 #define GPIO_C_BASE  0x400DB000  // GPIO C base address
@@ -16,8 +7,20 @@
 #define GPIO_DIR     0x00000400  // Direction offset
 #define GPIO_DATA    0x00000000  // Data offset
 
-/* Prototype for system handler */
+/* Pin definitions for various cc2538 systems */
+#define ATUM_LEDS_BASE GPIO_D_BASE
+#define ATUM_RED_LED   3
+#define ATUM_BLUE_LED  4
+#define ATUM_GREEN_LED 5
+
+#define SDL_LEDS_BASE  GPIO_C_BASE
+#define SDL_RED_LED    1
+#define SDL_GREEN_LED  0
+#define SDL_BIG_LED    5
+
+/* Function prototypes */
 void reset_handler(void);
+void main(void);
 
 /* Pointers to stack and sections */
 static unsigned int stack[512]; // Allocate stack space
@@ -79,33 +82,45 @@ void(*const vectors[])(void) = {
     0,                /* 12 Debug monitor handler */
 };
 
-/* Pin definitions for various cc2538 systems */
-#define ATUM_LEDS_BASE GPIO_D_BASE
-#define ATUM_RED_LED   3
-#define ATUM_BLUE_LED  4
-#define ATUM_GREEN_LED 5
-
-#define SDL_LEDS_BASE  GPIO_C_BASE
-#define SDL_RED_LED    1
-#define SDL_GREEN_LED  0
-#define SDL_BIG_LED    5
-
-#include "code.h"
-
-/* Main code
+/* Reset handler
  *
  * This handler is run on reset of the microcontroller, i.e. it is the code
- *  that runs when the microcontroller starts.
+ *  that runs when the microcontroller starts. It needs to copy over
+ *  initialization data for global variables and then enter the user code
  */
 void reset_handler(void) {
     
-    /* Copy bullshit */
+    // Copy the data segment intializers from Flash to SRAM
     unsigned long* data_src = &_etext;
     unsigned long* data_dst;
     for (data_dst = &_data; data_dst < &_edata;) {
         *data_dst++ = *data_src++;
     }
 
+    // Zero-fill the bss segment
+    __asm("    ldr     r0, =_bss         \n"
+          "    ldr     r1, =_ebss        \n"
+          "    mov     r2, #0            \n"
+          "    .thumb_func               \n"
+          "zero_loop:                    \n"
+          "        cmp     r0, r1        \n"
+          "        it      lt            \n"
+          "        strlt   r2, [r0], #4  \n"
+          "        blt     zero_loop     \n"
+          );
+
+    // Call user code
+    main();
+
+    // End here if code returns
+    while (1);
+}
+
+/* Main code
+ *
+ * This is the user's application
+ */
+void main(void) {
     // Select which LED to blink
     const unsigned int LED_BASE = ATUM_LEDS_BASE;
 
@@ -115,9 +130,7 @@ void reset_handler(void) {
 
     void (*fn)(void) = (void (*)(void))((unsigned int)code | 1); // |1 is very important!! Must stay in thumb mode
     fn();
-    *((volatile unsigned int*)(((LED_BASE) | GPIO_DATA) + ((1 << ATUM_RED_LED) << 2))) = 0x00; // LED on
 
-    while(1) {
-    }
+    *((volatile unsigned int*)(((LED_BASE) | GPIO_DATA) + ((1 << ATUM_RED_LED) << 2))) = 0x00; // LED on
 }
 
