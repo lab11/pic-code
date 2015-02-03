@@ -16,12 +16,29 @@
 #define GPIO_DIR     0x00000400  // Direction offset
 #define GPIO_DATA    0x00000000  // Data offset
 
-/* Prototype for system handler */
-void reset_handler(void);
+/* Pin definitions for various cc2538 systems */
+#define ATUM_LEDS_BASE GPIO_D_BASE
+#define ATUM_RED_LED   3
+#define ATUM_BLUE_LED  4
+#define ATUM_GREEN_LED 5
 
-/* Pointers to stack and text locations */
+#define SDL_LEDS_BASE  GPIO_C_BASE
+#define SDL_RED_LED    1
+#define SDL_GREEN_LED  0
+#define SDL_BIG_LED    5
+
+/* Function prototypes */
+void reset_handler(void);
+void main(void);
+
+/* Pointers to stack and sections */
 static unsigned int stack[512]; // Allocate stack space
-extern unsigned char _text[0];  // Linker construct indicating .text section location
+extern unsigned long _text;  // Linker construct indicating .text section location
+extern unsigned long _etext;
+extern unsigned long _data;
+extern unsigned long _edata;
+extern unsigned long _bss;
+extern unsigned long _ebss;
 
 /* Boot loader backdoor
  *
@@ -74,26 +91,48 @@ void(*const vectors[])(void) = {
     0,                /* 12 Debug monitor handler */
 };
 
-/* Pin definitions for various cc2538 systems */
-#define ATUM_LEDS_BASE GPIO_D_BASE
-#define ATUM_RED_LED   3
-#define ATUM_BLUE_LED  4
-#define ATUM_GREEN_LED 5
+/* Reset handler
+ *
+ * This handler is run on reset of the microcontroller, i.e. it is the code
+ *  that runs when the microcontroller starts. It needs to copy over
+ *  initialization data for global variables and then enter the user code
+ */
+void reset_handler(void) {
 
-#define SDL_LEDS_BASE  GPIO_C_BASE
-#define SDL_RED_LED    1
-#define SDL_GREEN_LED  0
-#define SDL_BIG_LED    5
+    // Copy the data segment intializers from Flash to SRAM
+    unsigned long* data_src = &_etext;
+    unsigned long* data_dst;
+    for (data_dst = &_data; data_dst < &_edata;) {
+        *data_dst++ = *data_src++;
+    }
+
+    // Zero-fill the bss segment
+    __asm("    ldr     r0, =_bss         \n"
+          "    ldr     r1, =_ebss        \n"
+          "    mov     r2, #0            \n"
+          "    .thumb_func               \n"
+          "zero_loop:                    \n"
+          "        cmp     r0, r1        \n"
+          "        it      lt            \n"
+          "        strlt   r2, [r0], #4  \n"
+          "        blt     zero_loop     \n"
+          );
+
+    // Call user code
+    main();
+
+    // End here if code returns
+    while (1);
+}
 
 /* Main code
  *
- * This handler is run on reset of the microcontroller, i.e. it is the code
- *  that runs when the microcontroller starts.
+ * This is the user's application
  */
-void reset_handler(void) {
+void main(void) {
     // Select which LED to blink
-    const unsigned int LED_BASE = SDL_LEDS_BASE;
-    const unsigned int LED_NUM = SDL_GREEN_LED;
+    const unsigned int LED_BASE = ATUM_LEDS_BASE;
+    const unsigned int LED_NUM  = ATUM_RED_LED;
 
     *((volatile unsigned int*)(LED_BASE | GPIO_DIR)) |= (1 << LED_NUM); // Sets the LED pin to be an output
 
