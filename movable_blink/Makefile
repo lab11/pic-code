@@ -24,9 +24,9 @@ OBJCOPY_HEX += -O ihex
 OBJCOPY_FLAGS += --gap-fill 0xff
 OBJDUMP_FLAGS += --disassemble-all --source --disassembler-options=force-thumb
 
-all: movable.bin debug objs
+all: code movable.bin debug objs
 
-movable.elf : movable.c objs
+movable.elf : movable.c objs code
 	$(CC) $(CFLAGS) $(LDFLAGS) $< -o objs/$@
 
 movable.bin : movable.elf objs
@@ -49,6 +49,7 @@ code: code.c objs
 	$(OBJCOPY) $(OBJCOPY_HEX) $(OBJCOPY_FLAGS) objs/code.elf objs/code.hex
 	$(CC) $(CFLAGS) -g -nostartfiles $< -o objs/code.debug.elf
 	$(OBJDUMP) $(OBJDUMP_FLAGS) objs/code.debug.elf > objs/code.lst
+	python hexarray.py objs/code.bin code.h
 
 objs : 
 	mkdir objs
