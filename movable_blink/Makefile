@@ -15,6 +15,7 @@ CFLAGS += -fno-builtin -ffreestanding -nodefaultlibs -nostdlib
 # this line seemed pretty unncessary
 #CFLAGS += -fshort-enums -fomit-frame-pointer
 CFLAGS += -Wall -O0
+CFLAGS += -std=c99
 LDFLAGS += -nostartfiles
 LDFLAGS += -T cc2538.ld
 LDFLAGS += -Wl,-gc-sections,--sort-section=alignment
@@ -23,6 +24,8 @@ OBJCOPY_BIN += -O binary
 OBJCOPY_HEX += -O ihex
 OBJCOPY_FLAGS += --gap-fill 0xff
 OBJDUMP_FLAGS += --disassemble-all --source --disassembler-options=force-thumb
+OBJDUMP_FLAGS += -C -g --section-headers --disassemble-zeroes
+PIC += -fPIC -msingle-pic-base -mpic-register=r6 -mno-pic-data-is-text-relative
 
 all: code movable.bin debug objs
 
@@ -44,10 +47,10 @@ else
 endif
 
 code: code.c objs
-	$(CC) $(CFLAGS) -nostartfiles $< -o objs/code.elf
+	$(CC) $(CFLAGS) $(PIC) -nostartfiles -T user_app.ld $< -o objs/code.elf
 	$(OBJCOPY) $(OBJCOPY_BIN) $(OBJCOPY_FLAGS) objs/code.elf objs/code.bin
 	$(OBJCOPY) $(OBJCOPY_HEX) $(OBJCOPY_FLAGS) objs/code.elf objs/code.hex
-	$(CC) $(CFLAGS) -g -nostartfiles $< -o objs/code.debug.elf
+	$(CC) $(CFLAGS) $(PIC) -g -nostartfiles -T user_app.ld -Wl,-Map=objs/code.map $< -o objs/code.debug.elf
 	$(OBJDUMP) $(OBJDUMP_FLAGS) objs/code.debug.elf > objs/code.lst
 	python hexarray.py objs/code.bin code.h
 

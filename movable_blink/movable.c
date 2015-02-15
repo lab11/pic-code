@@ -116,6 +116,18 @@ void reset_handler(void) {
     while (1);
 }
 
+typedef struct {
+    unsigned int* entry_loc;        /* Entry point for user application */
+    unsigned int* init_data_loc;    /* Data initialization information in flash */
+    unsigned int init_data_size;    /* Size of initialization information */
+    unsigned int got_start_offset;  /* Offset to start of GOT */
+    unsigned int got_end_offset;    /* Offset to end of GOT */
+    unsigned int plt_start_offset;  /* Offset to start of PLT */
+    unsigned int plt_end_offset;    /* Offset to end of PLT */
+    unsigned int bss_start_offset;  /* Offset to start of BSS */
+    unsigned int bss_end_offset;    /* Offset to end of BSS */
+} Load_Info;
+
 /* Main code
  *
  * This is the user's application
@@ -125,12 +137,59 @@ void main(void) {
     const unsigned int LED_BASE = ATUM_LEDS_BASE;
 
     *((volatile unsigned int*)(LED_BASE | GPIO_DIR)) |= (1 << ATUM_RED_LED); // Sets the LED pin to be an output
+    *((volatile unsigned int*)(LED_BASE | GPIO_DIR)) |= (1 << ATUM_BLUE_LED); // Sets the LED pin to be an output
     *((volatile unsigned int*)(LED_BASE | GPIO_DIR)) |= (1 << ATUM_GREEN_LED); // Sets the LED pin to be an output
     *((volatile unsigned int*)(((LED_BASE) | GPIO_DATA) + ((1 << ATUM_GREEN_LED) << 2))) = 0x00; // LED on
 
-    void (*fn)(void) = (void (*)(void))((unsigned int)code | 1); // |1 is very important!! Must stay in thumb mode
+
+    /* Perform application load functions */
+    Load_Info* code_info = (Load_Info*)code;
+    unsigned int* flash_location = (unsigned int*)code;
+    unsigned int* sram_location = 0x20001000; // arbitrary choice for testing
+    // copy data into data section
+    //  Data start location assumes .text starts at address 0, and needs to be
+    //  updated to the actual location in flash
+    unsigned int* init_data_src = (unsigned int*)((unsigned int)(*code_info).init_data_loc + (unsigned int)flash_location);
+    unsigned int* init_data_end = (unsigned int*)((unsigned int)init_data_src + (*code_info).init_data_size);
+    unsigned int* data_dst = sram_location;
+    while (init_data_src < init_data_end) {
+        *data_dst++ = *init_data_src++;
+    }
+    // zero out bss section
+    unsigned int* bss_start = (unsigned int*)((unsigned int)sram_location + (*code_info).bss_start_offset);
+    unsigned int bss_size = (*code_info).bss_end_offset - (*code_info).bss_start_offset;
+    unsigned int* bss_end   = (unsigned int*)((unsigned int)bss_start + bss_size);
+    while (bss_start < bss_end) {
+        *bss_start++ = 0;
+    }
+    // fixup GOT
+    unsigned int* got_start = (unsigned int*)((unsigned int)sram_location + (*code_info).got_start_offset);
+    unsigned int got_size = (*code_info).got_end_offset - (*code_info).got_start_offset;
+    unsigned int* got_end   = (unsigned int*)((unsigned int)got_start + got_size);
+    while (got_start < got_end) {
+        *got_start++ += (unsigned int)sram_location;
+    }
+    //TODO: fixup PLT to enable shared libraries
+
+
+    /* Context Switch */
+    // set base register (r6)
+    //  Needs to point to the beginning of the GOT section, which is at the
+    //  start of the SRAM for the data section.
+    //  Hard coded to sram_location for now
+    __asm(" ldr     r6,=0x20001000      \n"
+          );
+    //TODO: set stack pointer
+    //TODO: move to user mode
+    // Jump into application
+    //  Entry location assumes .text starts at address 0, and needs to be
+    //  updated to the actual location in flash
+    unsigned int jmp = ((unsigned int)(*code_info).entry_loc + (unsigned int)flash_location);
+    void (*fn)(void) = (void (*)(void))(((unsigned int)jmp) | 1); // |1 is very important!! Must stay in thumb mode
     fn();
 
+
+    /* Never reached */
     *((volatile unsigned int*)(((LED_BASE) | GPIO_DATA) + ((1 << ATUM_RED_LED) << 2))) = 0x00; // LED on
 }
 
