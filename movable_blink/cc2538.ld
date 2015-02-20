@@ -13,6 +13,13 @@ SECTIONS {
         *(.text*)
         *(.rodata*)
         _etext = .;
+    }
+
+    .apps :
+    {
+        _apps = .;
+        KEEP(*(.app))
+        _eapps = .;
     } > FLASH =0xFF
 
 /* Data section, static initialized variables

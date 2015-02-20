@@ -1,5 +1,3 @@
-/* Byte array of code to be executed */
-#include "code.h"
 
 /* GPIO pin definitions */
 #define GPIO_C_BASE  0x400DB000  // GPIO C base address
@@ -128,6 +126,9 @@ typedef struct {
     unsigned int bss_end_offset;    /* Offset to end of BSS */
 } Load_Info;
 
+extern unsigned char* _apps;
+extern unsigned char* _eapps;
+
 /* Main code
  *
  * This is the user's application
@@ -143,8 +144,8 @@ void main(void) {
 
 
     /* Perform application load functions */
-    Load_Info* code_info = (Load_Info*)code;
-    unsigned int* flash_location = (unsigned int*)code;
+    Load_Info* code_info = (Load_Info*)&_apps;
+    unsigned int* flash_location = (unsigned int*)&_apps;
     unsigned int* sram_location = 0x20001000; // arbitrary choice for testing
     // copy data into data section
     //  Data start location assumes .text starts at address 0, and needs to be
