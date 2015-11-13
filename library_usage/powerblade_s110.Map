@@ -1,0 +1,526 @@
+Archive member included because of file (symbol)
+
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-exit.o)
+                              /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o (exit)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+                              /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-exit.o) (_global_impure_ptr)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-init.o)
+                              /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o (__libc_init_array)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+                              _build/ble_nus.o (memcpy)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+                              /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o (memset)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-strlen.o)
+                              _build/ble_srv_common.o (strlen)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-strncpy.o)
+                              _build/ble_debug_assert_handler.o (strncpy)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__call_atexit.o)
+                              /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-exit.o) (__call_exitprocs)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-atexit.o)
+                              /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__call_atexit.o) (atexit)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-fini.o)
+                              /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__call_atexit.o) (__libc_fini_array)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__atexit.o)
+                              /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-atexit.o) (__register_exitproc)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+                              /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+on_timer            0x4               _build/main.o
+eddystone_on_timer  0x4               _build/main.o
+eddystone_off_timer
+                    0x4               _build/main.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x00016000         0x0002a000         xr
+RAM              0x20002000         0x00002000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+LOAD /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+LOAD /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+LOAD _build/startup_nrf51.os
+LOAD _build/system_nrf51.o
+LOAD _build/ble_nus.o
+LOAD _build/bsp.o
+LOAD _build/main.o
+LOAD _build/softdevice_handler.o
+LOAD _build/ble_advdata.o
+LOAD _build/ble_debug_assert_handler.o
+LOAD _build/ble_srv_common.o
+LOAD _build/led.o
+LOAD _build/app_error.o
+LOAD _build/simple_uart.o
+LOAD _build/ble_conn_params.o
+LOAD _build/app_timer.o
+LOAD _build/app_gpiote.o
+START GROUP
+LOAD /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a
+LOAD /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a
+END GROUP
+LOAD /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+LOAD /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+START GROUP
+LOAD /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a
+LOAD /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a
+LOAD /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libm.a
+LOAD /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libnosys.a
+END GROUP
+
+.text           0x00016000     0x261c
+ *(.isr_vector)
+ .isr_vector    0x00016000       0xc0 _build/startup_nrf51.os
+                0x00016000                __Vectors
+ *(.text*)
+ .text          0x000160c0        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+ .text          0x000160c0       0x60 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .text          0x00016120       0x78 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+                0x00016120                _mainCRTStartup
+                0x00016120                _start
+ .text          0x00016198       0x7c _build/startup_nrf51.os
+                0x00016198                Reset_Handler
+                0x000161d8                NMI_Handler
+                0x000161da                HardFault_Handler
+                0x000161dc                SVC_Handler
+                0x000161de                PendSV_Handler
+                0x000161e0                SysTick_Handler
+                0x000161e2                Default_Handler
+                0x000161e2                DEF_IRQHandler
+                0x000161e4                POWER_CLOCK_IRQHandler
+                0x000161e6                RADIO_IRQHandler
+                0x000161ea                SPI0_TWI0_IRQHandler
+                0x000161ec                SPI1_TWI1_IRQHandler
+                0x000161f0                ADC_IRQHandler
+                0x000161f2                TIMER0_IRQHandler
+                0x000161f4                TIMER1_IRQHandler
+                0x000161f6                TIMER2_IRQHandler
+                0x000161f8                RTC0_IRQHandler
+                0x000161fa                TEMP_IRQHandler
+                0x000161fc                RNG_IRQHandler
+                0x000161fe                ECB_IRQHandler
+                0x00016200                CCM_AAR_IRQHandler
+                0x00016202                WDT_IRQHandler
+                0x00016206                QDEC_IRQHandler
+                0x0001620a                SWI1_IRQHandler
+                0x0001620e                SWI3_IRQHandler
+                0x00016210                SWI4_IRQHandler
+                0x00016212                SWI5_IRQHandler
+ .text          0x00016214       0x9c _build/system_nrf51.o
+                0x00016214                SystemCoreClockUpdate
+                0x00016224                SystemInit
+ .text          0x000162b0      0x318 _build/ble_nus.o
+                0x000162c4                ble_nus_init
+                0x000164a8                ble_nus_send_string
+                0x00016500                ble_nus_set_read_string
+                0x00016516                ble_nus_on_ble_evt
+ .text          0x000165c8       0x20 _build/bsp.o
+                0x000165c8                bsp_buttons_state_get
+                0x000165d0                bsp_button_is_pressed
+                0x000165d4                bsp_indication_set
+                0x000165d8                bsp_indication_text_set
+                0x000165dc                bsp_init
+                0x000165e0                bsp_event_to_button_assign
+                0x000165e4                bsp_buttons_enable
+ .text          0x000165e8      0x398 _build/main.o
+                0x00016654                on_timer_expired
+                0x00016678                nus_data_handler
+                0x000166c0                update_advertisement
+                0x00016734                eddystone_advertisement
+                0x000168e4                app_error_handler
+                0x00016900                assert_nrf_callback
+                0x0001691c                UART0_IRQHandler
+ .text.unlikely
+                0x00016980       0x18 _build/main.o
+ .text.startup  0x00016998      0x30c _build/main.o
+                0x00016998                main
+ .text          0x00016ca4      0x150 _build/softdevice_handler.o
+                0x00016cb8                softdevice_assertion_handler
+                0x00016cc4                intern_softdevice_events_execute
+                0x00016d58                softdevice_handler_init
+                0x00016d90                softdevice_handler_sd_disable
+                0x00016da8                softdevice_ble_evt_handler_set
+                0x00016dbc                softdevice_sys_evt_handler_set
+                0x00016dd0                SWI2_IRQHandler
+ .text          0x00016df4      0x44c _build/ble_advdata.o
+                0x000171d0                ble_advdata_set
+ .text          0x00017240       0x30 _build/ble_debug_assert_handler.o
+                0x00017240                ble_debug_assert_handler
+ .text          0x00017270       0x1e _build/ble_srv_common.o
+                0x00017270                ble_srv_report_ref_encode
+                0x0001727c                ble_srv_ascii_to_utf8
+ *fill*         0x0001728e        0x2 
+ .text          0x00017290       0x70 _build/led.o
+                0x00017290                led_init
+                0x000172ae                led_on
+                0x000172c4                led_off
+                0x000172d6                led_toggle
+ .text          0x00017300       0x18 _build/app_error.o
+ .text          0x00017318      0x140 _build/simple_uart.o
+                0x00017318                simple_uart_get
+                0x00017338                simple_uart_get_with_timeout
+                0x00017394                simple_uart_put
+                0x000173b4                simple_uart_putstring
+                0x000173c8                simple_uart_config
+ .text          0x00017458      0x230 _build/ble_conn_params.o
+                0x00017530                ble_conn_params_init
+                0x00017590                ble_conn_params_stop
+                0x000175a0                ble_conn_params_on_ble_evt
+                0x0001762c                ble_conn_params_change_conn_params
+ .text          0x00017688      0x7b8 _build/app_timer.o
+                0x0001777c                RTC1_IRQHandler
+                0x00017818                SWI0_IRQHandler
+                0x00017bdc                app_timer_init
+                0x00017c9c                app_timer_create
+                0x00017ce8                app_timer_start
+                0x00017d78                app_timer_stop
+                0x00017dd8                app_timer_stop_all
+                0x00017e20                app_timer_cnt_get
+                0x00017e34                app_timer_cnt_diff_compute
+ .text          0x00017e40      0x2e8 _build/app_gpiote.o
+                0x00017ecc                GPIOTE_IRQHandler
+                0x00017f64                app_gpiote_init
+                0x00017fcc                app_gpiote_user_register
+                0x00018014                app_gpiote_user_enable
+                0x000180b0                app_gpiote_user_disable
+                0x000180f4                app_gpiote_pins_state_get
+ .text          0x00018128        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-exit.o)
+ .text.exit     0x00018128       0x20 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-exit.o)
+                0x00018128                exit
+ .text          0x00018148        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+ .text          0x00018148        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-init.o)
+ .text.__libc_init_array
+                0x00018148       0x48 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-init.o)
+                0x00018148                __libc_init_array
+ .text          0x00018190        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+ .text.memcpy   0x00018190       0x7c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+                0x00018190                memcpy
+ .text          0x0001820c        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+ .text.memset   0x0001820c       0x8c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+                0x0001820c                memset
+ .text          0x00018298        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-strlen.o)
+ .text.strlen   0x00018298       0x68 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-strlen.o)
+                0x00018298                strlen
+ .text          0x00018300        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-strncpy.o)
+ .text.strncpy  0x00018300       0x78 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-strncpy.o)
+                0x00018300                strncpy
+ .text          0x00018378        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__call_atexit.o)
+ .text.startup.register_fini
+                0x00018378       0x18 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x00018390      0x108 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__call_atexit.o)
+                0x00018390                __call_exitprocs
+ .text          0x00018498        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-atexit.o)
+ .text.atexit   0x00018498       0x10 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-atexit.o)
+                0x00018498                atexit
+ .text          0x000184a8        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-fini.o)
+ .text.__libc_fini_array
+                0x000184a8       0x34 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-fini.o)
+                0x000184a8                __libc_fini_array
+ .text          0x000184dc        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__atexit.o)
+ .text.__register_exitproc
+                0x000184dc       0xd4 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__atexit.o)
+                0x000184dc                __register_exitproc
+ .text          0x000185b0        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+ .text          0x000185b0        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+ .text          0x000185b0        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+ .text._exit    0x000185b0        0x4 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+                0x000185b0                _exit
+ *(.init)
+ .init          0x000185b4        0x4 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+                0x000185b4                _init
+ .init          0x000185b8        0x8 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+ *(.fini)
+ .fini          0x000185c0        0x4 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+                0x000185c0                _fini
+ .fini          0x000185c4        0x8 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata        0x000185cc       0x10 _build/ble_nus.o
+ .rodata.str1.1
+                0x000185dc        0xf _build/ble_nus.o
+ *fill*         0x000185eb        0x1 
+ .rodata        0x000185ec        0x8 _build/main.o
+ .rodata.str1.1
+                0x000185f4       0x19 _build/main.o
+ *fill*         0x0001860d        0x3 
+ .rodata.str1.4
+                0x00018610        0x4 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x00018614        0x4 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+                0x00018614                _global_impure_ptr
+ *(.eh_frame*)
+ .eh_frame      0x00018618        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .eh_frame      0x00018618        0x4 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+
+.glue_7         0x0001861c        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x0001861c        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x0001861c        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x0001861c        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x0001861c        0x0
+ .iplt          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+
+.ARM.extab      0x0001861c        0x0
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ .ARM.extab     0x0001861c        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+                0x0001861c                __exidx_start = .
+
+.ARM.exidx      0x0001861c        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x0001861c        0x8 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+                0x00018624                __exidx_end = .
+                0x00018624                __etext = .
+
+.rel.dyn        0x00018624        0x0
+ .rel.iplt      0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+
+.data           0x20002000      0x450 load address 0x00018624
+                0x20002000                __data_start__ = .
+ *(vtable)
+ *(.data*)
+ .data          0x20002000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+ .data          0x20002000        0x4 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+                0x20002000                __dso_handle
+ .data          0x20002004        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .data          0x20002004        0x0 _build/startup_nrf51.os
+ .data          0x20002004        0x4 _build/system_nrf51.o
+                0x20002004                SystemCoreClock
+ .data          0x20002008        0x0 _build/ble_nus.o
+ .data          0x20002008        0x0 _build/bsp.o
+ .data          0x20002008        0xc _build/main.o
+                0x2000200a                MAC_ADDR
+ .data          0x20002014        0x0 _build/softdevice_handler.o
+ .data          0x20002014        0x0 _build/ble_advdata.o
+ .data          0x20002014        0x0 _build/ble_debug_assert_handler.o
+ .data          0x20002014        0x0 _build/ble_srv_common.o
+ .data          0x20002014        0x0 _build/led.o
+ .data          0x20002014        0x0 _build/app_error.o
+ .data          0x20002014        0x0 _build/simple_uart.o
+ .data          0x20002014        0x0 _build/ble_conn_params.o
+ .data          0x20002014        0x0 _build/app_timer.o
+ .data          0x20002014        0x0 _build/app_gpiote.o
+ .data          0x20002014        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-exit.o)
+ .data          0x20002014        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+ *fill*         0x20002014        0x4 
+ .data.impure_data
+                0x20002018      0x428 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x20002440        0x4 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+                0x20002440                _impure_ptr
+ .data          0x20002444        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-init.o)
+ .data          0x20002444        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+ .data          0x20002444        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+ .data          0x20002444        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-strlen.o)
+ .data          0x20002444        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-strncpy.o)
+ .data          0x20002444        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__call_atexit.o)
+ .data          0x20002444        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-atexit.o)
+ .data          0x20002444        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-fini.o)
+ .data          0x20002444        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__atexit.o)
+ .data          0x20002444        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+ .data          0x20002444        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+ .data          0x20002444        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+                0x20002444                . = ALIGN (0x4)
+                0x20002444                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x20002444                PROVIDE (__preinit_array_end, .)
+                0x20002444                . = ALIGN (0x4)
+                0x20002444                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ .init_array.00000
+                0x20002444        0x4 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__call_atexit.o)
+ *(.init_array)
+ .init_array    0x20002448        0x4 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+                0x2000244c                PROVIDE (__init_array_end, .)
+                0x2000244c                . = ALIGN (0x4)
+                0x2000244c                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+ .fini_array    0x2000244c        0x4 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+                0x20002450                PROVIDE (__fini_array_end, .)
+                0x20002450                . = ALIGN (0x4)
+                0x20002450                __data_end__ = .
+
+.jcr            0x20002450        0x4 load address 0x00018a74
+ .jcr           0x20002450        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .jcr           0x20002450        0x4 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+
+.igot.plt       0x20002454        0x0 load address 0x00018a78
+ .igot.plt      0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+
+.bss            0x20002454      0x6f8 load address 0x00018a78
+                0x20002454                __bss_start__ = .
+ *(.bss*)
+ .bss           0x20002454        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+ .bss           0x20002454       0x1c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .bss           0x20002470        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .bss           0x20002470        0x0 _build/startup_nrf51.os
+ .bss           0x20002470        0x0 _build/system_nrf51.o
+ .bss           0x20002470      0x258 _build/ble_nus.o
+ .bss           0x200026c8        0x0 _build/bsp.o
+ .bss           0x200026c8      0x368 _build/main.o
+ .bss           0x20002a30       0x18 _build/softdevice_handler.o
+ .bss           0x20002a48        0x0 _build/ble_advdata.o
+ .bss           0x20002a48       0x88 _build/ble_debug_assert_handler.o
+ .bss           0x20002ad0        0x0 _build/ble_srv_common.o
+ .bss           0x20002ad0        0x0 _build/led.o
+ .bss           0x20002ad0        0x0 _build/app_error.o
+ .bss           0x20002ad0        0x0 _build/simple_uart.o
+ .bss           0x20002ad0       0x38 _build/ble_conn_params.o
+ .bss           0x20002b08       0x2c _build/app_timer.o
+ .bss           0x20002b34        0xc _build/app_gpiote.o
+ .bss           0x20002b40        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-exit.o)
+ .bss           0x20002b40        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+ .bss           0x20002b40        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-init.o)
+ .bss           0x20002b40        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+ .bss           0x20002b40        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+ .bss           0x20002b40        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-strlen.o)
+ .bss           0x20002b40        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-strncpy.o)
+ .bss           0x20002b40        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__call_atexit.o)
+ .bss           0x20002b40        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-atexit.o)
+ .bss           0x20002b40        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-fini.o)
+ .bss           0x20002b40        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__atexit.o)
+ .bss           0x20002b40        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+ .bss           0x20002b40        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+ .bss           0x20002b40        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+ *(COMMON)
+ COMMON         0x20002b40        0xc _build/main.o
+                0x20002b40                on_timer
+                0x20002b44                eddystone_on_timer
+                0x20002b48                eddystone_off_timer
+                0x20002b4c                __bss_end__ = .
+
+.heap           0x20002b50      0x100
+                0x20002b50                __end__ = .
+                0x20002b50                end = __end__
+ *(.heap*)
+ .heap          0x20002b50      0x100 _build/startup_nrf51.os
+                0x20002b50                __HeapBase
+                0x20002c50                __HeapLimit = .
+
+.stack_dummy    0x20002b50      0xc00
+ *(.stack)
+ .stack         0x20002b50      0xc00 _build/startup_nrf51.os
+                0x20004000                __StackTop = (ORIGIN (RAM) + 0x2000)
+                0x20003400                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
+                0x20004000                PROVIDE (__stack, __StackTop)
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region RAM overflowed with stack)
+OUTPUT(_build/powerblade_s110.elf elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x28
+ .ARM.attributes
+                0x00000000       0x1e /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+ .ARM.attributes
+                0x0000001e       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .ARM.attributes
+                0x0000004a       0x1b /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.attributes
+                0x00000065       0x1b _build/startup_nrf51.os
+ .ARM.attributes
+                0x00000080       0x31 _build/system_nrf51.o
+ .ARM.attributes
+                0x000000b1       0x31 _build/ble_nus.o
+ .ARM.attributes
+                0x000000e2       0x31 _build/bsp.o
+ .ARM.attributes
+                0x00000113       0x31 _build/main.o
+ .ARM.attributes
+                0x00000144       0x31 _build/softdevice_handler.o
+ .ARM.attributes
+                0x00000175       0x31 _build/ble_advdata.o
+ .ARM.attributes
+                0x000001a6       0x31 _build/ble_debug_assert_handler.o
+ .ARM.attributes
+                0x000001d7       0x31 _build/ble_srv_common.o
+ .ARM.attributes
+                0x00000208       0x31 _build/led.o
+ .ARM.attributes
+                0x00000239       0x31 _build/app_error.o
+ .ARM.attributes
+                0x0000026a       0x31 _build/simple_uart.o
+ .ARM.attributes
+                0x0000029b       0x31 _build/ble_conn_params.o
+ .ARM.attributes
+                0x000002cc       0x31 _build/app_timer.o
+ .ARM.attributes
+                0x000002fd       0x31 _build/app_gpiote.o
+ .ARM.attributes
+                0x0000032e       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-exit.o)
+ .ARM.attributes
+                0x0000035a       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000386       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x000003b2       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x000003de       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000040a       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x00000436       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-strncpy.o)
+ .ARM.attributes
+                0x00000462       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x0000048e       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x000004ba       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-fini.o)
+ .ARM.attributes
+                0x000004e6       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x00000512       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+ .ARM.attributes
+                0x0000053e       0x1e /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+ .ARM.attributes
+                0x0000055c       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 _build/system_nrf51.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 _build/ble_nus.o
+ .comment       0x00000000       0x71 _build/bsp.o
+ .comment       0x00000000       0x71 _build/main.o
+ .comment       0x00000000       0x71 _build/softdevice_handler.o
+ .comment       0x00000000       0x71 _build/ble_advdata.o
+ .comment       0x00000000       0x71 _build/ble_debug_assert_handler.o
+ .comment       0x00000000       0x71 _build/ble_srv_common.o
+ .comment       0x00000000       0x71 _build/led.o
+ .comment       0x00000000       0x71 _build/app_error.o
+ .comment       0x00000000       0x71 _build/simple_uart.o
+ .comment       0x00000000       0x71 _build/ble_conn_params.o
+ .comment       0x00000000       0x71 _build/app_timer.o
+ .comment       0x00000000       0x71 _build/app_gpiote.o
+
+.debug_frame    0x00000000      0x204
+ .debug_frame   0x00000000       0x28 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-exit.o)
+ .debug_frame   0x00000028       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-init.o)
+ .debug_frame   0x00000054       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+ .debug_frame   0x00000080       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+ .debug_frame   0x000000ac       0x28 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-strlen.o)
+ .debug_frame   0x000000d4       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-strncpy.o)
+ .debug_frame   0x00000100       0x54 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00000154       0x28 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-atexit.o)
+ .debug_frame   0x0000017c       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-fini.o)
+ .debug_frame   0x000001a8       0x3c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__atexit.o)
+ .debug_frame   0x000001e4       0x20 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)

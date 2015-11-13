@@ -1,0 +1,2956 @@
+Archive member included because of file (symbol)
+
+contiki-opo8001v2.a(leds.o)   opo8001rxtx.co (leds_on)
+contiki-opo8001v2.a(leds-arch.o)
+                              contiki-opo8001v2.a(leds.o) (leds_arch_init)
+contiki-opo8001v2.a(contiki-main.o)
+                              obj_opo8001v2/startup-gcc.o (main)
+contiki-opo8001v2.a(nrf8001.o)
+                              contiki-opo8001v2.a(contiki-main.o) (nrf8001_init)
+contiki-opo8001v2.a(rv4162.o)
+                              contiki-opo8001v2.a(contiki-main.o) (rv4162_enable_clkout)
+contiki-opo8001v2.a(sst25vf.o)
+                              contiki-opo8001v2.a(contiki-main.o) (sst25vf_init)
+contiki-opo8001v2.a(opo.o)    opo8001rxtx.co (get_opo_state)
+contiki-opo8001v2.a(cloudcomm.o)
+                              contiki-opo8001v2.a(contiki-main.o) (cloudcomm_init)
+contiki-opo8001v2.a(simplestore.o)
+                              contiki-opo8001v2.a(cloudcomm.o) (simplestore_write_next_page)
+contiki-opo8001v2.a(vtimer.o)
+                              opo8001rxtx.co (get_vtimer)
+contiki-opo8001v2.a(rtc.o)    contiki-opo8001v2.a(opo.o) (rtc_get_unixtime)
+contiki-opo8001v2.a(cc2538-rf-debug)
+                              opo8001rxtx.co (send_rf_debug_msg)
+contiki-opo8001v2.a(clock.o)  contiki-opo8001v2.a(contiki-main.o) (clock_init)
+contiki-opo8001v2.a(rtimer-arch.o)
+                              contiki-opo8001v2.a(clock.o) (rtimer_arch_now)
+contiki-opo8001v2.a(watchdog.o)
+                              contiki-opo8001v2.a(contiki-main.o) (watchdog_init)
+contiki-opo8001v2.a(nvic.o)   contiki-opo8001v2.a(contiki-main.o) (nvic_init)
+contiki-opo8001v2.a(cpu.o)    contiki-opo8001v2.a(contiki-main.o) (cpu_cpsie)
+contiki-opo8001v2.a(sys-ctrl.o)
+                              contiki-opo8001v2.a(contiki-main.o) (sys_ctrl_init)
+contiki-opo8001v2.a(gpio.o)   opo8001rxtx.co (gpio_register_callback)
+contiki-opo8001v2.a(ioc.o)    contiki-opo8001v2.a(contiki-main.o) (ioc_init)
+contiki-opo8001v2.a(spi.o)    contiki-opo8001v2.a(nrf8001.o) (spi_cs_init)
+contiki-opo8001v2.a(cc2538-rf.o)
+                              contiki-opo8001v2.a(opo.o) (cc2538_on_and_transmit)
+contiki-opo8001v2.a(udma.o)   contiki-opo8001v2.a(contiki-main.o) (udma_init)
+contiki-opo8001v2.a(lpm.o)    contiki-opo8001v2.a(rtimer-arch.o) (lpm_exit)
+contiki-opo8001v2.a(ieee-addr.o)
+                              contiki-opo8001v2.a(contiki-main.o) (ieee_addr_cpy_to)
+contiki-opo8001v2.a(gptimer.o)
+                              contiki-opo8001v2.a(opo.o) (ungate_gpt)
+contiki-opo8001v2.a(i2c.o)    contiki-opo8001v2.a(rv4162.o) (wait_i2c_free)
+contiki-opo8001v2.a(vtimer-arch.o)
+                              contiki-opo8001v2.a(vtimer.o) (vtimer_arch_init)
+contiki-opo8001v2.a(dbg-printf.o)
+                              contiki-opo8001v2.a(gptimer.o) (printf)
+contiki-opo8001v2.a(dbg-snprintf.o)
+                              opo8001rxtx.co (snprintf)
+contiki-opo8001v2.a(strformat.o)
+                              contiki-opo8001v2.a(dbg-printf.o) (format_str_v)
+contiki-opo8001v2.a(autostart.o)
+                              contiki-opo8001v2.a(contiki-main.o) (autostart_start)
+contiki-opo8001v2.a(etimer.o)
+                              contiki-opo8001v2.a(clock.o) (etimer_request_poll)
+contiki-opo8001v2.a(process.o)
+                              contiki-opo8001v2.a(autostart.o) (process_exit)
+contiki-opo8001v2.a(rtimer.o)
+                              contiki-opo8001v2.a(rtimer-arch.o) (rtimer_run_next)
+contiki-opo8001v2.a(timer.o)  contiki-opo8001v2.a(etimer.o) (timer_set)
+contiki-opo8001v2.a(random.o)
+                              opo8001rxtx.co (random_rand)
+contiki-opo8001v2.a(linkaddr.o)
+                              contiki-opo8001v2.a(contiki-main.o) (linkaddr_node_addr)
+contiki-opo8001v2.a(netstack.o)
+                              contiki-opo8001v2.a(contiki-main.o) (netstack_init)
+contiki-opo8001v2.a(packetbuf.o)
+                              contiki-opo8001v2.a(opo.o) (packetbuf_copyto)
+contiki-opo8001v2.a(framer-802154.o)
+                              contiki-opo8001v2.a(cc2538-rf.o) (framer_802154)
+contiki-opo8001v2.a(nullmac.o)
+                              contiki-opo8001v2.a(contiki-main.o) (nullmac_driver)
+contiki-opo8001v2.a(nullrdc.o)
+                              contiki-opo8001v2.a(cc2538-rf.o) (nullrdc_driver)
+contiki-opo8001v2.a(simple_network_)
+                              contiki-opo8001v2.a(opo.o) (simple_network_set_callback)
+contiki-opo8001v2.a(rf_switch.o)
+                              contiki-opo8001v2.a(opo.o) (cc2538_ant_enable)
+contiki-opo8001v2.a(simple_sfd_hand)
+                              contiki-opo8001v2.a(opo.o) (simple_sfd_handler)
+contiki-opo8001v2.a(simple_rf_txdon)
+                              contiki-opo8001v2.a(opo.o) (simple_rf_txdone_handler)
+contiki-opo8001v2.a(dbg.o)    contiki-opo8001v2.a(dbg-printf.o) (dbg_send_bytes)
+contiki-opo8001v2.a(queuebuf.o)
+                              contiki-opo8001v2.a(nullrdc.o) (queuebuf_to_packetbuf)
+contiki-opo8001v2.a(frame802154.o)
+                              contiki-opo8001v2.a(framer-802154.o) (frame802154_hdrlen)
+contiki-opo8001v2.a(mac.o)    contiki-opo8001v2.a(nullrdc.o) (mac_call_sent_callback)
+contiki-opo8001v2.a(uart.o)   contiki-opo8001v2.a(dbg.o) (uart_write_byte)
+contiki-opo8001v2.a(memb.o)   contiki-opo8001v2.a(queuebuf.o) (memb_init)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_aeabi_uldivmod.o)
+                              contiki-opo8001v2.a(strformat.o) (__aeabi_uldivmod)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(bpabi.o)
+                              /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_aeabi_uldivmod.o) (__gnu_uldivmod_helper)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_dvmd_tls.o)
+                              /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_aeabi_uldivmod.o) (__aeabi_ldiv0)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_divdi3.o)
+                              /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(bpabi.o) (__divdi3)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_udivdi3.o)
+                              /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(bpabi.o) (__udivdi3)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-gmtime.o)
+                              contiki-opo8001v2.a(rv4162.o) (gmtime)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-gmtime_r.o)
+                              /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-gmtime.o) (gmtime_r)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-impure.o)
+                              /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-gmtime.o) (_impure_ptr)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memcmp.o)
+                              contiki-opo8001v2.a(linkaddr.o) (memcmp)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memcpy.o)
+                              contiki-opo8001v2.a(cloudcomm.o) (memcpy)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memset.o)
+                              contiki-opo8001v2.a(simplestore.o) (memset)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-month_lengths.o)
+                              /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-gmtime_r.o) (__month_lengths)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-strlen.o)
+                              contiki-opo8001v2.a(cc2538-rf-debug) (strlen)
+
+Allocating common symbols
+Common symbol       size              file
+
+plug_debouncer      0x18              opo8001rxtx.co
+packetbuf_addrs     0x8               contiki-opo8001v2.a(packetbuf.o)
+linkaddr_node_addr  0x2               contiki-opo8001v2.a(linkaddr.o)
+packetbuf_attrs     0x30              contiki-opo8001v2.a(packetbuf.o)
+unplug_debouncer    0x18              opo8001rxtx.co
+
+Discarded input sections
+
+ .text          0x00000000        0x0 obj_opo8001v2/startup-gcc.o
+ .data          0x00000000        0x0 obj_opo8001v2/startup-gcc.o
+ .bss           0x00000000        0x0 obj_opo8001v2/startup-gcc.o
+ .text.hard_fault_handler
+                0x00000000        0x4 obj_opo8001v2/startup-gcc.o
+ .text          0x00000000        0x0 opo8001rxtx.co
+ .data          0x00000000        0x0 opo8001rxtx.co
+ .bss           0x00000000        0x0 opo8001rxtx.co
+ .text          0x00000000        0x0 contiki-opo8001v2.a(leds.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(leds.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(leds.o)
+ .text.leds_get
+                0x00000000        0x8 contiki-opo8001v2.a(leds.o)
+ .text.leds_set
+                0x00000000       0x10 contiki-opo8001v2.a(leds.o)
+ .text.leds_blink
+                0x00000000       0x24 contiki-opo8001v2.a(leds.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(leds-arch.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(leds-arch.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(leds-arch.o)
+ .text.leds_arch_get
+                0x00000000       0x18 contiki-opo8001v2.a(leds-arch.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(contiki-main.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(contiki-main.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(contiki-main.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(nrf8001.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(nrf8001.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(nrf8001.o)
+ .text.nrf8001_test
+                0x00000000       0x18 contiki-opo8001v2.a(nrf8001.o)
+ .text.nrf8001_echo
+                0x00000000       0x30 contiki-opo8001v2.a(nrf8001.o)
+ .text.nrf8001_bond
+                0x00000000       0x24 contiki-opo8001v2.a(nrf8001.o)
+ .text.nrf8001_read_dynamice_data
+                0x00000000       0x18 contiki-opo8001v2.a(nrf8001.o)
+ .text.nrf8001_write_dynamic_data
+                0x00000000       0x18 contiki-opo8001v2.a(nrf8001.o)
+ .text.nrf8001_get_battery_level
+                0x00000000       0x18 contiki-opo8001v2.a(nrf8001.o)
+ .text.nrf8001_get_temperature
+                0x00000000       0x18 contiki-opo8001v2.a(nrf8001.o)
+ .text.nrf8001_radio_reset
+                0x00000000       0x18 contiki-opo8001v2.a(nrf8001.o)
+ .text.nrf8001_set_tx_power
+                0x00000000       0x18 contiki-opo8001v2.a(nrf8001.o)
+ .text.nrf8001_change_timing_request
+                0x00000000       0x30 contiki-opo8001v2.a(nrf8001.o)
+ .text.nrf8001_open_remote_pipe
+                0x00000000       0x18 contiki-opo8001v2.a(nrf8001.o)
+ .text.nrf8001_set_app_latency
+                0x00000000       0x20 contiki-opo8001v2.a(nrf8001.o)
+ .text.nrf8001_set_key
+                0x00000000       0x30 contiki-opo8001v2.a(nrf8001.o)
+ .text.nrf8001_open_adv_pipe
+                0x00000000       0x2c contiki-opo8001v2.a(nrf8001.o)
+ .text.nrf8001_broadcast
+                0x00000000       0x24 contiki-opo8001v2.a(nrf8001.o)
+ .text.nrf8001_bond_security_request
+                0x00000000       0x18 contiki-opo8001v2.a(nrf8001.o)
+ .text.nrf8001_directed_connect
+                0x00000000       0x18 contiki-opo8001v2.a(nrf8001.o)
+ .text.nrf8001_close_remote_pipe
+                0x00000000       0x18 contiki-opo8001v2.a(nrf8001.o)
+ .text.nrf8001_set_local_data
+                0x00000000       0x34 contiki-opo8001v2.a(nrf8001.o)
+ .text.nrf8001_send_data_ack
+                0x00000000       0x18 contiki-opo8001v2.a(nrf8001.o)
+ .text.nrf8001_request_data
+                0x00000000       0x18 contiki-opo8001v2.a(nrf8001.o)
+ .text.nrf8001_send_data_nack
+                0x00000000       0x1c contiki-opo8001v2.a(nrf8001.o)
+ .text.nrf8001_check_rdyn
+                0x00000000        0xc contiki-opo8001v2.a(nrf8001.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(rv4162.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(rv4162.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(rv4162.o)
+ .text.rv4162_disable_clkout
+                0x00000000       0x8c contiki-opo8001v2.a(rv4162.o)
+ .text.rv4162_init
+                0x00000000       0x10 contiki-opo8001v2.a(rv4162.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(sst25vf.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(sst25vf.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(sst25vf.o)
+ .text.sst25vf_default_callback
+                0x00000000        0x4 contiki-opo8001v2.a(sst25vf.o)
+ .text.sst25vf_read_sid
+                0x00000000       0xf0 contiki-opo8001v2.a(sst25vf.o)
+ .text.sst25vf_write_disable
+                0x00000000       0x2c contiki-opo8001v2.a(sst25vf.o)
+ .text.sst25vf_program_sid
+                0x00000000       0xc4 contiki-opo8001v2.a(sst25vf.o)
+ .text.sst25vf_4kb_erase
+                0x00000000       0x64 contiki-opo8001v2.a(sst25vf.o)
+ .text.sst25vf_32kb_erase
+                0x00000000       0x64 contiki-opo8001v2.a(sst25vf.o)
+ .text.sst25vf_64kb_erase
+                0x00000000       0x64 contiki-opo8001v2.a(sst25vf.o)
+ .bss.i         0x00000000        0x4 contiki-opo8001v2.a(sst25vf.o)
+ .data.status   0x00000000        0x1 contiki-opo8001v2.a(sst25vf.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(opo.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(opo.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(opo.o)
+ .text.disable_opo_rx
+                0x00000000       0x30 contiki-opo8001v2.a(opo.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(cloudcomm.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(cloudcomm.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(cloudcomm.o)
+ .text.cloudcomm_clear_data
+                0x00000000       0x14 contiki-opo8001v2.a(cloudcomm.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(simplestore.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(simplestore.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(simplestore.o)
+ .text.simplestore_turn_on_flash
+                0x00000000       0x14 contiki-opo8001v2.a(simplestore.o)
+ .text.simplestore_turn_off_flash
+                0x00000000       0x14 contiki-opo8001v2.a(simplestore.o)
+ .text.simplestore_roll_back_read
+                0x00000000       0x18 contiki-opo8001v2.a(simplestore.o)
+ .text.simplestore_empty
+                0x00000000        0xc contiki-opo8001v2.a(simplestore.o)
+ .bss.on        0x00000000        0x1 contiki-opo8001v2.a(simplestore.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(vtimer.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(vtimer.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(vtimer.o)
+ .text.vtimer_now
+                0x00000000        0x8 contiki-opo8001v2.a(vtimer.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(rtc.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(rtc.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(rtc.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(cc2538-rf-debug)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(cc2538-rf-debug)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(cc2538-rf-debug)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(clock.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(clock.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(clock.o)
+ .text.clock_set_seconds
+                0x00000000       0x10 contiki-opo8001v2.a(clock.o)
+ .text.clock_seconds
+                0x00000000       0x14 contiki-opo8001v2.a(clock.o)
+ .text.clock_wait
+                0x00000000       0x18 contiki-opo8001v2.a(clock.o)
+ .text.clock_delay
+                0x00000000        0xc contiki-opo8001v2.a(clock.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(rtimer-arch.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(rtimer-arch.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(rtimer-arch.o)
+ .text.rtimer_arch_init
+                0x00000000        0xc contiki-opo8001v2.a(rtimer-arch.o)
+ .text.rtimer_arch_next_trigger
+                0x00000000        0xc contiki-opo8001v2.a(rtimer-arch.o)
+ .text.rtimer_arch_schedule
+                0x00000000       0x6c contiki-opo8001v2.a(rtimer-arch.o)
+ .text.rtimer_isr
+                0x00000000       0x24 contiki-opo8001v2.a(rtimer-arch.o)
+ .bss.next_trigger
+                0x00000000        0x4 contiki-opo8001v2.a(rtimer-arch.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(watchdog.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(watchdog.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(watchdog.o)
+ .text.watchdog_start
+                0x00000000        0xc contiki-opo8001v2.a(watchdog.o)
+ .text.watchdog_periodic
+                0x00000000       0x10 contiki-opo8001v2.a(watchdog.o)
+ .text.watchdog_stop
+                0x00000000        0x4 contiki-opo8001v2.a(watchdog.o)
+ .text.watchdog_reboot
+                0x00000000       0x14 contiki-opo8001v2.a(watchdog.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(nvic.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(nvic.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(nvic.o)
+ .text.nvic_interrupt_en_restore
+                0x00000000       0x1c contiki-opo8001v2.a(nvic.o)
+ .text.nvic_interrupt_en_save
+                0x00000000       0x28 contiki-opo8001v2.a(nvic.o)
+ .text.nvic_interrupt_pend
+                0x00000000       0x18 contiki-opo8001v2.a(nvic.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(cpu.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(cpu.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(cpu.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(sys-ctrl.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(sys-ctrl.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(sys-ctrl.o)
+ .text.sys_ctrl_reset
+                0x00000000        0xc contiki-opo8001v2.a(sys-ctrl.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(gpio.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(gpio.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(gpio.o)
+ .text.notify   0x00000000       0x30 contiki-opo8001v2.a(gpio.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(ioc.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(ioc.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(ioc.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(spi.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(spi.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(spi.o)
+ .text.spi_disable
+                0x00000000       0x10 contiki-opo8001v2.a(spi.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(cc2538-rf.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(cc2538-rf.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(cc2538-rf.o)
+ .text.cc2538_rf_set_promiscous_mode
+                0x00000000        0x8 contiki-opo8001v2.a(cc2538-rf.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(udma.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(udma.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(udma.o)
+ .text.udma_set_channel_assignment
+                0x00000000       0x2c contiki-opo8001v2.a(udma.o)
+ .text.udma_channel_disable
+                0x00000000       0x14 contiki-opo8001v2.a(udma.o)
+ .text.udma_channel_use_alternate
+                0x00000000       0x18 contiki-opo8001v2.a(udma.o)
+ .text.udma_channel_use_primary
+                0x00000000       0x14 contiki-opo8001v2.a(udma.o)
+ .text.udma_channel_prio_set_high
+                0x00000000       0x18 contiki-opo8001v2.a(udma.o)
+ .text.udma_channel_prio_set_default
+                0x00000000       0x14 contiki-opo8001v2.a(udma.o)
+ .text.udma_channel_use_burst
+                0x00000000       0x18 contiki-opo8001v2.a(udma.o)
+ .text.udma_channel_use_single
+                0x00000000       0x14 contiki-opo8001v2.a(udma.o)
+ .text.udma_channel_mask_clr
+                0x00000000       0x14 contiki-opo8001v2.a(udma.o)
+ .text.udma_channel_get_mode
+                0x00000000       0x1c contiki-opo8001v2.a(udma.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(lpm.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(lpm.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(lpm.o)
+ .text.lpm_set_max_pm
+                0x00000000       0x10 contiki-opo8001v2.a(lpm.o)
+ .text.lpm_register_peripheral
+                0x00000000       0x28 contiki-opo8001v2.a(lpm.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(ieee-addr.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(ieee-addr.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(ieee-addr.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(gptimer.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(gptimer.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(gptimer.o)
+ .text.gate_gpt_running
+                0x00000000       0x24 contiki-opo8001v2.a(gptimer.o)
+ .text.gate_gpt_sleeping
+                0x00000000       0x24 contiki-opo8001v2.a(gptimer.o)
+ .text.gate_gpt_pm0
+                0x00000000       0x24 contiki-opo8001v2.a(gptimer.o)
+ .text.gate_gpt
+                0x00000000       0x20 contiki-opo8001v2.a(gptimer.o)
+ .text.gpt_register_test_callback
+                0x00000000        0xc contiki-opo8001v2.a(gptimer.o)
+ .text.gpt_register_callback
+                0x00000000       0x44 contiki-opo8001v2.a(gptimer.o)
+ .text.gpt_clear_interrupt
+                0x00000000       0x18 contiki-opo8001v2.a(gptimer.o)
+ .text.gpt_set_32_bit_timer
+                0x00000000       0x1c contiki-opo8001v2.a(gptimer.o)
+ .text.gpt_set_32_bit_rtc
+                0x00000000       0x18 contiki-opo8001v2.a(gptimer.o)
+ .text.gpt_set_capture_mode
+                0x00000000       0x40 contiki-opo8001v2.a(gptimer.o)
+ .text.gpt_set_count_dir
+                0x00000000       0x40 contiki-opo8001v2.a(gptimer.o)
+ .text.gpt_set_event_mode
+                0x00000000       0x4c contiki-opo8001v2.a(gptimer.o)
+ .text.gpt_enable_interrupt
+                0x00000000       0x40 contiki-opo8001v2.a(gptimer.o)
+ .text.gpt_disable_interrupt
+                0x00000000       0x40 contiki-opo8001v2.a(gptimer.o)
+ .rodata.interrupt_masks
+                0x00000000       0x20 contiki-opo8001v2.a(gptimer.o)
+ .rodata.str1.4
+                0x00000000       0x10 contiki-opo8001v2.a(gptimer.o)
+ .bss.testgptf  0x00000000        0x4 contiki-opo8001v2.a(gptimer.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(i2c.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(i2c.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(i2c.o)
+ .text.i2c_master_disable
+                0x00000000       0x10 contiki-opo8001v2.a(i2c.o)
+ .text.i2c_single_receive
+                0x00000000       0x38 contiki-opo8001v2.a(i2c.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(vtimer-arch.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(vtimer-arch.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(vtimer-arch.o)
+ .text.vtimer_arch_clear
+                0x00000000        0xc contiki-opo8001v2.a(vtimer-arch.o)
+ .text.vtimer_arch_debug
+                0x00000000        0xc contiki-opo8001v2.a(vtimer-arch.o)
+ .bss.debug     0x00000000        0x1 contiki-opo8001v2.a(vtimer-arch.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(dbg-printf.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(dbg-printf.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(dbg-printf.o)
+ .text.write_str
+                0x00000000       0x14 contiki-opo8001v2.a(dbg-printf.o)
+ .text.printf   0x00000000       0x24 contiki-opo8001v2.a(dbg-printf.o)
+ .data.ctxt     0x00000000        0x8 contiki-opo8001v2.a(dbg-printf.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(dbg-printf.o)
+ .ARM.attributes
+                0x00000000       0x33 contiki-opo8001v2.a(dbg-printf.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(dbg-snprintf.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(dbg-snprintf.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(dbg-snprintf.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(strformat.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(strformat.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(strformat.o)
+ .text.format_str
+                0x00000000       0x1c contiki-opo8001v2.a(strformat.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(autostart.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(autostart.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(autostart.o)
+ .text.autostart_exit
+                0x00000000       0x18 contiki-opo8001v2.a(autostart.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(etimer.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(etimer.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(etimer.o)
+ .text.add_timer
+                0x00000000       0x4c contiki-opo8001v2.a(etimer.o)
+ .text.etimer_set
+                0x00000000       0x10 contiki-opo8001v2.a(etimer.o)
+ .text.etimer_reset
+                0x00000000       0x10 contiki-opo8001v2.a(etimer.o)
+ .text.etimer_restart
+                0x00000000       0x10 contiki-opo8001v2.a(etimer.o)
+ .text.etimer_adjust
+                0x00000000       0x10 contiki-opo8001v2.a(etimer.o)
+ .text.etimer_expired
+                0x00000000        0xc contiki-opo8001v2.a(etimer.o)
+ .text.etimer_expiration_time
+                0x00000000        0x8 contiki-opo8001v2.a(etimer.o)
+ .text.etimer_start_time
+                0x00000000        0x4 contiki-opo8001v2.a(etimer.o)
+ .text.etimer_next_expiration_time
+                0x00000000       0x18 contiki-opo8001v2.a(etimer.o)
+ .text.etimer_stop
+                0x00000000       0x48 contiki-opo8001v2.a(etimer.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(process.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(process.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(process.o)
+ .text.process_alloc_event
+                0x00000000       0x10 contiki-opo8001v2.a(process.o)
+ .text.process_exit
+                0x00000000       0x10 contiki-opo8001v2.a(process.o)
+ .text.process_is_running
+                0x00000000        0xc contiki-opo8001v2.a(process.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(rtimer.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(rtimer.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(rtimer.o)
+ .text.rtimer_init
+                0x00000000        0x8 contiki-opo8001v2.a(rtimer.o)
+ .text.rtimer_set
+                0x00000000       0x20 contiki-opo8001v2.a(rtimer.o)
+ .text.rtimer_run_next
+                0x00000000       0x28 contiki-opo8001v2.a(rtimer.o)
+ .bss.next_rtimer
+                0x00000000        0x4 contiki-opo8001v2.a(rtimer.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(rtimer.o)
+ .ARM.attributes
+                0x00000000       0x33 contiki-opo8001v2.a(rtimer.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(timer.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(timer.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(timer.o)
+ .text.timer_set
+                0x00000000       0x10 contiki-opo8001v2.a(timer.o)
+ .text.timer_reset
+                0x00000000        0xc contiki-opo8001v2.a(timer.o)
+ .text.timer_restart
+                0x00000000        0xc contiki-opo8001v2.a(timer.o)
+ .text.timer_remaining
+                0x00000000       0x10 contiki-opo8001v2.a(timer.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(random.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(random.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(random.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(linkaddr.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(linkaddr.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(linkaddr.o)
+ .text.linkaddr_set_node_addr
+                0x00000000       0x10 contiki-opo8001v2.a(linkaddr.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(netstack.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(netstack.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(netstack.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(packetbuf.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(packetbuf.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(packetbuf.o)
+ .text.packetbuf_clear_hdr
+                0x00000000        0xc contiki-opo8001v2.a(packetbuf.o)
+ .text.packetbuf_copyto_hdr
+                0x00000000       0x20 contiki-opo8001v2.a(packetbuf.o)
+ .text.packetbuf_hdr_remove
+                0x00000000       0x10 contiki-opo8001v2.a(packetbuf.o)
+ .text.packetbuf_is_reference
+                0x00000000       0x18 contiki-opo8001v2.a(packetbuf.o)
+ .text.packetbuf_compact
+                0x00000000       0x5c contiki-opo8001v2.a(packetbuf.o)
+ .text.packetbuf_reference_ptr
+                0x00000000        0xc contiki-opo8001v2.a(packetbuf.o)
+ .text.packetbuf_hdrlen
+                0x00000000       0x10 contiki-opo8001v2.a(packetbuf.o)
+ .text.packetbuf_reference
+                0x00000000       0x1c contiki-opo8001v2.a(packetbuf.o)
+ .text.packetbuf_attr_copyto
+                0x00000000       0x38 contiki-opo8001v2.a(packetbuf.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(framer-802154.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(framer-802154.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(framer-802154.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(nullmac.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(nullmac.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(nullmac.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(nullrdc.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(nullrdc.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(nullrdc.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(simple_network_)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(simple_network_)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(simple_network_)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(rf_switch.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(rf_switch.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(rf_switch.o)
+ .text.rf_switch_init
+                0x00000000        0x4 contiki-opo8001v2.a(rf_switch.o)
+ .text.ble_ant_enable
+                0x00000000        0x4 contiki-opo8001v2.a(rf_switch.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(simple_sfd_hand)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(simple_sfd_hand)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(simple_sfd_hand)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(simple_rf_txdon)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(simple_rf_txdon)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(simple_rf_txdon)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(dbg.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(dbg.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(dbg.o)
+ .text.putchar  0x00000000       0x10 contiki-opo8001v2.a(dbg.o)
+ .text.dbg_send_bytes
+                0x00000000       0x3c contiki-opo8001v2.a(dbg.o)
+ .text.puts     0x00000000       0x30 contiki-opo8001v2.a(dbg.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(dbg.o)
+ .ARM.attributes
+                0x00000000       0x33 contiki-opo8001v2.a(dbg.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(queuebuf.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(queuebuf.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(queuebuf.o)
+ .text.queuebuf_init
+                0x00000000       0x24 contiki-opo8001v2.a(queuebuf.o)
+ .text.queuebuf_new_from_packetbuf
+                0x00000000       0x74 contiki-opo8001v2.a(queuebuf.o)
+ .text.queuebuf_update_attr_from_packetbuf
+                0x00000000       0x10 contiki-opo8001v2.a(queuebuf.o)
+ .text.queuebuf_free
+                0x00000000       0x40 contiki-opo8001v2.a(queuebuf.o)
+ .text.queuebuf_dataptr
+                0x00000000       0x30 contiki-opo8001v2.a(queuebuf.o)
+ .text.queuebuf_datalen
+                0x00000000        0x8 contiki-opo8001v2.a(queuebuf.o)
+ .text.queuebuf_addr
+                0x00000000        0xc contiki-opo8001v2.a(queuebuf.o)
+ .text.queuebuf_attr
+                0x00000000        0xc contiki-opo8001v2.a(queuebuf.o)
+ .text.queuebuf_debug_print
+                0x00000000        0x4 contiki-opo8001v2.a(queuebuf.o)
+ .bss.buframmem_memb_count
+                0x00000000        0x8 contiki-opo8001v2.a(queuebuf.o)
+ .bss.buframmem_memb_mem
+                0x00000000      0x5d0 contiki-opo8001v2.a(queuebuf.o)
+ .data.buframmem
+                0x00000000        0xc contiki-opo8001v2.a(queuebuf.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(frame802154.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(frame802154.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(frame802154.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(mac.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(mac.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(mac.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(uart.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(uart.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(uart.o)
+ .text.permit_pm1
+                0x00000000       0x40 contiki-opo8001v2.a(uart.o)
+ .text.uart_init
+                0x00000000      0x20c contiki-opo8001v2.a(uart.o)
+ .text.uart_set_input
+                0x00000000       0x10 contiki-opo8001v2.a(uart.o)
+ .text.uart_write_byte
+                0x00000000       0x24 contiki-opo8001v2.a(uart.o)
+ .text.uart_isr
+                0x00000000       0x80 contiki-opo8001v2.a(uart.o)
+ .text.uart0_isr
+                0x00000000        0xc contiki-opo8001v2.a(uart.o)
+ .text.uart1_isr
+                0x00000000        0xc contiki-opo8001v2.a(uart.o)
+ .rodata.uart_regs
+                0x00000000       0x58 contiki-opo8001v2.a(uart.o)
+ .bss.input_handler
+                0x00000000        0x8 contiki-opo8001v2.a(uart.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(uart.o)
+ .ARM.attributes
+                0x00000000       0x33 contiki-opo8001v2.a(uart.o)
+ .text          0x00000000        0x0 contiki-opo8001v2.a(memb.o)
+ .data          0x00000000        0x0 contiki-opo8001v2.a(memb.o)
+ .bss           0x00000000        0x0 contiki-opo8001v2.a(memb.o)
+ .text.memb_init
+                0x00000000       0x20 contiki-opo8001v2.a(memb.o)
+ .text.memb_alloc
+                0x00000000       0x3c contiki-opo8001v2.a(memb.o)
+ .text.memb_free
+                0x00000000       0x44 contiki-opo8001v2.a(memb.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(bpabi.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(bpabi.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_divdi3.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_divdi3.o)
+ .ARM.extab     0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_divdi3.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_udivdi3.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_udivdi3.o)
+ .ARM.extab     0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_udivdi3.o)
+ .text          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-gmtime.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-gmtime.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-gmtime.o)
+ .text          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-gmtime_r.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-gmtime_r.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-gmtime_r.o)
+ .text          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-impure.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x00000000        0x4 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-impure.o)
+ .text          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memcmp.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memcmp.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memcmp.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memcpy.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memcpy.o)
+ .text          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memset.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memset.o)
+ .text          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-month_lengths.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-month_lengths.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-month_lengths.o)
+ .text          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-strlen.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-strlen.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-strlen.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x00200000         0x0007ffd4         xr
+FLASH_CCA        0x0027ffd4         0x0000002c         xr
+NRSRAM           0x20000000         0x00004000         xrw
+SRAM             0x20004000         0x00004000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD obj_opo8001v2/startup-gcc.o
+LOAD opo8001rxtx.co
+LOAD contiki-opo8001v2.a
+START GROUP
+LOAD /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a
+LOAD /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a
+END GROUP
+START GROUP
+LOAD /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a
+LOAD /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a
+LOAD /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libnosys.a
+END GROUP
+
+.text           0x00200000     0x8714
+                0x00200000                _text = .
+ *(SORT(.vectors))
+ .vectors       0x00200000      0x28c obj_opo8001v2/startup-gcc.o
+                0x00200000                vectors
+ *(SORT(.text*))
+ .text.fault_handler
+                0x0020028c        0x4 obj_opo8001v2/startup-gcc.o
+                0x0020028c                fault_handler
+ .text.default_handler
+                0x00200290        0x4 obj_opo8001v2/startup-gcc.o
+                0x00200290                default_handler
+ .text.reset_handler
+                0x00200294       0x60 obj_opo8001v2/startup-gcc.o
+                0x00200294                reset_handler
+ .text.nmi_handler
+                0x002002f4        0x8 obj_opo8001v2/startup-gcc.o
+                0x002002f4                nmi_handler
+ .text.clear_and_disable_plug_int
+                0x002002fc       0x28 opo8001rxtx.co
+ .text.process_thread_opo8001ccon
+                0x00200324       0x78 opo8001rxtx.co
+ .text.cloudcomm_callback
+                0x0020039c       0x10 opo8001rxtx.co
+ .text.init_callback
+                0x002003ac       0x10 opo8001rxtx.co
+                0x002003ac                init_callback
+ .text.opo_rx_callback
+                0x002003bc       0x38 opo8001rxtx.co
+                0x002003bc                opo_rx_callback
+ .text.tx_delay_callback
+                0x002003f4       0x10 opo8001rxtx.co
+                0x002003f4                tx_delay_callback
+ .text.plug_detect
+                0x00200404       0x20 opo8001rxtx.co
+ .text.setup_plug_detect_pin
+                0x00200424       0x54 opo8001rxtx.co
+ .text.unplug_debouncer_callback
+                0x00200478       0x5c opo8001rxtx.co
+ .text.plugin_checker_callback
+                0x002004d4       0xa8 opo8001rxtx.co
+ .text.plug_debouncer_callback
+                0x0020057c       0xcc opo8001rxtx.co
+ .text.unplug_detect
+                0x00200648       0x2c opo8001rxtx.co
+ .text.generate_rand_tx
+                0x00200674       0x38 opo8001rxtx.co
+ .text.process_thread_opo8001rxtx
+                0x002006ac      0x180 opo8001rxtx.co
+ .text.process_thread_plugin_manager
+                0x0020082c       0x68 opo8001rxtx.co
+ .text.opo_tx_callback
+                0x00200894       0x38 opo8001rxtx.co
+                0x00200894                opo_tx_callback
+ .text.process_thread_opo8001rx
+                0x002008cc       0x38 opo8001rxtx.co
+ .text.process_thread_opo8001tx
+                0x00200904       0x54 opo8001rxtx.co
+ .text.leds_init
+                0x00200958       0x14 contiki-opo8001v2.a(leds.o)
+                0x00200958                leds_init
+ .text.leds_on  0x0020096c       0x14 contiki-opo8001v2.a(leds.o)
+                0x0020096c                leds_on
+ .text.leds_off
+                0x00200980       0x18 contiki-opo8001v2.a(leds.o)
+                0x00200980                leds_off
+ .text.leds_toggle
+                0x00200998       0x14 contiki-opo8001v2.a(leds.o)
+                0x00200998                leds_toggle
+ .text.leds_arch_init
+                0x002009ac       0x28 contiki-opo8001v2.a(leds-arch.o)
+                0x002009ac                leds_arch_init
+ .text.leds_arch_set
+                0x002009d4       0x14 contiki-opo8001v2.a(leds-arch.o)
+                0x002009d4                leds_arch_set
+ .text.main     0x002009e8      0x1b0 contiki-opo8001v2.a(contiki-main.o)
+                0x002009e8                main
+ .text.default_handler
+                0x00200b98        0x4 contiki-opo8001v2.a(nrf8001.o)
+ .text.default_sleep_handler
+                0x00200b9c        0x4 contiki-opo8001v2.a(nrf8001.o)
+ .text.nrf8001_event_callback
+                0x00200ba0       0x48 contiki-opo8001v2.a(nrf8001.o)
+                0x00200ba0                nrf8001_event_callback
+ .text.process_thread_nrf8001_cmd_process
+                0x00200be8      0x18c contiki-opo8001v2.a(nrf8001.o)
+ .text.set_command
+                0x00200d74       0x44 contiki-opo8001v2.a(nrf8001.o)
+ .text.nrf8001_register_callback
+                0x00200db8       0x18 contiki-opo8001v2.a(nrf8001.o)
+                0x00200db8                nrf8001_register_callback
+ .text.nrf8001_init
+                0x00200dd0       0xac contiki-opo8001v2.a(nrf8001.o)
+                0x00200dd0                nrf8001_init
+ .text.nrf8001_enable
+                0x00200e7c       0x94 contiki-opo8001v2.a(nrf8001.o)
+                0x00200e7c                nrf8001_enable
+ .text.nrf8001_reset
+                0x00200f10       0x20 contiki-opo8001v2.a(nrf8001.o)
+                0x00200f10                nrf8001_reset
+ .text.nrf8001_setup
+                0x00200f30       0x68 contiki-opo8001v2.a(nrf8001.o)
+                0x00200f30                nrf8001_setup
+ .text.process_thread_nrf8001_event_process
+                0x00200f98      0x23c contiki-opo8001v2.a(nrf8001.o)
+ .text.nrf8001_connect
+                0x002011d4       0x24 contiki-opo8001v2.a(nrf8001.o)
+                0x002011d4                nrf8001_connect
+ .text.nrf8001_sleep
+                0x002011f8       0x20 contiki-opo8001v2.a(nrf8001.o)
+                0x002011f8                nrf8001_sleep
+ .text.nrf8001_wakeup
+                0x00201218       0x50 contiki-opo8001v2.a(nrf8001.o)
+                0x00201218                nrf8001_wakeup
+ .text.nrf8001_disconnect
+                0x00201268       0x18 contiki-opo8001v2.a(nrf8001.o)
+                0x00201268                nrf8001_disconnect
+ .text.nrf8001_send_data
+                0x00201280       0x34 contiki-opo8001v2.a(nrf8001.o)
+                0x00201280                nrf8001_send_data
+ .text.nrf8001_register_sleep_callback
+                0x002012b4        0xc contiki-opo8001v2.a(nrf8001.o)
+                0x002012b4                nrf8001_register_sleep_callback
+ .text.rv4162_binary_to_bcd
+                0x002012c0       0x28 contiki-opo8001v2.a(rv4162.o)
+                0x002012c0                rv4162_binary_to_bcd
+ .text.rv4162_read_full_time
+                0x002012e8      0x1e8 contiki-opo8001v2.a(rv4162.o)
+                0x002012e8                rv4162_read_full_time
+ .text.rv4162_get_unixtime
+                0x002014d0       0xac contiki-opo8001v2.a(rv4162.o)
+                0x002014d0                rv4162_get_unixtime
+ .text.rv4162_set_time
+                0x0020157c      0x174 contiki-opo8001v2.a(rv4162.o)
+                0x0020157c                rv4162_set_time
+ .text.rv4162_set_unixtime
+                0x002016f0       0x50 contiki-opo8001v2.a(rv4162.o)
+                0x002016f0                rv4162_set_unixtime
+ .text.rv4162_enable_clkout
+                0x00201740       0x8c contiki-opo8001v2.a(rv4162.o)
+                0x00201740                rv4162_enable_clkout
+ .text.runSpiByteTx
+                0x002017cc       0xa4 contiki-opo8001v2.a(sst25vf.o)
+ .text.sst25vf_turn_on
+                0x00201870       0x30 contiki-opo8001v2.a(sst25vf.o)
+                0x00201870                sst25vf_turn_on
+ .text.sst25vf_turn_off
+                0x002018a0       0x24 contiki-opo8001v2.a(sst25vf.o)
+                0x002018a0                sst25vf_turn_off
+ .text.sst25vf_read_status_register
+                0x002018c4       0x44 contiki-opo8001v2.a(sst25vf.o)
+                0x002018c4                sst25vf_read_status_register
+ .text.check_sst25vf_busy
+                0x00201908       0x28 contiki-opo8001v2.a(sst25vf.o)
+ .text.sst25vf_read_page
+                0x00201930      0x11c contiki-opo8001v2.a(sst25vf.o)
+                0x00201930                sst25vf_read_page
+ .text.sst25vf_write_enable
+                0x00201a4c       0x2c contiki-opo8001v2.a(sst25vf.o)
+                0x00201a4c                sst25vf_write_enable
+ .text.sst25vf_ewsr
+                0x00201a78       0x2c contiki-opo8001v2.a(sst25vf.o)
+                0x00201a78                sst25vf_ewsr
+ .text.sst25vf_write_status_register
+                0x00201aa4       0x34 contiki-opo8001v2.a(sst25vf.o)
+                0x00201aa4                sst25vf_write_status_register
+ .text.sst25vf_chip_erase
+                0x00201ad8       0xf8 contiki-opo8001v2.a(sst25vf.o)
+                0x00201ad8                sst25vf_chip_erase
+ .text.sst25vf_program
+                0x00201bd0       0xd8 contiki-opo8001v2.a(sst25vf.o)
+                0x00201bd0                sst25vf_program
+ .text.sst25vf_init
+                0x00201ca8       0x5c contiki-opo8001v2.a(sst25vf.o)
+                0x00201ca8                sst25vf_init
+ .text.default_opo_rx_callback
+                0x00201d04        0xc contiki-opo8001v2.a(opo.o)
+ .text.tx_rf_rx_done_callback
+                0x00201d10        0x4 contiki-opo8001v2.a(opo.o)
+ .text.default_opo_tx_callback
+                0x00201d14        0x4 contiki-opo8001v2.a(opo.o)
+ .text.tx_sfd_callback
+                0x00201d18        0x4 contiki-opo8001v2.a(opo.o)
+ .text.rx_sfd_callback
+                0x00201d1c       0x20 contiki-opo8001v2.a(opo.o)
+ .text.wakeup_callback
+                0x00201d3c       0x64 contiki-opo8001v2.a(opo.o)
+ .text.process_thread_opo_tx
+                0x00201da0      0x174 contiki-opo8001v2.a(opo.o)
+ .text.rf_txdone_callback
+                0x00201f14       0x44 contiki-opo8001v2.a(opo.o)
+ .text.tx_failsafe_vt_callback
+                0x00201f58       0x38 contiki-opo8001v2.a(opo.o)
+ .text.tx_vt_callback
+                0x00201f90       0x28 contiki-opo8001v2.a(opo.o)
+ .text.restart_vt_callback
+                0x00201fb8       0x10 contiki-opo8001v2.a(opo.o)
+ .text.opo_rx_ul_count_checker
+                0x00201fc8       0x58 contiki-opo8001v2.a(opo.o)
+ .text.rx_vt_callback
+                0x00202020       0x2c contiki-opo8001v2.a(opo.o)
+ .text.process_thread_opo_restart
+                0x0020204c       0x74 contiki-opo8001v2.a(opo.o)
+ .text.rf_rx_callback
+                0x002020c0       0x68 contiki-opo8001v2.a(opo.o)
+ .text.get_opo_state
+                0x00202128        0xc contiki-opo8001v2.a(opo.o)
+                0x00202128                get_opo_state
+ .text.enable_opo_rx
+                0x00202134       0xa8 contiki-opo8001v2.a(opo.o)
+                0x00202134                enable_opo_rx
+ .text.process_thread_opo_rx
+                0x002021dc      0x1ac contiki-opo8001v2.a(opo.o)
+ .text.setup_40kh_pwm
+                0x00202388       0x5c contiki-opo8001v2.a(opo.o)
+                0x00202388                setup_40kh_pwm
+ .text.opo_init
+                0x002023e4      0x168 contiki-opo8001v2.a(opo.o)
+                0x002023e4                opo_init
+ .text.register_opo_rx_callback
+                0x0020254c        0xc contiki-opo8001v2.a(opo.o)
+                0x0020254c                register_opo_rx_callback
+ .text.register_opo_tx_callback
+                0x00202558        0xc contiki-opo8001v2.a(opo.o)
+                0x00202558                register_opo_tx_callback
+ .text.perform_opo_tx
+                0x00202564       0xd4 contiki-opo8001v2.a(opo.o)
+                0x00202564                perform_opo_tx
+ .text.default_callback
+                0x00202638        0x4 contiki-opo8001v2.a(cloudcomm.o)
+ .text.default_cc_callback
+                0x0020263c        0x4 contiki-opo8001v2.a(cloudcomm.o)
+ .text.reset_state
+                0x00202640       0xb4 contiki-opo8001v2.a(cloudcomm.o)
+ .text.have_tasks
+                0x002026f4       0x2c contiki-opo8001v2.a(cloudcomm.o)
+ .text.sleep_callback
+                0x00202720        0x4 contiki-opo8001v2.a(cloudcomm.o)
+ .text.data_ack_handler
+                0x00202724        0x4 contiki-opo8001v2.a(cloudcomm.o)
+ .text.pipe_error_handler
+                0x00202728        0x4 contiki-opo8001v2.a(cloudcomm.o)
+ .text.should_connect
+                0x0020272c       0x90 contiki-opo8001v2.a(cloudcomm.o)
+ .text.return_control_to_user
+                0x002027bc       0x4c contiki-opo8001v2.a(cloudcomm.o)
+ .text.cancel_cc_failsafe_vtimer
+                0x00202808       0x20 contiki-opo8001v2.a(cloudcomm.o)
+ .text.schedule_cc_failsafe_vtimer
+                0x00202828       0x1c contiki-opo8001v2.a(cloudcomm.o)
+ .text.process_thread_ble_connect_process
+                0x00202844       0xe0 contiki-opo8001v2.a(cloudcomm.o)
+ .text.process_thread_ble_sleep_process
+                0x00202924       0xb0 contiki-opo8001v2.a(cloudcomm.o)
+ .text.connected_handler
+                0x002029d4       0x28 contiki-opo8001v2.a(cloudcomm.o)
+ .text.data_credit_handler
+                0x002029fc       0x58 contiki-opo8001v2.a(cloudcomm.o)
+ .text.pipe_status_handler
+                0x00202a54       0xec contiki-opo8001v2.a(cloudcomm.o)
+ .text.disconnected_handler
+                0x00202b40       0x74 contiki-opo8001v2.a(cloudcomm.o)
+ .text.send_ble_packet
+                0x00202bb4       0xc0 contiki-opo8001v2.a(cloudcomm.o)
+ .text.process_thread_cloudcomm_manager
+                0x00202c74      0x33c contiki-opo8001v2.a(cloudcomm.o)
+ .text.cc_failsafe_vtimer_callback
+                0x00202fb0       0x7c contiki-opo8001v2.a(cloudcomm.o)
+ .text.data_received_handler
+                0x0020302c      0x1e0 contiki-opo8001v2.a(cloudcomm.o)
+ .text.device_started_callback
+                0x0020320c       0x80 contiki-opo8001v2.a(cloudcomm.o)
+ .text.cloudcomm_init
+                0x0020328c      0x13c contiki-opo8001v2.a(cloudcomm.o)
+                0x0020328c                cloudcomm_init
+ .text.cloudcomm_on
+                0x002033c8       0x5c contiki-opo8001v2.a(cloudcomm.o)
+                0x002033c8                cloudcomm_on
+ .text.cloudcomm_set_metainfo
+                0x00203424       0x10 contiki-opo8001v2.a(cloudcomm.o)
+                0x00203424                cloudcomm_set_metainfo
+ .text.cloudcomm_set_packet_length
+                0x00203434       0x20 contiki-opo8001v2.a(cloudcomm.o)
+                0x00203434                cloudcomm_set_packet_length
+ .text.cloudcomm_store
+                0x00203454       0x70 contiki-opo8001v2.a(cloudcomm.o)
+                0x00203454                cloudcomm_store
+ .text.cloudcomm_request_data
+                0x002034c4       0x2c contiki-opo8001v2.a(cloudcomm.o)
+                0x002034c4                cloudcomm_request_data
+ .text.simplestore_write_next_page
+                0x002034f0       0x34 contiki-opo8001v2.a(simplestore.o)
+                0x002034f0                simplestore_write_next_page
+ .text.simplestore_read_next_page
+                0x00203524       0x44 contiki-opo8001v2.a(simplestore.o)
+                0x00203524                simplestore_read_next_page
+ .text.simplestore_mark_last_page_done
+                0x00203568       0x30 contiki-opo8001v2.a(simplestore.o)
+                0x00203568                simplestore_mark_last_page_done
+ .text.simplestore_clear_flash_chip
+                0x00203598       0x2c contiki-opo8001v2.a(simplestore.o)
+                0x00203598                simplestore_clear_flash_chip
+ .text.simplestore_pages_stored
+                0x002035c4       0x18 contiki-opo8001v2.a(simplestore.o)
+                0x002035c4                simplestore_pages_stored
+ .text.simplestore_config
+                0x002035dc       0x6c contiki-opo8001v2.a(simplestore.o)
+                0x002035dc                simplestore_config
+ .text.insert_vtimer
+                0x00203648       0x64 contiki-opo8001v2.a(vtimer.o)
+ .text.get_vtimer
+                0x002036ac       0x14 contiki-opo8001v2.a(vtimer.o)
+                0x002036ac                get_vtimer
+ .text.cancel_vtimer
+                0x002036c0       0x54 contiki-opo8001v2.a(vtimer.o)
+                0x002036c0                cancel_vtimer
+ .text.schedule_vtimer_ms
+                0x00203714       0x30 contiki-opo8001v2.a(vtimer.o)
+                0x00203714                schedule_vtimer_ms
+ .text.schedule_vtimer
+                0x00203744       0x30 contiki-opo8001v2.a(vtimer.o)
+                0x00203744                schedule_vtimer
+ .text.vtimer_run_next
+                0x00203774       0x58 contiki-opo8001v2.a(vtimer.o)
+                0x00203774                vtimer_run_next
+ .text.vtimer_init
+                0x002037cc       0x14 contiki-opo8001v2.a(vtimer.o)
+                0x002037cc                vtimer_init
+ .text.rtc_get_unixtime
+                0x002037e0        0x8 contiki-opo8001v2.a(rtc.o)
+                0x002037e0                rtc_get_unixtime
+ .text.rtc_set_unixtime
+                0x002037e8        0x8 contiki-opo8001v2.a(rtc.o)
+                0x002037e8                rtc_set_unixtime
+ .text.rf_debug_callback
+                0x002037f0        0xc contiki-opo8001v2.a(cc2538-rf-debug)
+ .text.send_rf_debug_msg
+                0x002037fc       0xa0 contiki-opo8001v2.a(cc2538-rf-debug)
+                0x002037fc                send_rf_debug_msg
+ .text.update_ticks
+                0x0020389c       0x48 contiki-opo8001v2.a(clock.o)
+ .text.clock_init
+                0x002038e4       0x20 contiki-opo8001v2.a(clock.o)
+                0x002038e4                clock_init
+ .text.clock_time
+                0x00203904       0x14 contiki-opo8001v2.a(clock.o)
+                0x00203904                clock_time
+ .text.clock_delay_usec
+                0x00203918       0x50 contiki-opo8001v2.a(clock.o)
+                0x00203918                clock_delay_usec
+ .text.clock_adjust
+                0x00203968       0x20 contiki-opo8001v2.a(clock.o)
+                0x00203968                clock_adjust
+ .text.clock_isr
+                0x00203988        0x8 contiki-opo8001v2.a(clock.o)
+                0x00203988                clock_isr
+ .text.rtimer_arch_now
+                0x00203990       0x2c contiki-opo8001v2.a(rtimer-arch.o)
+                0x00203990                rtimer_arch_now
+ .text.watchdog_init
+                0x002039bc        0xc contiki-opo8001v2.a(watchdog.o)
+                0x002039bc                watchdog_init
+ .text.nvic_init
+                0x002039c8       0x3c contiki-opo8001v2.a(nvic.o)
+                0x002039c8                nvic_init
+ .text.nvic_interrupt_enable
+                0x00203a04       0x18 contiki-opo8001v2.a(nvic.o)
+                0x00203a04                nvic_interrupt_enable
+ .text.nvic_interrupt_disable
+                0x00203a1c       0x18 contiki-opo8001v2.a(nvic.o)
+                0x00203a1c                nvic_interrupt_disable
+ .text.nvic_interrupt_unpend
+                0x00203a34       0x18 contiki-opo8001v2.a(nvic.o)
+                0x00203a34                nvic_interrupt_unpend
+ .text.cpu_cpsie
+                0x00203a4c       0x1c contiki-opo8001v2.a(cpu.o)
+                0x00203a4c                cpu_cpsie
+ .text.cpu_cpsid
+                0x00203a68       0x24 contiki-opo8001v2.a(cpu.o)
+                0x00203a68                cpu_cpsid
+ .text.sys_ctrl_init
+                0x00203a8c       0x28 contiki-opo8001v2.a(sys-ctrl.o)
+                0x00203a8c                sys_ctrl_init
+ .text.gpio_register_callback
+                0x00203ab4       0x10 contiki-opo8001v2.a(gpio.o)
+                0x00203ab4                gpio_register_callback
+ .text.gpio_port_a_isr
+                0x00203ac4       0x48 contiki-opo8001v2.a(gpio.o)
+                0x00203ac4                gpio_port_a_isr
+ .text.gpio_port_b_isr
+                0x00203b0c       0x4c contiki-opo8001v2.a(gpio.o)
+                0x00203b0c                gpio_port_b_isr
+ .text.gpio_port_c_isr
+                0x00203b58       0x4c contiki-opo8001v2.a(gpio.o)
+                0x00203b58                gpio_port_c_isr
+ .text.gpio_port_d_isr
+                0x00203ba4       0x4c contiki-opo8001v2.a(gpio.o)
+                0x00203ba4                gpio_port_d_isr
+ .text.gpio_init
+                0x00203bf0       0x14 contiki-opo8001v2.a(gpio.o)
+                0x00203bf0                gpio_init
+ .text.ioc_init
+                0x00203c04       0x1c contiki-opo8001v2.a(ioc.o)
+                0x00203c04                ioc_init
+ .text.ioc_set_over
+                0x00203c20       0x14 contiki-opo8001v2.a(ioc.o)
+                0x00203c20                ioc_set_over
+ .text.ioc_set_sel
+                0x00203c34       0x14 contiki-opo8001v2.a(ioc.o)
+                0x00203c34                ioc_set_sel
+ .text.spi_cs_init
+                0x00203c48       0x34 contiki-opo8001v2.a(spi.o)
+                0x00203c48                spi_cs_init
+ .text.spi_enable
+                0x00203c7c       0x10 contiki-opo8001v2.a(spi.o)
+                0x00203c7c                spi_enable
+ .text.spi_init
+                0x00203c8c       0x94 contiki-opo8001v2.a(spi.o)
+                0x00203c8c                spi_init
+ .text.spi_set_mode
+                0x00203d20       0x2c contiki-opo8001v2.a(spi.o)
+                0x00203d20                spi_set_mode
+ .text.spi_wait_tx_ready
+                0x00203d4c       0x2c contiki-opo8001v2.a(spi.o)
+                0x00203d4c                spi_wait_tx_ready
+ .text.spi_wait_done
+                0x00203d78       0x2c contiki-opo8001v2.a(spi.o)
+                0x00203d78                spi_wait_done
+ .text.spi_write_byte
+                0x00203da4       0x20 contiki-opo8001v2.a(spi.o)
+                0x00203da4                spi_write_byte
+ .text.spi_wait_rx_ready
+                0x00203dc4       0x2c contiki-opo8001v2.a(spi.o)
+                0x00203dc4                spi_wait_rx_ready
+ .text.spi_read_byte
+                0x00203df0       0x20 contiki-opo8001v2.a(spi.o)
+                0x00203df0                spi_read_byte
+ .text.spi_flush_buffer
+                0x00203e10       0x34 contiki-opo8001v2.a(spi.o)
+                0x00203e10                spi_flush_buffer
+ .text.set_frame_filtering
+                0x00203e44       0x20 contiki-opo8001v2.a(cc2538-rf.o)
+ .text.on       0x00203e64       0x2c contiki-opo8001v2.a(cc2538-rf.o)
+ .text.off      0x00203e90       0x3c contiki-opo8001v2.a(cc2538-rf.o)
+ .text.channel_clear
+                0x00203ecc       0x58 contiki-opo8001v2.a(cc2538-rf.o)
+ .text.receiving_packet
+                0x00203f24       0x18 contiki-opo8001v2.a(cc2538-rf.o)
+ .text.pending_packet
+                0x00203f3c       0x10 contiki-opo8001v2.a(cc2538-rf.o)
+ .text.get_value
+                0x00203f4c      0x188 contiki-opo8001v2.a(cc2538-rf.o)
+ .text.set_value
+                0x002040d4      0x120 contiki-opo8001v2.a(cc2538-rf.o)
+ .text.get_object
+                0x002041f4       0x34 contiki-opo8001v2.a(cc2538-rf.o)
+ .text.set_object
+                0x00204228       0x34 contiki-opo8001v2.a(cc2538-rf.o)
+ .text.read     0x0020425c       0xd0 contiki-opo8001v2.a(cc2538-rf.o)
+ .text.transmit
+                0x0020432c       0xc8 contiki-opo8001v2.a(cc2538-rf.o)
+ .text.prepare  0x002043f4       0x64 contiki-opo8001v2.a(cc2538-rf.o)
+ .text.send     0x00204458       0x10 contiki-opo8001v2.a(cc2538-rf.o)
+ .text.init     0x00204468       0xe0 contiki-opo8001v2.a(cc2538-rf.o)
+ .text.process_thread_cc2538_rf_process
+                0x00204548       0x6c contiki-opo8001v2.a(cc2538-rf.o)
+ .text.cc2538_on_and_transmit
+                0x002045b4       0xbc contiki-opo8001v2.a(cc2538-rf.o)
+                0x002045b4                cc2538_on_and_transmit
+ .text.cc2538_rf_rx_tx_isr
+                0x00204670       0xb0 contiki-opo8001v2.a(cc2538-rf.o)
+                0x00204670                cc2538_rf_rx_tx_isr
+ .text.cc2538_rf_err_isr
+                0x00204720       0x30 contiki-opo8001v2.a(cc2538-rf.o)
+                0x00204720                cc2538_rf_err_isr
+ .text.udma_init
+                0x00204750       0x30 contiki-opo8001v2.a(udma.o)
+                0x00204750                udma_init
+ .text.udma_set_channel_src
+                0x00204780       0x10 contiki-opo8001v2.a(udma.o)
+                0x00204780                udma_set_channel_src
+ .text.udma_set_channel_dst
+                0x00204790       0x14 contiki-opo8001v2.a(udma.o)
+                0x00204790                udma_set_channel_dst
+ .text.udma_set_channel_control_word
+                0x002047a4       0x14 contiki-opo8001v2.a(udma.o)
+                0x002047a4                udma_set_channel_control_word
+ .text.udma_channel_enable
+                0x002047b8       0x18 contiki-opo8001v2.a(udma.o)
+                0x002047b8                udma_channel_enable
+ .text.udma_channel_mask_set
+                0x002047d0       0x18 contiki-opo8001v2.a(udma.o)
+                0x002047d0                udma_channel_mask_set
+ .text.udma_channel_sw_request
+                0x002047e8       0x18 contiki-opo8001v2.a(udma.o)
+                0x002047e8                udma_channel_sw_request
+ .text.udma_isr
+                0x00204800       0x10 contiki-opo8001v2.a(udma.o)
+                0x00204800                udma_isr
+ .text.udma_err_isr
+                0x00204810        0xc contiki-opo8001v2.a(udma.o)
+                0x00204810                udma_err_isr
+ .text.select_32_mhz_xosc
+                0x0020481c       0x34 contiki-opo8001v2.a(lpm.o)
+ .text.lpm_exit
+                0x00204850       0x38 contiki-opo8001v2.a(lpm.o)
+                0x00204850                lpm_exit
+ .text.lpm_enter
+                0x00204888       0xe8 contiki-opo8001v2.a(lpm.o)
+                0x00204888                lpm_enter
+ .text.lpm_init
+                0x00204970       0x24 contiki-opo8001v2.a(lpm.o)
+                0x00204970                lpm_init
+ .text.ieee_addr_cpy_to
+                0x00204994       0x70 contiki-opo8001v2.a(ieee-addr.o)
+                0x00204994                ieee_addr_cpy_to
+ .text.ungate_gpt_running
+                0x00204a04       0x20 contiki-opo8001v2.a(gptimer.o)
+                0x00204a04                ungate_gpt_running
+ .text.ungate_gpt_sleeping
+                0x00204a24       0x20 contiki-opo8001v2.a(gptimer.o)
+                0x00204a24                ungate_gpt_sleeping
+ .text.ungate_gpt_pm0
+                0x00204a44       0x20 contiki-opo8001v2.a(gptimer.o)
+                0x00204a44                ungate_gpt_pm0
+ .text.ungate_gpt
+                0x00204a64       0x20 contiki-opo8001v2.a(gptimer.o)
+                0x00204a64                ungate_gpt
+ .text.get_event_time
+                0x00204a84       0x20 contiki-opo8001v2.a(gptimer.o)
+                0x00204a84                get_event_time
+ .text.run_callbacks
+                0x00204aa4       0x54 contiki-opo8001v2.a(gptimer.o)
+ .text.gpt_set_16_bit_timer
+                0x00204af8       0x1c contiki-opo8001v2.a(gptimer.o)
+                0x00204af8                gpt_set_16_bit_timer
+ .text.gpt_set_mode
+                0x00204b14       0x44 contiki-opo8001v2.a(gptimer.o)
+                0x00204b14                gpt_set_mode
+ .text.gpt_set_alternate_mode
+                0x00204b58       0x40 contiki-opo8001v2.a(gptimer.o)
+                0x00204b58                gpt_set_alternate_mode
+ .text.gpt_enable_event
+                0x00204b98       0x30 contiki-opo8001v2.a(gptimer.o)
+                0x00204b98                gpt_enable_event
+ .text.gpt_disable_event
+                0x00204bc8       0x34 contiki-opo8001v2.a(gptimer.o)
+                0x00204bc8                gpt_disable_event
+ .text.gpt_set_interval_value
+                0x00204bfc       0x2c contiki-opo8001v2.a(gptimer.o)
+                0x00204bfc                gpt_set_interval_value
+ .text.gpt_set_match_value
+                0x00204c28       0x2c contiki-opo8001v2.a(gptimer.o)
+                0x00204c28                gpt_set_match_value
+ .text.gpt_0_a_isr
+                0x00204c54       0x20 contiki-opo8001v2.a(gptimer.o)
+                0x00204c54                gpt_0_a_isr
+ .text.gpt_0_b_isr
+                0x00204c74       0x24 contiki-opo8001v2.a(gptimer.o)
+                0x00204c74                gpt_0_b_isr
+ .text.gpt_1_a_isr
+                0x00204c98       0x20 contiki-opo8001v2.a(gptimer.o)
+                0x00204c98                gpt_1_a_isr
+ .text.gpt_1_b_isr
+                0x00204cb8       0x24 contiki-opo8001v2.a(gptimer.o)
+                0x00204cb8                gpt_1_b_isr
+ .text.gpt_2_a_isr
+                0x00204cdc       0x20 contiki-opo8001v2.a(gptimer.o)
+                0x00204cdc                gpt_2_a_isr
+ .text.gpt_2_b_isr
+                0x00204cfc       0x24 contiki-opo8001v2.a(gptimer.o)
+                0x00204cfc                gpt_2_b_isr
+ .text.gpt_3_a_isr
+                0x00204d20       0x20 contiki-opo8001v2.a(gptimer.o)
+                0x00204d20                gpt_3_a_isr
+ .text.gpt_3_b_isr
+                0x00204d40       0x24 contiki-opo8001v2.a(gptimer.o)
+                0x00204d40                gpt_3_b_isr
+ .text.wait_i2c_free
+                0x00204d64       0x2c contiki-opo8001v2.a(i2c.o)
+                0x00204d64                wait_i2c_free
+ .text.i2c_master_enable
+                0x00204d90       0x10 contiki-opo8001v2.a(i2c.o)
+                0x00204d90                i2c_master_enable
+ .text.i2c_master_set_slave_address
+                0x00204da0       0x1c contiki-opo8001v2.a(i2c.o)
+                0x00204da0                i2c_master_set_slave_address
+ .text.i2c_master_data_put
+                0x00204dbc        0xc contiki-opo8001v2.a(i2c.o)
+                0x00204dbc                i2c_master_data_put
+ .text.i2c_master_data_get
+                0x00204dc8        0xc contiki-opo8001v2.a(i2c.o)
+                0x00204dc8                i2c_master_data_get
+ .text.i2c_master_command
+                0x00204dd4       0x14 contiki-opo8001v2.a(i2c.o)
+                0x00204dd4                i2c_master_command
+ .text.i2c_master_busy
+                0x00204de8       0x10 contiki-opo8001v2.a(i2c.o)
+                0x00204de8                i2c_master_busy
+ .text.i2c_master_error
+                0x00204df8       0x24 contiki-opo8001v2.a(i2c.o)
+                0x00204df8                i2c_master_error
+ .text.i2c_single_send
+                0x00204e1c       0x28 contiki-opo8001v2.a(i2c.o)
+                0x00204e1c                i2c_single_send
+ .text.get_sys_clock
+                0x00204e44       0x1c contiki-opo8001v2.a(i2c.o)
+                0x00204e44                get_sys_clock
+ .text.i2c_set_frequency
+                0x00204e60       0x24 contiki-opo8001v2.a(i2c.o)
+                0x00204e60                i2c_set_frequency
+ .text.i2c_init
+                0x00204e84       0xcc contiki-opo8001v2.a(i2c.o)
+                0x00204e84                i2c_init
+ .text.vtimer_arch_init
+                0x00204f50        0xc contiki-opo8001v2.a(vtimer-arch.o)
+                0x00204f50                vtimer_arch_init
+ .text.vtimer_arch_cancel
+                0x00204f5c       0x18 contiki-opo8001v2.a(vtimer-arch.o)
+                0x00204f5c                vtimer_arch_cancel
+ .text.vtimer_arch_schedule
+                0x00204f74       0xac contiki-opo8001v2.a(vtimer-arch.o)
+                0x00204f74                vtimer_arch_schedule
+ .text.vtimer_arch_next_trigger
+                0x00205020        0xc contiki-opo8001v2.a(vtimer-arch.o)
+                0x00205020                vtimer_arch_next_trigger
+ .text.vtimer_arch_now
+                0x0020502c       0x2c contiki-opo8001v2.a(vtimer-arch.o)
+                0x0020502c                vtimer_arch_now
+ .text.vtimer_isr
+                0x00205058       0x24 contiki-opo8001v2.a(vtimer-arch.o)
+                0x00205058                vtimer_isr
+ .text.buffer_str
+                0x0020507c       0x28 contiki-opo8001v2.a(dbg-snprintf.o)
+ .text.vsnprintf
+                0x002050a4       0x28 contiki-opo8001v2.a(dbg-snprintf.o)
+                0x002050a4                vsnprintf
+ .text.snprintf
+                0x002050cc       0x1c contiki-opo8001v2.a(dbg-snprintf.o)
+                0x002050cc                snprintf
+ .text.fill_space
+                0x002050e8       0x38 contiki-opo8001v2.a(strformat.o)
+ .text.format_str_v
+                0x00205120      0x8b8 contiki-opo8001v2.a(strformat.o)
+                0x00205120                format_str_v
+ .text.autostart_start
+                0x002059d8       0x1c contiki-opo8001v2.a(autostart.o)
+                0x002059d8                autostart_start
+ .text.update_time
+                0x002059f4       0x48 contiki-opo8001v2.a(etimer.o)
+ .text.etimer_request_poll
+                0x00205a3c       0x10 contiki-opo8001v2.a(etimer.o)
+                0x00205a3c                etimer_request_poll
+ .text.process_thread_etimer_process
+                0x00205a4c       0xc8 contiki-opo8001v2.a(etimer.o)
+ .text.etimer_pending
+                0x00205b14       0x10 contiki-opo8001v2.a(etimer.o)
+                0x00205b14                etimer_pending
+ .text.exit_process
+                0x00205b24       0xa4 contiki-opo8001v2.a(process.o)
+ .text.call_process
+                0x00205bc8       0x40 contiki-opo8001v2.a(process.o)
+ .text.do_poll  0x00205c08       0x38 contiki-opo8001v2.a(process.o)
+ .text.process_init
+                0x00205c40       0x30 contiki-opo8001v2.a(process.o)
+                0x00205c40                process_init
+ .text.process_run
+                0x00205c70       0xb8 contiki-opo8001v2.a(process.o)
+                0x00205c70                process_run
+ .text.process_nevents
+                0x00205d28       0x14 contiki-opo8001v2.a(process.o)
+                0x00205d28                process_nevents
+ .text.process_post
+                0x00205d3c       0x50 contiki-opo8001v2.a(process.o)
+                0x00205d3c                process_post
+ .text.process_post_synch
+                0x00205d8c       0x14 contiki-opo8001v2.a(process.o)
+                0x00205d8c                process_post_synch
+ .text.process_start
+                0x00205da0       0x38 contiki-opo8001v2.a(process.o)
+                0x00205da0                process_start
+ .text.process_poll
+                0x00205dd8       0x1c contiki-opo8001v2.a(process.o)
+                0x00205dd8                process_poll
+ .text.timer_expired
+                0x00205df4       0x1c contiki-opo8001v2.a(timer.o)
+                0x00205df4                timer_expired
+ .text.random_rand
+                0x00205e10       0x24 contiki-opo8001v2.a(random.o)
+                0x00205e10                random_rand
+ .text.random_init
+                0x00205e34       0x84 contiki-opo8001v2.a(random.o)
+                0x00205e34                random_init
+ .text.linkaddr_copy
+                0x00205eb8        0x8 contiki-opo8001v2.a(linkaddr.o)
+                0x00205eb8                linkaddr_copy
+ .text.linkaddr_cmp
+                0x00205ec0       0x10 contiki-opo8001v2.a(linkaddr.o)
+                0x00205ec0                linkaddr_cmp
+ .text.netstack_init
+                0x00205ed0       0x2c contiki-opo8001v2.a(netstack.o)
+                0x00205ed0                netstack_init
+ .text.packetbuf_copyto
+                0x00205efc       0x50 contiki-opo8001v2.a(packetbuf.o)
+                0x00205efc                packetbuf_copyto
+ .text.packetbuf_hdrreduce
+                0x00205f4c       0x28 contiki-opo8001v2.a(packetbuf.o)
+                0x00205f4c                packetbuf_hdrreduce
+ .text.packetbuf_set_datalen
+                0x00205f74        0xc contiki-opo8001v2.a(packetbuf.o)
+                0x00205f74                packetbuf_set_datalen
+ .text.packetbuf_dataptr
+                0x00205f80       0x14 contiki-opo8001v2.a(packetbuf.o)
+                0x00205f80                packetbuf_dataptr
+ .text.packetbuf_hdrptr
+                0x00205f94       0x14 contiki-opo8001v2.a(packetbuf.o)
+                0x00205f94                packetbuf_hdrptr
+ .text.packetbuf_datalen
+                0x00205fa8        0xc contiki-opo8001v2.a(packetbuf.o)
+                0x00205fa8                packetbuf_datalen
+ .text.packetbuf_totlen
+                0x00205fb4       0x1c contiki-opo8001v2.a(packetbuf.o)
+                0x00205fb4                packetbuf_totlen
+ .text.packetbuf_hdralloc
+                0x00205fd0       0x2c contiki-opo8001v2.a(packetbuf.o)
+                0x00205fd0                packetbuf_hdralloc
+ .text.packetbuf_attr_clear
+                0x00205ffc       0x38 contiki-opo8001v2.a(packetbuf.o)
+                0x00205ffc                packetbuf_attr_clear
+ .text.packetbuf_clear
+                0x00206034       0x34 contiki-opo8001v2.a(packetbuf.o)
+                0x00206034                packetbuf_clear
+ .text.packetbuf_copyfrom
+                0x00206068       0x2c contiki-opo8001v2.a(packetbuf.o)
+                0x00206068                packetbuf_copyfrom
+ .text.packetbuf_attr_copyfrom
+                0x00206094       0x38 contiki-opo8001v2.a(packetbuf.o)
+                0x00206094                packetbuf_attr_copyfrom
+ .text.packetbuf_set_attr
+                0x002060cc       0x10 contiki-opo8001v2.a(packetbuf.o)
+                0x002060cc                packetbuf_set_attr
+ .text.packetbuf_attr
+                0x002060dc        0xc contiki-opo8001v2.a(packetbuf.o)
+                0x002060dc                packetbuf_attr
+ .text.packetbuf_set_addr
+                0x002060e8       0x18 contiki-opo8001v2.a(packetbuf.o)
+                0x002060e8                packetbuf_set_addr
+ .text.packetbuf_addr
+                0x00206100       0x10 contiki-opo8001v2.a(packetbuf.o)
+                0x00206100                packetbuf_addr
+ .text.parse    0x00206110       0x9c contiki-opo8001v2.a(framer-802154.o)
+ .text.create_frame
+                0x002061ac      0x124 contiki-opo8001v2.a(framer-802154.o)
+ .text.create   0x002062d0        0xc contiki-opo8001v2.a(framer-802154.o)
+ .text.hdr_length
+                0x002062dc        0xc contiki-opo8001v2.a(framer-802154.o)
+ .text.send_packet
+                0x002062e8       0x10 contiki-opo8001v2.a(nullmac.o)
+ .text.packet_input
+                0x002062f8       0x10 contiki-opo8001v2.a(nullmac.o)
+ .text.on       0x00206308       0x10 contiki-opo8001v2.a(nullmac.o)
+ .text.off      0x00206318       0x10 contiki-opo8001v2.a(nullmac.o)
+ .text.channel_check_interval
+                0x00206328        0x4 contiki-opo8001v2.a(nullmac.o)
+ .text.init     0x0020632c        0x4 contiki-opo8001v2.a(nullmac.o)
+ .text.on       0x00206330       0x10 contiki-opo8001v2.a(nullrdc.o)
+ .text.off      0x00206340       0x18 contiki-opo8001v2.a(nullrdc.o)
+ .text.channel_check_interval
+                0x00206358        0x4 contiki-opo8001v2.a(nullrdc.o)
+ .text.init     0x0020635c        0x8 contiki-opo8001v2.a(nullrdc.o)
+ .text.packet_input
+                0x00206364       0x48 contiki-opo8001v2.a(nullrdc.o)
+ .text.send_one_packet
+                0x002063ac       0x68 contiki-opo8001v2.a(nullrdc.o)
+ .text.send_list
+                0x00206414       0x24 contiki-opo8001v2.a(nullrdc.o)
+ .text.send_packet
+                0x00206438        0x8 contiki-opo8001v2.a(nullrdc.o)
+ .text.default_callback
+                0x00206440        0x4 contiki-opo8001v2.a(simple_network_)
+ .text.init     0x00206444        0x4 contiki-opo8001v2.a(simple_network_)
+ .text.input    0x00206448       0x10 contiki-opo8001v2.a(simple_network_)
+ .text.simple_network_set_callback
+                0x00206458        0xc contiki-opo8001v2.a(simple_network_)
+                0x00206458                simple_network_set_callback
+ .text.cc2538_ant_enable
+                0x00206464        0x4 contiki-opo8001v2.a(rf_switch.o)
+                0x00206464                cc2538_ant_enable
+ .text.default_callback
+                0x00206468        0x4 contiki-opo8001v2.a(simple_sfd_hand)
+ .text.set_callback
+                0x0020646c        0xc contiki-opo8001v2.a(simple_sfd_hand)
+ .text.callback
+                0x00206478       0x10 contiki-opo8001v2.a(simple_sfd_hand)
+ .text.default_callback
+                0x00206488        0x4 contiki-opo8001v2.a(simple_rf_txdon)
+ .text.set_callback
+                0x0020648c        0xc contiki-opo8001v2.a(simple_rf_txdon)
+ .text.callback
+                0x00206498       0x10 contiki-opo8001v2.a(simple_rf_txdon)
+ .text.queuebuf_to_packetbuf
+                0x002064a8       0x60 contiki-opo8001v2.a(queuebuf.o)
+                0x002064a8                queuebuf_to_packetbuf
+ .text.field_len
+                0x00206508       0x80 contiki-opo8001v2.a(frame802154.o)
+ .text.frame802154_hdrlen
+                0x00206588       0x30 contiki-opo8001v2.a(frame802154.o)
+                0x00206588                frame802154_hdrlen
+ .text.frame802154_create
+                0x002065b8      0x108 contiki-opo8001v2.a(frame802154.o)
+                0x002065b8                frame802154_create
+ .text.frame802154_parse
+                0x002066c0      0x12c contiki-opo8001v2.a(frame802154.o)
+                0x002066c0                frame802154_parse
+ .text.mac_call_sent_callback
+                0x002067ec       0x14 contiki-opo8001v2.a(mac.o)
+                0x002067ec                mac_call_sent_callback
+ .text.memb_inmemb
+                0x00206800       0x1c contiki-opo8001v2.a(memb.o)
+                0x00206800                memb_inmemb
+ .text          0x0020681c       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_aeabi_uldivmod.o)
+                0x0020681c                __aeabi_uldivmod
+ .text          0x00206848       0x60 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(bpabi.o)
+                0x00206848                __gnu_ldivmod_helper
+                0x00206878                __gnu_uldivmod_helper
+ .text          0x002068a8        0x4 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_dvmd_tls.o)
+                0x002068a8                __aeabi_ldiv0
+                0x002068a8                __aeabi_idiv0
+ .text          0x002068ac      0x2ac /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_divdi3.o)
+                0x002068ac                __divdi3
+ .text          0x00206b58      0x270 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_udivdi3.o)
+                0x00206b58                __udivdi3
+ .text.gmtime   0x00206dc8       0x10 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-gmtime.o)
+                0x00206dc8                gmtime
+ .text.gmtime_r
+                0x00206dd8      0x15c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-gmtime_r.o)
+                0x00206dd8                gmtime_r
+ .text.memcmp   0x00206f34       0x64 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memcmp.o)
+                0x00206f34                memcmp
+ .text          0x00206f98       0xec /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memcpy.o)
+                0x00206f98                memcpy
+ .text.memset   0x00207084       0x9c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memset.o)
+                0x00207084                memset
+ .text.strlen   0x00207120       0x5c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-strlen.o)
+                0x00207120                strlen
+ *(SORT(.rodata*))
+ .rodata.autostart_processes
+                0x0020717c        0x8 opo8001rxtx.co
+                0x0020717c                autostart_processes
+ .rodata.str1.4
+                0x00207184      0x184 opo8001rxtx.co
+ .rodata.reverse_table
+                0x00207308      0x100 contiki-opo8001v2.a(nrf8001.o)
+ .rodata.setup_msgs
+                0x00207408      0x4cc contiki-opo8001v2.a(nrf8001.o)
+ .rodata.str1.4
+                0x002078d4       0xf3 contiki-opo8001v2.a(nrf8001.o)
+                                 0xf4 (size before relaxing)
+ *fill*         0x002079c7        0x1 00000000
+ .rodata        0x002079c8       0x30 contiki-opo8001v2.a(rv4162.o)
+ .rodata.str1.4
+                0x002079f8       0xc7 contiki-opo8001v2.a(rv4162.o)
+                                 0xc8 (size before relaxing)
+ *fill*         0x00207abf        0x1 00000000
+ .rodata.str1.4
+                0x00207ac0      0x195 contiki-opo8001v2.a(sst25vf.o)
+                                0x198 (size before relaxing)
+ *fill*         0x00207c55        0x3 00000000
+ .rodata.str1.4
+                0x00207c58       0xc2 contiki-opo8001v2.a(opo.o)
+                                 0xc4 (size before relaxing)
+ *fill*         0x00207d1a        0x2 00000000
+ .rodata.str1.4
+                0x00207d1c      0x797 contiki-opo8001v2.a(cloudcomm.o)
+                                0x798 (size before relaxing)
+ *fill*         0x002084b3        0x1 00000000
+ .rodata.str1.4
+                0x002084b4       0x19 contiki-opo8001v2.a(vtimer.o)
+                                 0x1c (size before relaxing)
+ *fill*         0x002084cd        0x3 00000000
+ .rodata.cc2538_rf_driver
+                0x002084d0       0x38 contiki-opo8001v2.a(cc2538-rf.o)
+                0x002084d0                cc2538_rf_driver
+ .rodata.output_power
+                0x00208508       0x70 contiki-opo8001v2.a(cc2538-rf.o)
+ .rodata.str1.4
+                0x00208578       0x11 contiki-opo8001v2.a(cc2538-rf.o)
+                                 0x14 (size before relaxing)
+ *fill*         0x00208589        0x3 00000000
+ .rodata.timer_to_base
+                0x0020858c       0x10 contiki-opo8001v2.a(gptimer.o)
+ .rodata.timer_to_sys_ctl
+                0x0020859c        0x4 contiki-opo8001v2.a(gptimer.o)
+ .rodata.buffer.4159
+                0x002085a0       0x10 contiki-opo8001v2.a(strformat.o)
+ .rodata.str1.4
+                0x002085b0       0x46 contiki-opo8001v2.a(strformat.o)
+                                 0x48 (size before relaxing)
+ *fill*         0x002085f6        0x2 00000000
+ .rodata.buffer.4150
+                0x002085f8       0x10 contiki-opo8001v2.a(strformat.o)
+ .rodata.str1.4
+                0x00208608        0xc contiki-opo8001v2.a(etimer.o)
+ .rodata.linkaddr_null
+                0x00208614        0x4 contiki-opo8001v2.a(linkaddr.o)
+                0x00208614                linkaddr_null
+ .rodata.framer_802154
+                0x00208618        0xc contiki-opo8001v2.a(framer-802154.o)
+                0x00208618                framer_802154
+ .rodata.nullmac_driver
+                0x00208624       0x1c contiki-opo8001v2.a(nullmac.o)
+                0x00208624                nullmac_driver
+ .rodata.str1.4
+                0x00208640        0x8 contiki-opo8001v2.a(nullmac.o)
+ .rodata.str1.4
+                0x00208648        0x8 contiki-opo8001v2.a(nullrdc.o)
+ .rodata.nullrdc_driver
+                0x00208650       0x20 contiki-opo8001v2.a(nullrdc.o)
+                0x00208650                nullrdc_driver
+ .rodata.simple_network_driver
+                0x00208670        0xc contiki-opo8001v2.a(simple_network_)
+                0x00208670                simple_network_driver
+ .rodata.str1.4
+                0x0020867c        0x7 contiki-opo8001v2.a(simple_network_)
+                                  0x8 (size before relaxing)
+ *fill*         0x00208683        0x1 00000000
+ .rodata.str1.4
+                0x00208684        0xa contiki-opo8001v2.a(simple_sfd_hand)
+                                  0xc (size before relaxing)
+ *fill*         0x0020868e        0x2 00000000
+ .rodata.str1.4
+                0x00208690        0xf contiki-opo8001v2.a(simple_rf_txdon)
+                                 0x10 (size before relaxing)
+ *fill*         0x0020869f        0x1 00000000
+ .rodata.days_per_year
+                0x002086a0       0x10 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-gmtime_r.o)
+ .rodata.str1.4
+                0x002086b0        0x4 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-impure.o)
+ .rodata.__month_lengths
+                0x002086b4       0x60 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-month_lengths.o)
+                0x002086b4                __month_lengths
+                0x00208714                _etext = .
+
+.glue_7         0x00208714        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x00208714        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x00208714        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00208714        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x00208714        0x0
+ .iplt          0x00000000        0x0 obj_opo8001v2/startup-gcc.o
+
+.socdata        0x20004000       0x40
+ *(SORT(.udma_channel_control_table))
+ .udma_channel_control_table
+                0x20004000       0x40 contiki-opo8001v2.a(udma.o)
+
+.data           0x20004040      0x5ae load address 0x00208714
+                0x20004040                _data = .
+ *(SORT(.data*))
+ .data.impure_data
+                0x20004040      0x428 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-impure.o)
+ .data.opo8001ccon
+                0x20004468       0x10 opo8001rxtx.co
+                0x20004468                opo8001ccon
+ .data.plugin_manager
+                0x20004478       0x10 opo8001rxtx.co
+                0x20004478                plugin_manager
+ .data.opo8001rx
+                0x20004488       0x10 opo8001rxtx.co
+                0x20004488                opo8001rx
+ .data.opo8001rxtx
+                0x20004498       0x10 opo8001rxtx.co
+                0x20004498                opo8001rxtx
+ .data.murl     0x200044a8       0x3c opo8001rxtx.co
+ .data.opo8001tx
+                0x200044e4       0x10 opo8001rxtx.co
+                0x200044e4                opo8001tx
+ .data.nrf8001_cmd_process
+                0x200044f4       0x10 contiki-opo8001v2.a(nrf8001.o)
+                0x200044f4                nrf8001_cmd_process
+ .data.nrf8001_event_process
+                0x20004504       0x10 contiki-opo8001v2.a(nrf8001.o)
+                0x20004504                nrf8001_event_process
+ .data.set_time_masks
+                0x20004514        0x8 contiki-opo8001v2.a(rv4162.o)
+                0x20004514                set_time_masks
+ .data.opo_rx   0x2000451c       0x10 contiki-opo8001v2.a(opo.o)
+                0x2000451c                opo_rx
+ .data.opo_tx   0x2000452c       0x10 contiki-opo8001v2.a(opo.o)
+                0x2000452c                opo_tx
+ .data.opo_restart
+                0x2000453c       0x10 contiki-opo8001v2.a(opo.o)
+                0x2000453c                opo_restart
+ .data.cloudcomm_manager
+                0x2000454c       0x10 contiki-opo8001v2.a(cloudcomm.o)
+                0x2000454c                cloudcomm_manager
+ .data.ble_connect_process
+                0x2000455c       0x10 contiki-opo8001v2.a(cloudcomm.o)
+                0x2000455c                ble_connect_process
+ .data.ble_sleep_process
+                0x2000456c       0x10 contiki-opo8001v2.a(cloudcomm.o)
+                0x2000456c                ble_sleep_process
+ .data.cc2538_rf_process
+                0x2000457c       0x10 contiki-opo8001v2.a(cc2538-rf.o)
+                0x2000457c                cc2538_rf_process
+ .data.subtimer_a_masks
+                0x2000458c        0x4 contiki-opo8001v2.a(gptimer.o)
+ .data.subtimer_b_masks
+                0x20004590        0x4 contiki-opo8001v2.a(gptimer.o)
+ .data.etimer_process
+                0x20004594       0x10 contiki-opo8001v2.a(etimer.o)
+                0x20004594                etimer_process
+ .data.m_callback
+                0x200045a4        0x4 contiki-opo8001v2.a(simple_network_)
+ .data.m_callback
+                0x200045a8        0x4 contiki-opo8001v2.a(simple_sfd_hand)
+ .data.simple_sfd_handler
+                0x200045ac        0xc contiki-opo8001v2.a(simple_sfd_hand)
+                0x200045ac                simple_sfd_handler
+ .data.simple_rf_txdone_handler
+                0x200045b8        0xc contiki-opo8001v2.a(simple_rf_txdon)
+                0x200045b8                simple_rf_txdone_handler
+ .data.m_callback
+                0x200045c4        0x4 contiki-opo8001v2.a(simple_rf_txdon)
+ .data.bufmem   0x200045c8        0xc contiki-opo8001v2.a(queuebuf.o)
+ .data.refbufmem
+                0x200045d4        0xc contiki-opo8001v2.a(queuebuf.o)
+ .data._impure_ptr
+                0x200045e0        0x4 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-impure.o)
+                0x200045e0                _impure_ptr
+ .data.rv4162_slave_addr
+                0x200045e4        0x1 contiki-opo8001v2.a(rv4162.o)
+                0x200045e4                rv4162_slave_addr
+ .data.opo_state
+                0x200045e5        0x1 contiki-opo8001v2.a(opo.o)
+ .data.failsafe
+                0x200045e6        0x1 contiki-opo8001v2.a(cloudcomm.o)
+ .data.ble_acked
+                0x200045e7        0x1 contiki-opo8001v2.a(cloudcomm.o)
+ .data.use_acks
+                0x200045e8        0x1 contiki-opo8001v2.a(cloudcomm.o)
+ .data.sequence_num
+                0x200045e9        0x1 contiki-opo8001v2.a(cloudcomm.o)
+ .data.sending_data_store_empty
+                0x200045ea        0x1 contiki-opo8001v2.a(cloudcomm.o)
+ .data.ble_credited
+                0x200045eb        0x1 contiki-opo8001v2.a(cloudcomm.o)
+ .data.empty    0x200045ec        0x1 contiki-opo8001v2.a(simplestore.o)
+ .data.debug_clear
+                0x200045ed        0x1 contiki-opo8001v2.a(cc2538-rf-debug)
+                0x200045ee                _edata = .
+
+.igot.plt       0x200045f0        0x0 load address 0x00208cc2
+ .igot.plt      0x00000000        0x0 obj_opo8001v2/startup-gcc.o
+
+.ARM.exidx      0x00208cc4        0x8
+ *(SORT(.ARM.exidx*))
+ .ARM.exidx     0x00208cc4        0x8 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_divdi3.o)
+ .ARM.exidx     0x00208ccc        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_udivdi3.o)
+                                  0x8 (size before relaxing)
+
+.bss            0x200045f0     0x112c
+                0x200045f0                _bss = .
+ *(SORT(.bss*))
+ .bss.rt_ticks_startup
+                0x200045f0        0x8 contiki-opo8001v2.a(clock.o)
+ .bss.rt_ticks_epoch
+                0x200045f8        0x8 contiki-opo8001v2.a(clock.o)
+ .bss.stack     0x20004600      0x800 obj_opo8001v2/startup-gcc.o
+ .bss.plugin_checker
+                0x20004e00       0x18 opo8001rxtx.co
+ .bss.tx_delay  0x20004e18       0x18 opo8001rxtx.co
+ .bss.cc_metadata
+                0x20004e30        0x8 opo8001rxtx.co
+ .bss.mdata     0x20004e38       0x20 opo8001rxtx.co
+ .bss.sleep_callback
+                0x20004e58        0x4 contiki-opo8001v2.a(nrf8001.o)
+ .bss.nrf8001_cmd
+                0x20004e5c       0x20 contiki-opo8001v2.a(nrf8001.o)
+ .bss.callbacks
+                0x20004e7c       0x40 contiki-opo8001v2.a(nrf8001.o)
+ .bss.callback_tracker
+                0x20004ebc       0x10 contiki-opo8001v2.a(nrf8001.o)
+ .bss.m_addr    0x20004ecc        0x4 contiki-opo8001v2.a(sst25vf.o)
+ .bss.rx_ul_counter_vt
+                0x20004ed0       0x18 contiki-opo8001v2.a(opo.o)
+ .bss.failed_rx_count
+                0x20004ee8        0x4 contiki-opo8001v2.a(opo.o)
+                0x20004ee8                failed_rx_count
+ .bss.ul_wakeup_time
+                0x20004eec        0x4 contiki-opo8001v2.a(opo.o)
+ .bss.opo_rx_callback
+                0x20004ef0        0x4 contiki-opo8001v2.a(opo.o)
+ .bss.rxmsg     0x20004ef4       0x20 contiki-opo8001v2.a(opo.o)
+ .bss.rx_vt     0x20004f14       0x18 contiki-opo8001v2.a(opo.o)
+ .bss.rx_restart_vt
+                0x20004f2c       0x18 contiki-opo8001v2.a(opo.o)
+ .bss.opo_tx_callback
+                0x20004f44        0x4 contiki-opo8001v2.a(opo.o)
+ .bss.tx_start_time
+                0x20004f48        0x4 contiki-opo8001v2.a(opo.o)
+ .bss.txmsg     0x20004f4c       0x1c contiki-opo8001v2.a(opo.o)
+ .bss.ul_count  0x20004f68        0x4 contiki-opo8001v2.a(opo.o)
+ .bss.rxmsg_storage
+                0x20004f6c       0x1c contiki-opo8001v2.a(opo.o)
+ .bss.meta      0x20004f88        0x4 contiki-opo8001v2.a(opo.o)
+ .bss.sfd_time  0x20004f8c        0x4 contiki-opo8001v2.a(opo.o)
+ .bss.tx_failsafe_vt
+                0x20004f90       0x18 contiki-opo8001v2.a(opo.o)
+ .bss.tx_vt     0x20004fa8       0x18 contiki-opo8001v2.a(opo.o)
+ .bss.req_queue
+                0x20004fc0        0x4 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.flash_pages_stored
+                0x20004fc4        0x4 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.sending_data_store
+                0x20004fc8      0x110 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.metainfo  0x200050d8        0x8 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.cc_ontime
+                0x200050e0        0x4 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.data_store
+                0x200050e4      0x110 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.cc_failsafe_vtimer
+                0x200051f4       0x18 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.cc_done_callback
+                0x2000520c        0x4 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.open_pipes
+                0x20005210        0xc contiki-opo8001v2.a(cloudcomm.o)
+ .bss.sending_packet
+                0x2000521c       0x14 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.callbacks
+                0x20005230        0xc contiki-opo8001v2.a(cloudcomm.o)
+ .bss.write_head
+                0x2000523c        0x4 contiki-opo8001v2.a(simplestore.o)
+ .bss.read_head
+                0x20005240        0x4 contiki-opo8001v2.a(simplestore.o)
+ .bss.head      0x20005244        0x4 contiki-opo8001v2.a(vtimer.o)
+ .bss.interrupt_disable
+                0x20005248        0x4 contiki-opo8001v2.a(nvic.o)
+ .bss.interrupt_pend
+                0x2000524c        0x4 contiki-opo8001v2.a(nvic.o)
+ .bss.interrupt_unpend
+                0x20005250        0x4 contiki-opo8001v2.a(nvic.o)
+ .bss.interrupt_enable
+                0x20005254        0x4 contiki-opo8001v2.a(nvic.o)
+ .bss.interrupt_counter
+                0x20005258        0x4 contiki-opo8001v2.a(cpu.o)
+ .bss.gpio_callbacks
+                0x2000525c       0x80 contiki-opo8001v2.a(gpio.o)
+ .bss.ioc_sel   0x200052dc        0x4 contiki-opo8001v2.a(ioc.o)
+ .bss.ioc_over  0x200052e0        0x4 contiki-opo8001v2.a(ioc.o)
+ .bss.opo_initial_time
+                0x200052e4        0x4 contiki-opo8001v2.a(cc2538-rf.o)
+ .bss.periph_permit_pm1_funcs
+                0x200052e8        0x8 contiki-opo8001v2.a(lpm.o)
+ .bss.gptimer_callbacks
+                0x200052f0       0x80 contiki-opo8001v2.a(gptimer.o)
+ .bss.next_trigger
+                0x20005370        0x4 contiki-opo8001v2.a(vtimer-arch.o)
+ .bss.timerlist
+                0x20005374        0x4 contiki-opo8001v2.a(etimer.o)
+ .bss.next_expiration
+                0x20005378        0x4 contiki-opo8001v2.a(etimer.o)
+ .bss.receiver.5415
+                0x2000537c        0x4 contiki-opo8001v2.a(process.o)
+ .bss.data.5414
+                0x20005380        0x4 contiki-opo8001v2.a(process.o)
+ .bss.process_current
+                0x20005384        0x4 contiki-opo8001v2.a(process.o)
+                0x20005384                process_current
+ .bss.p.5416    0x20005388        0x4 contiki-opo8001v2.a(process.o)
+ .bss.process_list
+                0x2000538c        0x4 contiki-opo8001v2.a(process.o)
+                0x2000538c                process_list
+ .bss.events    0x20005390      0x180 contiki-opo8001v2.a(process.o)
+ .bss.packetbufptr
+                0x20005510        0x4 contiki-opo8001v2.a(packetbuf.o)
+ .bss.packetbuf_aligned
+                0x20005514       0xb4 contiki-opo8001v2.a(packetbuf.o)
+ .bss.bufmem_memb_mem
+                0x200055c8       0x20 contiki-opo8001v2.a(queuebuf.o)
+ .bss.refbufmem_memb_mem
+                0x200055e8       0x78 contiki-opo8001v2.a(queuebuf.o)
+ .bss.refbufmem_memb_count
+                0x20005660        0x4 contiki-opo8001v2.a(queuebuf.o)
+ .bss.bufmem_memb_count
+                0x20005664        0x8 contiki-opo8001v2.a(queuebuf.o)
+ .bss.data_store_index
+                0x2000566c        0x2 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.sending_data_store_end
+                0x2000566e        0x2 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.max_data_store_length
+                0x20005670        0x2 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.urlIndex  0x20005672        0x2 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.last_packet_index
+                0x20005674        0x2 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.cc_packet_length
+                0x20005676        0x2 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.next_packet_index
+                0x20005678        0x2 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.sending_data_store_index
+                0x2000567a        0x2 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.buflen    0x2000567c        0x2 contiki-opo8001v2.a(packetbuf.o)
+ .bss.bufptr    0x2000567e        0x2 contiki-opo8001v2.a(packetbuf.o)
+ .bss.plugged_in_on_start
+                0x20005680        0x1 opo8001rxtx.co
+ .bss.cc_done   0x20005681        0x1 opo8001rxtx.co
+ .bss.sending_fail
+                0x20005682        0x1 opo8001rxtx.co
+ .bss.plugged_in
+                0x20005683        0x1 opo8001rxtx.co
+ .bss.leds      0x20005684        0x1 contiki-opo8001v2.a(leds.o)
+ .bss.sleep     0x20005685        0x1 contiki-opo8001v2.a(nrf8001.o)
+ .bss.setup_counter
+                0x20005686        0x1 contiki-opo8001v2.a(nrf8001.o)
+ .bss.completed
+                0x20005687        0x1 contiki-opo8001v2.a(nrf8001.o)
+ .bss.mstate    0x20005688        0x1 contiki-opo8001v2.a(nrf8001.o)
+                0x20005688                mstate
+ .bss.rv4162_start_reg
+                0x20005689        0x1 contiki-opo8001v2.a(rv4162.o)
+                0x20005689                rv4162_start_reg
+ .bss.on        0x2000568a        0x1 contiki-opo8001v2.a(sst25vf.o)
+ .bss.rf_packet_received
+                0x2000568b        0x1 contiki-opo8001v2.a(opo.o)
+ .bss.opo_tx_stage
+                0x2000568c        0x1 contiki-opo8001v2.a(opo.o)
+ .bss.transmission_noise
+                0x2000568d        0x1 contiki-opo8001v2.a(opo.o)
+ .bss.ccida_bit_pos
+                0x2000568e        0x1 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.ccra_byte_pos
+                0x2000568f        0x1 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.on        0x20005690        0x1 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.connecting
+                0x20005691        0x1 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.phone_ready
+                0x20005692        0x1 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.sleep     0x20005693        0x1 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.tried_open_data
+                0x20005694        0x1 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.pipes_ready
+                0x20005695        0x1 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.ccida_byte_pos
+                0x20005696        0x1 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.req_count
+                0x20005697        0x1 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.sending   0x20005698        0x1 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.ccra_bit_pos
+                0x20005699        0x1 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.last_sequence_num
+                0x2000569a        0x1 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.device_started
+                0x2000569b        0x1 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.device_setup_done
+                0x2000569c        0x1 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.user_control_returned
+                0x2000569d        0x1 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.tried_open_ready
+                0x2000569e        0x1 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.sent_data_from_flash
+                0x2000569f        0x1 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.urlSet    0x200056a0        0x1 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.connected
+                0x200056a1        0x1 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.bad_state
+                0x200056a2        0x1 contiki-opo8001v2.a(cloudcomm.o)
+ .bss.last_length
+                0x200056a3        0x1 contiki-opo8001v2.a(cc2538-rf.o)
+ .bss.rf_flags  0x200056a4        0x1 contiki-opo8001v2.a(cc2538-rf.o)
+ .bss.max_pm    0x200056a5        0x1 contiki-opo8001v2.a(lpm.o)
+ .bss.fevent    0x200056a6        0x1 contiki-opo8001v2.a(process.o)
+ .bss.nevents   0x200056a7        0x1 contiki-opo8001v2.a(process.o)
+ .bss.poll_requested
+                0x200056a8        0x1 contiki-opo8001v2.a(process.o)
+ .bss.ev.5413   0x200056a9        0x1 contiki-opo8001v2.a(process.o)
+ .bss.snum.5431
+                0x200056aa        0x1 contiki-opo8001v2.a(process.o)
+ .bss.lastevent
+                0x200056ab        0x1 contiki-opo8001v2.a(process.o)
+ .bss.hdrptr    0x200056ac        0x1 contiki-opo8001v2.a(packetbuf.o)
+ .bss.mac_dsn   0x200056ad        0x1 contiki-opo8001v2.a(framer-802154.o)
+ .bss.initialized
+                0x200056ae        0x1 contiki-opo8001v2.a(framer-802154.o)
+ *(SORT(COMMON))
+ *fill*         0x200056af        0x1 
+ COMMON         0x200056b0       0x30 opo8001rxtx.co
+                0x200056b0                plug_debouncer
+                0x200056c8                unplug_debouncer
+ COMMON         0x200056e0        0x2 contiki-opo8001v2.a(linkaddr.o)
+                0x200056e0                linkaddr_node_addr
+ *fill*         0x200056e2        0x2 
+ COMMON         0x200056e4       0x38 contiki-opo8001v2.a(packetbuf.o)
+                0x200056e4                packetbuf_addrs
+                0x200056ec                packetbuf_attrs
+                0x2000571c                _ebss = .
+
+.nrdata         0x20000000        0x0
+                0x20000000                _nrdata = .
+ *(SORT(.nrdata*))
+                0x20000000                _enrdata = .
+
+.flashcca       0x0027ffd4       0x2c
+ *(SORT(.flashcca))
+ .flashcca      0x0027ffd4       0x2c obj_opo8001v2/startup-gcc.o
+                0x0027ffd4                __cca
+OUTPUT(opo8001rxtx.elf elf32-littlearm)
+
+.rel.dyn        0x00280000        0x0
+ .rel.iplt      0x00000000        0x0 obj_opo8001v2/startup-gcc.o
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 obj_opo8001v2/startup-gcc.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 opo8001rxtx.co
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(leds.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(leds-arch.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(contiki-main.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(nrf8001.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(rv4162.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(sst25vf.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(opo.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(cloudcomm.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(simplestore.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(vtimer.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(rtc.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(cc2538-rf-debug)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(clock.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(rtimer-arch.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(watchdog.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(nvic.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(cpu.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(sys-ctrl.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(gpio.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(ioc.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(spi.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(cc2538-rf.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(udma.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(lpm.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(ieee-addr.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(gptimer.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(i2c.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(vtimer-arch.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(dbg-snprintf.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(strformat.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(autostart.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(etimer.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(process.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(timer.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(random.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(linkaddr.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(netstack.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(packetbuf.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(framer-802154.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(nullmac.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(nullrdc.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(simple_network_)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(rf_switch.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(simple_sfd_hand)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(simple_rf_txdon)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(queuebuf.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(frame802154.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(mac.o)
+ .comment       0x00000000       0x71 contiki-opo8001v2.a(memb.o)
+
+.ARM.attributes
+                0x00000000       0x31
+ .ARM.attributes
+                0x00000000       0x33 obj_opo8001v2/startup-gcc.o
+ .ARM.attributes
+                0x00000033       0x33 opo8001rxtx.co
+ .ARM.attributes
+                0x00000066       0x33 contiki-opo8001v2.a(leds.o)
+ .ARM.attributes
+                0x00000099       0x33 contiki-opo8001v2.a(leds-arch.o)
+ .ARM.attributes
+                0x000000cc       0x33 contiki-opo8001v2.a(contiki-main.o)
+ .ARM.attributes
+                0x000000ff       0x33 contiki-opo8001v2.a(nrf8001.o)
+ .ARM.attributes
+                0x00000132       0x33 contiki-opo8001v2.a(rv4162.o)
+ .ARM.attributes
+                0x00000165       0x33 contiki-opo8001v2.a(sst25vf.o)
+ .ARM.attributes
+                0x00000198       0x33 contiki-opo8001v2.a(opo.o)
+ .ARM.attributes
+                0x000001cb       0x33 contiki-opo8001v2.a(cloudcomm.o)
+ .ARM.attributes
+                0x000001fe       0x33 contiki-opo8001v2.a(simplestore.o)
+ .ARM.attributes
+                0x00000231       0x33 contiki-opo8001v2.a(vtimer.o)
+ .ARM.attributes
+                0x00000264       0x33 contiki-opo8001v2.a(rtc.o)
+ .ARM.attributes
+                0x00000297       0x33 contiki-opo8001v2.a(cc2538-rf-debug)
+ .ARM.attributes
+                0x000002ca       0x33 contiki-opo8001v2.a(clock.o)
+ .ARM.attributes
+                0x000002fd       0x33 contiki-opo8001v2.a(rtimer-arch.o)
+ .ARM.attributes
+                0x00000330       0x33 contiki-opo8001v2.a(watchdog.o)
+ .ARM.attributes
+                0x00000363       0x33 contiki-opo8001v2.a(nvic.o)
+ .ARM.attributes
+                0x00000396       0x33 contiki-opo8001v2.a(cpu.o)
+ .ARM.attributes
+                0x000003c9       0x33 contiki-opo8001v2.a(sys-ctrl.o)
+ .ARM.attributes
+                0x000003fc       0x33 contiki-opo8001v2.a(gpio.o)
+ .ARM.attributes
+                0x0000042f       0x33 contiki-opo8001v2.a(ioc.o)
+ .ARM.attributes
+                0x00000462       0x33 contiki-opo8001v2.a(spi.o)
+ .ARM.attributes
+                0x00000495       0x33 contiki-opo8001v2.a(cc2538-rf.o)
+ .ARM.attributes
+                0x000004c8       0x33 contiki-opo8001v2.a(udma.o)
+ .ARM.attributes
+                0x000004fb       0x33 contiki-opo8001v2.a(lpm.o)
+ .ARM.attributes
+                0x0000052e       0x33 contiki-opo8001v2.a(ieee-addr.o)
+ .ARM.attributes
+                0x00000561       0x33 contiki-opo8001v2.a(gptimer.o)
+ .ARM.attributes
+                0x00000594       0x33 contiki-opo8001v2.a(i2c.o)
+ .ARM.attributes
+                0x000005c7       0x33 contiki-opo8001v2.a(vtimer-arch.o)
+ .ARM.attributes
+                0x000005fa       0x33 contiki-opo8001v2.a(dbg-snprintf.o)
+ .ARM.attributes
+                0x0000062d       0x33 contiki-opo8001v2.a(strformat.o)
+ .ARM.attributes
+                0x00000660       0x33 contiki-opo8001v2.a(autostart.o)
+ .ARM.attributes
+                0x00000693       0x33 contiki-opo8001v2.a(etimer.o)
+ .ARM.attributes
+                0x000006c6       0x33 contiki-opo8001v2.a(process.o)
+ .ARM.attributes
+                0x000006f9       0x33 contiki-opo8001v2.a(timer.o)
+ .ARM.attributes
+                0x0000072c       0x33 contiki-opo8001v2.a(random.o)
+ .ARM.attributes
+                0x0000075f       0x33 contiki-opo8001v2.a(linkaddr.o)
+ .ARM.attributes
+                0x00000792       0x33 contiki-opo8001v2.a(netstack.o)
+ .ARM.attributes
+                0x000007c5       0x33 contiki-opo8001v2.a(packetbuf.o)
+ .ARM.attributes
+                0x000007f8       0x33 contiki-opo8001v2.a(framer-802154.o)
+ .ARM.attributes
+                0x0000082b       0x33 contiki-opo8001v2.a(nullmac.o)
+ .ARM.attributes
+                0x0000085e       0x33 contiki-opo8001v2.a(nullrdc.o)
+ .ARM.attributes
+                0x00000891       0x33 contiki-opo8001v2.a(simple_network_)
+ .ARM.attributes
+                0x000008c4       0x33 contiki-opo8001v2.a(rf_switch.o)
+ .ARM.attributes
+                0x000008f7       0x33 contiki-opo8001v2.a(simple_sfd_hand)
+ .ARM.attributes
+                0x0000092a       0x33 contiki-opo8001v2.a(simple_rf_txdon)
+ .ARM.attributes
+                0x0000095d       0x33 contiki-opo8001v2.a(queuebuf.o)
+ .ARM.attributes
+                0x00000990       0x33 contiki-opo8001v2.a(frame802154.o)
+ .ARM.attributes
+                0x000009c3       0x33 contiki-opo8001v2.a(mac.o)
+ .ARM.attributes
+                0x000009f6       0x33 contiki-opo8001v2.a(memb.o)
+ .ARM.attributes
+                0x00000a29       0x1d /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x00000a46       0x2d /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(bpabi.o)
+ .ARM.attributes
+                0x00000a73       0x1d /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000a90       0x2d /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_divdi3.o)
+ .ARM.attributes
+                0x00000abd       0x2d /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_udivdi3.o)
+ .ARM.attributes
+                0x00000aea       0x2d /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-gmtime.o)
+ .ARM.attributes
+                0x00000b17       0x2d /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-gmtime_r.o)
+ .ARM.attributes
+                0x00000b44       0x2d /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000b71       0x2d /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memcmp.o)
+ .ARM.attributes
+                0x00000b9e       0x1b /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x00000bb9       0x2d /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000be6       0x2d /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-month_lengths.o)
+ .ARM.attributes
+                0x00000c13       0x2d /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-strlen.o)
+
+.debug_frame    0x00000000      0x1c4
+ .debug_frame   0x00000000       0x28 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x00000028       0x54 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(bpabi.o)
+ .debug_frame   0x0000007c       0x34 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_divdi3.o)
+ .debug_frame   0x000000b0       0x34 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_udivdi3.o)
+ .debug_frame   0x000000e4       0x20 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-gmtime.o)
+ .debug_frame   0x00000104       0x34 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-gmtime_r.o)
+ .debug_frame   0x00000138       0x38 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memcmp.o)
+ .debug_frame   0x00000170       0x34 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memset.o)
+ .debug_frame   0x000001a4       0x20 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-strlen.o)
+
+Cross Reference Table
+
+Symbol                                            File
+__aeabi_idiv0                                     /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_dvmd_tls.o)
+__aeabi_ldiv0                                     /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_dvmd_tls.o)
+                                                  /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_aeabi_uldivmod.o)
+__aeabi_uldivmod                                  /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_aeabi_uldivmod.o)
+                                                  contiki-opo8001v2.a(strformat.o)
+__cca                                             obj_opo8001v2/startup-gcc.o
+__divdi3                                          /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_divdi3.o)
+                                                  /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(bpabi.o)
+__gnu_ldivmod_helper                              /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(bpabi.o)
+__gnu_uldivmod_helper                             /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(bpabi.o)
+                                                  /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_aeabi_uldivmod.o)
+__month_lengths                                   /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-month_lengths.o)
+                                                  /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-gmtime_r.o)
+__udivdi3                                         /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(_udivdi3.o)
+                                                  /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7-m/libgcc.a(bpabi.o)
+_bss                                              obj_opo8001v2/startup-gcc.o
+_data                                             obj_opo8001v2/startup-gcc.o
+_ebss                                             obj_opo8001v2/startup-gcc.o
+_edata                                            obj_opo8001v2/startup-gcc.o
+_etext                                            obj_opo8001v2/startup-gcc.o
+_global_impure_ptr                                /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-impure.o)
+_impure_ptr                                       /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-impure.o)
+                                                  /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-gmtime.o)
+_text                                             obj_opo8001v2/startup-gcc.o
+autostart_exit                                    contiki-opo8001v2.a(autostart.o)
+autostart_processes                               opo8001rxtx.co
+                                                  contiki-opo8001v2.a(contiki-main.o)
+autostart_start                                   contiki-opo8001v2.a(autostart.o)
+                                                  contiki-opo8001v2.a(contiki-main.o)
+ble_ant_enable                                    contiki-opo8001v2.a(rf_switch.o)
+ble_connect_process                               contiki-opo8001v2.a(cloudcomm.o)
+ble_sleep_process                                 contiki-opo8001v2.a(cloudcomm.o)
+cancel_vtimer                                     contiki-opo8001v2.a(vtimer.o)
+                                                  contiki-opo8001v2.a(cloudcomm.o)
+                                                  contiki-opo8001v2.a(opo.o)
+                                                  opo8001rxtx.co
+cc2538_ant_enable                                 contiki-opo8001v2.a(rf_switch.o)
+                                                  contiki-opo8001v2.a(opo.o)
+cc2538_on_and_transmit                            contiki-opo8001v2.a(cc2538-rf.o)
+                                                  contiki-opo8001v2.a(cc2538-rf-debug)
+                                                  contiki-opo8001v2.a(opo.o)
+cc2538_rf_driver                                  contiki-opo8001v2.a(cc2538-rf.o)
+                                                  contiki-opo8001v2.a(nullrdc.o)
+                                                  contiki-opo8001v2.a(netstack.o)
+                                                  contiki-opo8001v2.a(contiki-main.o)
+cc2538_rf_err_isr                                 contiki-opo8001v2.a(cc2538-rf.o)
+                                                  obj_opo8001v2/startup-gcc.o
+cc2538_rf_process                                 contiki-opo8001v2.a(cc2538-rf.o)
+cc2538_rf_rx_tx_isr                               contiki-opo8001v2.a(cc2538-rf.o)
+                                                  obj_opo8001v2/startup-gcc.o
+cc2538_rf_set_promiscous_mode                     contiki-opo8001v2.a(cc2538-rf.o)
+clock_adjust                                      contiki-opo8001v2.a(clock.o)
+                                                  contiki-opo8001v2.a(lpm.o)
+clock_delay                                       contiki-opo8001v2.a(clock.o)
+                                                  contiki-opo8001v2.a(leds.o)
+clock_delay_usec                                  contiki-opo8001v2.a(clock.o)
+                                                  contiki-opo8001v2.a(i2c.o)
+                                                  contiki-opo8001v2.a(cc2538-rf.o)
+                                                  contiki-opo8001v2.a(spi.o)
+                                                  contiki-opo8001v2.a(opo.o)
+                                                  contiki-opo8001v2.a(sst25vf.o)
+                                                  contiki-opo8001v2.a(nrf8001.o)
+clock_init                                        contiki-opo8001v2.a(clock.o)
+                                                  contiki-opo8001v2.a(contiki-main.o)
+clock_isr                                         contiki-opo8001v2.a(clock.o)
+                                                  obj_opo8001v2/startup-gcc.o
+clock_seconds                                     contiki-opo8001v2.a(clock.o)
+clock_set_seconds                                 contiki-opo8001v2.a(clock.o)
+clock_time                                        contiki-opo8001v2.a(clock.o)
+                                                  contiki-opo8001v2.a(timer.o)
+                                                  contiki-opo8001v2.a(etimer.o)
+clock_wait                                        contiki-opo8001v2.a(clock.o)
+cloudcomm_clear_data                              contiki-opo8001v2.a(cloudcomm.o)
+cloudcomm_init                                    contiki-opo8001v2.a(cloudcomm.o)
+                                                  contiki-opo8001v2.a(contiki-main.o)
+cloudcomm_manager                                 contiki-opo8001v2.a(cloudcomm.o)
+cloudcomm_on                                      contiki-opo8001v2.a(cloudcomm.o)
+                                                  opo8001rxtx.co
+cloudcomm_request_data                            contiki-opo8001v2.a(cloudcomm.o)
+                                                  opo8001rxtx.co
+cloudcomm_set_metainfo                            contiki-opo8001v2.a(cloudcomm.o)
+                                                  opo8001rxtx.co
+cloudcomm_set_packet_length                       contiki-opo8001v2.a(cloudcomm.o)
+                                                  opo8001rxtx.co
+cloudcomm_store                                   contiki-opo8001v2.a(cloudcomm.o)
+                                                  opo8001rxtx.co
+cpu_cpsid                                         contiki-opo8001v2.a(cpu.o)
+                                                  contiki-opo8001v2.a(vtimer-arch.o)
+                                                  contiki-opo8001v2.a(watchdog.o)
+                                                  contiki-opo8001v2.a(rtimer-arch.o)
+                                                  contiki-opo8001v2.a(vtimer.o)
+                                                  contiki-opo8001v2.a(cloudcomm.o)
+                                                  contiki-opo8001v2.a(opo.o)
+                                                  contiki-opo8001v2.a(sst25vf.o)
+                                                  contiki-opo8001v2.a(nrf8001.o)
+cpu_cpsie                                         contiki-opo8001v2.a(cpu.o)
+                                                  contiki-opo8001v2.a(vtimer-arch.o)
+                                                  contiki-opo8001v2.a(rtimer-arch.o)
+                                                  contiki-opo8001v2.a(vtimer.o)
+                                                  contiki-opo8001v2.a(cloudcomm.o)
+                                                  contiki-opo8001v2.a(opo.o)
+                                                  contiki-opo8001v2.a(sst25vf.o)
+                                                  contiki-opo8001v2.a(nrf8001.o)
+                                                  contiki-opo8001v2.a(contiki-main.o)
+dbg_send_bytes                                    contiki-opo8001v2.a(dbg.o)
+                                                  contiki-opo8001v2.a(dbg-printf.o)
+default_handler                                   obj_opo8001v2/startup-gcc.o
+disable_opo_rx                                    contiki-opo8001v2.a(opo.o)
+enable_opo_rx                                     contiki-opo8001v2.a(opo.o)
+                                                  opo8001rxtx.co
+etimer_adjust                                     contiki-opo8001v2.a(etimer.o)
+etimer_expiration_time                            contiki-opo8001v2.a(etimer.o)
+etimer_expired                                    contiki-opo8001v2.a(etimer.o)
+etimer_next_expiration_time                       contiki-opo8001v2.a(etimer.o)
+etimer_pending                                    contiki-opo8001v2.a(etimer.o)
+                                                  contiki-opo8001v2.a(clock.o)
+etimer_process                                    contiki-opo8001v2.a(etimer.o)
+etimer_request_poll                               contiki-opo8001v2.a(etimer.o)
+                                                  contiki-opo8001v2.a(clock.o)
+etimer_reset                                      contiki-opo8001v2.a(etimer.o)
+etimer_restart                                    contiki-opo8001v2.a(etimer.o)
+etimer_set                                        contiki-opo8001v2.a(etimer.o)
+etimer_start_time                                 contiki-opo8001v2.a(etimer.o)
+etimer_stop                                       contiki-opo8001v2.a(etimer.o)
+failed_rx_count                                   contiki-opo8001v2.a(opo.o)
+fault_handler                                     obj_opo8001v2/startup-gcc.o
+format_str                                        contiki-opo8001v2.a(strformat.o)
+format_str_v                                      contiki-opo8001v2.a(strformat.o)
+                                                  contiki-opo8001v2.a(dbg-snprintf.o)
+                                                  contiki-opo8001v2.a(dbg-printf.o)
+frame802154_create                                contiki-opo8001v2.a(frame802154.o)
+                                                  contiki-opo8001v2.a(framer-802154.o)
+frame802154_hdrlen                                contiki-opo8001v2.a(frame802154.o)
+                                                  contiki-opo8001v2.a(framer-802154.o)
+frame802154_parse                                 contiki-opo8001v2.a(frame802154.o)
+                                                  contiki-opo8001v2.a(framer-802154.o)
+framer_802154                                     contiki-opo8001v2.a(framer-802154.o)
+                                                  contiki-opo8001v2.a(nullrdc.o)
+                                                  contiki-opo8001v2.a(cc2538-rf.o)
+gate_gpt                                          contiki-opo8001v2.a(gptimer.o)
+gate_gpt_pm0                                      contiki-opo8001v2.a(gptimer.o)
+gate_gpt_running                                  contiki-opo8001v2.a(gptimer.o)
+gate_gpt_sleeping                                 contiki-opo8001v2.a(gptimer.o)
+get_event_time                                    contiki-opo8001v2.a(gptimer.o)
+get_opo_state                                     contiki-opo8001v2.a(opo.o)
+                                                  opo8001rxtx.co
+get_sys_clock                                     contiki-opo8001v2.a(i2c.o)
+get_vtimer                                        contiki-opo8001v2.a(vtimer.o)
+                                                  contiki-opo8001v2.a(cloudcomm.o)
+                                                  contiki-opo8001v2.a(opo.o)
+                                                  opo8001rxtx.co
+gmtime                                            /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-gmtime.o)
+                                                  contiki-opo8001v2.a(rv4162.o)
+gmtime_r                                          /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-gmtime_r.o)
+                                                  /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-gmtime.o)
+gpio_init                                         contiki-opo8001v2.a(gpio.o)
+                                                  contiki-opo8001v2.a(contiki-main.o)
+gpio_port_a_isr                                   contiki-opo8001v2.a(gpio.o)
+                                                  obj_opo8001v2/startup-gcc.o
+gpio_port_b_isr                                   contiki-opo8001v2.a(gpio.o)
+                                                  obj_opo8001v2/startup-gcc.o
+gpio_port_c_isr                                   contiki-opo8001v2.a(gpio.o)
+                                                  obj_opo8001v2/startup-gcc.o
+gpio_port_d_isr                                   contiki-opo8001v2.a(gpio.o)
+                                                  obj_opo8001v2/startup-gcc.o
+gpio_register_callback                            contiki-opo8001v2.a(gpio.o)
+                                                  contiki-opo8001v2.a(opo.o)
+                                                  contiki-opo8001v2.a(nrf8001.o)
+                                                  opo8001rxtx.co
+gpt_0_a_isr                                       contiki-opo8001v2.a(gptimer.o)
+                                                  obj_opo8001v2/startup-gcc.o
+gpt_0_b_isr                                       contiki-opo8001v2.a(gptimer.o)
+                                                  obj_opo8001v2/startup-gcc.o
+gpt_1_a_isr                                       contiki-opo8001v2.a(gptimer.o)
+                                                  obj_opo8001v2/startup-gcc.o
+gpt_1_b_isr                                       contiki-opo8001v2.a(gptimer.o)
+                                                  obj_opo8001v2/startup-gcc.o
+gpt_2_a_isr                                       contiki-opo8001v2.a(gptimer.o)
+                                                  obj_opo8001v2/startup-gcc.o
+gpt_2_b_isr                                       contiki-opo8001v2.a(gptimer.o)
+                                                  obj_opo8001v2/startup-gcc.o
+gpt_3_a_isr                                       contiki-opo8001v2.a(gptimer.o)
+                                                  obj_opo8001v2/startup-gcc.o
+gpt_3_b_isr                                       contiki-opo8001v2.a(gptimer.o)
+                                                  obj_opo8001v2/startup-gcc.o
+gpt_clear_interrupt                               contiki-opo8001v2.a(gptimer.o)
+gpt_disable_event                                 contiki-opo8001v2.a(gptimer.o)
+                                                  contiki-opo8001v2.a(opo.o)
+gpt_disable_interrupt                             contiki-opo8001v2.a(gptimer.o)
+gpt_enable_event                                  contiki-opo8001v2.a(gptimer.o)
+                                                  contiki-opo8001v2.a(opo.o)
+gpt_enable_interrupt                              contiki-opo8001v2.a(gptimer.o)
+gpt_register_callback                             contiki-opo8001v2.a(gptimer.o)
+gpt_register_test_callback                        contiki-opo8001v2.a(gptimer.o)
+gpt_set_16_bit_timer                              contiki-opo8001v2.a(gptimer.o)
+                                                  contiki-opo8001v2.a(opo.o)
+gpt_set_32_bit_rtc                                contiki-opo8001v2.a(gptimer.o)
+gpt_set_32_bit_timer                              contiki-opo8001v2.a(gptimer.o)
+gpt_set_alternate_mode                            contiki-opo8001v2.a(gptimer.o)
+                                                  contiki-opo8001v2.a(opo.o)
+gpt_set_capture_mode                              contiki-opo8001v2.a(gptimer.o)
+gpt_set_count_dir                                 contiki-opo8001v2.a(gptimer.o)
+gpt_set_event_mode                                contiki-opo8001v2.a(gptimer.o)
+gpt_set_interval_value                            contiki-opo8001v2.a(gptimer.o)
+                                                  contiki-opo8001v2.a(opo.o)
+gpt_set_match_value                               contiki-opo8001v2.a(gptimer.o)
+                                                  contiki-opo8001v2.a(opo.o)
+gpt_set_mode                                      contiki-opo8001v2.a(gptimer.o)
+                                                  contiki-opo8001v2.a(opo.o)
+hard_fault_handler                                obj_opo8001v2/startup-gcc.o
+i2c_init                                          contiki-opo8001v2.a(i2c.o)
+                                                  contiki-opo8001v2.a(rv4162.o)
+i2c_master_busy                                   contiki-opo8001v2.a(i2c.o)
+                                                  contiki-opo8001v2.a(rv4162.o)
+i2c_master_command                                contiki-opo8001v2.a(i2c.o)
+                                                  contiki-opo8001v2.a(rv4162.o)
+i2c_master_data_get                               contiki-opo8001v2.a(i2c.o)
+                                                  contiki-opo8001v2.a(rv4162.o)
+i2c_master_data_put                               contiki-opo8001v2.a(i2c.o)
+                                                  contiki-opo8001v2.a(rv4162.o)
+i2c_master_disable                                contiki-opo8001v2.a(i2c.o)
+i2c_master_enable                                 contiki-opo8001v2.a(i2c.o)
+i2c_master_error                                  contiki-opo8001v2.a(i2c.o)
+i2c_master_set_slave_address                      contiki-opo8001v2.a(i2c.o)
+                                                  contiki-opo8001v2.a(rv4162.o)
+i2c_set_frequency                                 contiki-opo8001v2.a(i2c.o)
+i2c_single_receive                                contiki-opo8001v2.a(i2c.o)
+i2c_single_send                                   contiki-opo8001v2.a(i2c.o)
+                                                  contiki-opo8001v2.a(rv4162.o)
+ieee_addr_cpy_to                                  contiki-opo8001v2.a(ieee-addr.o)
+                                                  contiki-opo8001v2.a(contiki-main.o)
+init_callback                                     opo8001rxtx.co
+ioc_init                                          contiki-opo8001v2.a(ioc.o)
+                                                  contiki-opo8001v2.a(contiki-main.o)
+ioc_set_over                                      contiki-opo8001v2.a(ioc.o)
+                                                  contiki-opo8001v2.a(uart.o)
+                                                  contiki-opo8001v2.a(spi.o)
+                                                  contiki-opo8001v2.a(opo.o)
+                                                  contiki-opo8001v2.a(rv4162.o)
+                                                  contiki-opo8001v2.a(nrf8001.o)
+                                                  contiki-opo8001v2.a(contiki-main.o)
+ioc_set_sel                                       contiki-opo8001v2.a(ioc.o)
+                                                  contiki-opo8001v2.a(uart.o)
+                                                  contiki-opo8001v2.a(i2c.o)
+                                                  contiki-opo8001v2.a(spi.o)
+                                                  contiki-opo8001v2.a(opo.o)
+leds_arch_get                                     contiki-opo8001v2.a(leds-arch.o)
+                                                  contiki-opo8001v2.a(leds.o)
+leds_arch_init                                    contiki-opo8001v2.a(leds-arch.o)
+                                                  contiki-opo8001v2.a(leds.o)
+leds_arch_set                                     contiki-opo8001v2.a(leds-arch.o)
+                                                  contiki-opo8001v2.a(leds.o)
+leds_blink                                        contiki-opo8001v2.a(leds.o)
+leds_get                                          contiki-opo8001v2.a(leds.o)
+leds_init                                         contiki-opo8001v2.a(leds.o)
+                                                  contiki-opo8001v2.a(contiki-main.o)
+leds_off                                          contiki-opo8001v2.a(leds.o)
+                                                  opo8001rxtx.co
+leds_on                                           contiki-opo8001v2.a(leds.o)
+                                                  opo8001rxtx.co
+leds_set                                          contiki-opo8001v2.a(leds.o)
+leds_toggle                                       contiki-opo8001v2.a(leds.o)
+                                                  contiki-opo8001v2.a(cloudcomm.o)
+linkaddr_cmp                                      contiki-opo8001v2.a(linkaddr.o)
+                                                  contiki-opo8001v2.a(nullrdc.o)
+                                                  contiki-opo8001v2.a(framer-802154.o)
+linkaddr_copy                                     contiki-opo8001v2.a(linkaddr.o)
+                                                  contiki-opo8001v2.a(frame802154.o)
+                                                  contiki-opo8001v2.a(framer-802154.o)
+                                                  contiki-opo8001v2.a(packetbuf.o)
+linkaddr_node_addr                                contiki-opo8001v2.a(linkaddr.o)
+                                                  contiki-opo8001v2.a(nullrdc.o)
+                                                  contiki-opo8001v2.a(framer-802154.o)
+                                                  contiki-opo8001v2.a(cc2538-rf.o)
+                                                  contiki-opo8001v2.a(contiki-main.o)
+linkaddr_null                                     contiki-opo8001v2.a(linkaddr.o)
+                                                  contiki-opo8001v2.a(frame802154.o)
+                                                  contiki-opo8001v2.a(nullrdc.o)
+                                                  contiki-opo8001v2.a(framer-802154.o)
+                                                  contiki-opo8001v2.a(packetbuf.o)
+linkaddr_set_node_addr                            contiki-opo8001v2.a(linkaddr.o)
+lpm_enter                                         contiki-opo8001v2.a(lpm.o)
+                                                  contiki-opo8001v2.a(contiki-main.o)
+lpm_exit                                          contiki-opo8001v2.a(lpm.o)
+                                                  contiki-opo8001v2.a(vtimer-arch.o)
+                                                  contiki-opo8001v2.a(gptimer.o)
+                                                  contiki-opo8001v2.a(gpio.o)
+                                                  contiki-opo8001v2.a(rtimer-arch.o)
+lpm_init                                          contiki-opo8001v2.a(lpm.o)
+                                                  contiki-opo8001v2.a(contiki-main.o)
+lpm_register_peripheral                           contiki-opo8001v2.a(lpm.o)
+                                                  contiki-opo8001v2.a(uart.o)
+lpm_set_max_pm                                    contiki-opo8001v2.a(lpm.o)
+mac_call_sent_callback                            contiki-opo8001v2.a(mac.o)
+                                                  contiki-opo8001v2.a(nullrdc.o)
+main                                              contiki-opo8001v2.a(contiki-main.o)
+                                                  obj_opo8001v2/startup-gcc.o
+memb_alloc                                        contiki-opo8001v2.a(memb.o)
+                                                  contiki-opo8001v2.a(queuebuf.o)
+memb_free                                         contiki-opo8001v2.a(memb.o)
+                                                  contiki-opo8001v2.a(queuebuf.o)
+memb_init                                         contiki-opo8001v2.a(memb.o)
+                                                  contiki-opo8001v2.a(queuebuf.o)
+memb_inmemb                                       contiki-opo8001v2.a(memb.o)
+                                                  contiki-opo8001v2.a(queuebuf.o)
+memcmp                                            /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memcmp.o)
+                                                  contiki-opo8001v2.a(linkaddr.o)
+memcpy                                            /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memcpy.o)
+                                                  contiki-opo8001v2.a(queuebuf.o)
+                                                  contiki-opo8001v2.a(packetbuf.o)
+                                                  contiki-opo8001v2.a(dbg-snprintf.o)
+                                                  contiki-opo8001v2.a(cloudcomm.o)
+memset                                            /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-memset.o)
+                                                  contiki-opo8001v2.a(memb.o)
+                                                  contiki-opo8001v2.a(framer-802154.o)
+                                                  contiki-opo8001v2.a(udma.o)
+                                                  contiki-opo8001v2.a(gpio.o)
+                                                  contiki-opo8001v2.a(cc2538-rf-debug)
+                                                  contiki-opo8001v2.a(simplestore.o)
+mstate                                            contiki-opo8001v2.a(nrf8001.o)
+netstack_init                                     contiki-opo8001v2.a(netstack.o)
+                                                  contiki-opo8001v2.a(contiki-main.o)
+nmi_handler                                       obj_opo8001v2/startup-gcc.o
+notify                                            contiki-opo8001v2.a(gpio.o)
+nrf8001_bond                                      contiki-opo8001v2.a(nrf8001.o)
+nrf8001_bond_security_request                     contiki-opo8001v2.a(nrf8001.o)
+nrf8001_broadcast                                 contiki-opo8001v2.a(nrf8001.o)
+nrf8001_change_timing_request                     contiki-opo8001v2.a(nrf8001.o)
+nrf8001_check_rdyn                                contiki-opo8001v2.a(nrf8001.o)
+nrf8001_close_remote_pipe                         contiki-opo8001v2.a(nrf8001.o)
+nrf8001_cmd_process                               contiki-opo8001v2.a(nrf8001.o)
+nrf8001_connect                                   contiki-opo8001v2.a(nrf8001.o)
+                                                  contiki-opo8001v2.a(cloudcomm.o)
+nrf8001_directed_connect                          contiki-opo8001v2.a(nrf8001.o)
+nrf8001_disconnect                                contiki-opo8001v2.a(nrf8001.o)
+                                                  contiki-opo8001v2.a(cloudcomm.o)
+nrf8001_echo                                      contiki-opo8001v2.a(nrf8001.o)
+nrf8001_enable                                    contiki-opo8001v2.a(nrf8001.o)
+                                                  contiki-opo8001v2.a(cloudcomm.o)
+nrf8001_event_callback                            contiki-opo8001v2.a(nrf8001.o)
+nrf8001_event_process                             contiki-opo8001v2.a(nrf8001.o)
+nrf8001_get_battery_level                         contiki-opo8001v2.a(nrf8001.o)
+nrf8001_get_temperature                           contiki-opo8001v2.a(nrf8001.o)
+nrf8001_init                                      contiki-opo8001v2.a(nrf8001.o)
+                                                  contiki-opo8001v2.a(contiki-main.o)
+nrf8001_open_adv_pipe                             contiki-opo8001v2.a(nrf8001.o)
+nrf8001_open_remote_pipe                          contiki-opo8001v2.a(nrf8001.o)
+nrf8001_radio_reset                               contiki-opo8001v2.a(nrf8001.o)
+nrf8001_read_dynamice_data                        contiki-opo8001v2.a(nrf8001.o)
+nrf8001_register_callback                         contiki-opo8001v2.a(nrf8001.o)
+                                                  contiki-opo8001v2.a(cloudcomm.o)
+nrf8001_register_sleep_callback                   contiki-opo8001v2.a(nrf8001.o)
+                                                  contiki-opo8001v2.a(cloudcomm.o)
+nrf8001_request_data                              contiki-opo8001v2.a(nrf8001.o)
+nrf8001_reset                                     contiki-opo8001v2.a(nrf8001.o)
+                                                  contiki-opo8001v2.a(cloudcomm.o)
+nrf8001_send_data                                 contiki-opo8001v2.a(nrf8001.o)
+                                                  contiki-opo8001v2.a(cloudcomm.o)
+nrf8001_send_data_ack                             contiki-opo8001v2.a(nrf8001.o)
+nrf8001_send_data_nack                            contiki-opo8001v2.a(nrf8001.o)
+nrf8001_set_app_latency                           contiki-opo8001v2.a(nrf8001.o)
+nrf8001_set_key                                   contiki-opo8001v2.a(nrf8001.o)
+nrf8001_set_local_data                            contiki-opo8001v2.a(nrf8001.o)
+nrf8001_set_tx_power                              contiki-opo8001v2.a(nrf8001.o)
+nrf8001_setup                                     contiki-opo8001v2.a(nrf8001.o)
+                                                  contiki-opo8001v2.a(cloudcomm.o)
+nrf8001_sleep                                     contiki-opo8001v2.a(nrf8001.o)
+                                                  contiki-opo8001v2.a(cloudcomm.o)
+nrf8001_test                                      contiki-opo8001v2.a(nrf8001.o)
+nrf8001_wakeup                                    contiki-opo8001v2.a(nrf8001.o)
+                                                  contiki-opo8001v2.a(cloudcomm.o)
+nrf8001_write_dynamic_data                        contiki-opo8001v2.a(nrf8001.o)
+nullmac_driver                                    contiki-opo8001v2.a(nullmac.o)
+                                                  contiki-opo8001v2.a(nullrdc.o)
+                                                  contiki-opo8001v2.a(netstack.o)
+                                                  contiki-opo8001v2.a(cc2538-rf-debug)
+                                                  contiki-opo8001v2.a(opo.o)
+                                                  contiki-opo8001v2.a(contiki-main.o)
+nullrdc_driver                                    contiki-opo8001v2.a(nullrdc.o)
+                                                  contiki-opo8001v2.a(nullmac.o)
+                                                  contiki-opo8001v2.a(netstack.o)
+                                                  contiki-opo8001v2.a(cc2538-rf.o)
+nvic_init                                         contiki-opo8001v2.a(nvic.o)
+                                                  contiki-opo8001v2.a(contiki-main.o)
+nvic_interrupt_disable                            contiki-opo8001v2.a(nvic.o)
+                                                  contiki-opo8001v2.a(vtimer-arch.o)
+                                                  contiki-opo8001v2.a(rtimer-arch.o)
+nvic_interrupt_en_restore                         contiki-opo8001v2.a(nvic.o)
+nvic_interrupt_en_save                            contiki-opo8001v2.a(nvic.o)
+nvic_interrupt_enable                             contiki-opo8001v2.a(nvic.o)
+                                                  contiki-opo8001v2.a(uart.o)
+                                                  contiki-opo8001v2.a(vtimer-arch.o)
+                                                  contiki-opo8001v2.a(udma.o)
+                                                  contiki-opo8001v2.a(cc2538-rf.o)
+                                                  contiki-opo8001v2.a(rtimer-arch.o)
+                                                  contiki-opo8001v2.a(opo.o)
+                                                  contiki-opo8001v2.a(nrf8001.o)
+                                                  opo8001rxtx.co
+nvic_interrupt_pend                               contiki-opo8001v2.a(nvic.o)
+nvic_interrupt_unpend                             contiki-opo8001v2.a(nvic.o)
+                                                  contiki-opo8001v2.a(vtimer-arch.o)
+                                                  contiki-opo8001v2.a(rtimer-arch.o)
+opo8001ccon                                       opo8001rxtx.co
+opo8001rx                                         opo8001rxtx.co
+opo8001rxtx                                       opo8001rxtx.co
+opo8001tx                                         opo8001rxtx.co
+opo_init                                          contiki-opo8001v2.a(opo.o)
+                                                  contiki-opo8001v2.a(contiki-main.o)
+opo_restart                                       contiki-opo8001v2.a(opo.o)
+opo_rx                                            contiki-opo8001v2.a(opo.o)
+opo_rx_callback                                   opo8001rxtx.co
+opo_tx                                            contiki-opo8001v2.a(opo.o)
+opo_tx_callback                                   opo8001rxtx.co
+packetbuf_addr                                    contiki-opo8001v2.a(packetbuf.o)
+                                                  contiki-opo8001v2.a(nullrdc.o)
+                                                  contiki-opo8001v2.a(framer-802154.o)
+packetbuf_addrs                                   contiki-opo8001v2.a(packetbuf.o)
+packetbuf_attr                                    contiki-opo8001v2.a(packetbuf.o)
+                                                  contiki-opo8001v2.a(framer-802154.o)
+packetbuf_attr_clear                              contiki-opo8001v2.a(packetbuf.o)
+packetbuf_attr_copyfrom                           contiki-opo8001v2.a(packetbuf.o)
+                                                  contiki-opo8001v2.a(queuebuf.o)
+packetbuf_attr_copyto                             contiki-opo8001v2.a(packetbuf.o)
+                                                  contiki-opo8001v2.a(queuebuf.o)
+packetbuf_attrs                                   contiki-opo8001v2.a(packetbuf.o)
+packetbuf_clear                                   contiki-opo8001v2.a(packetbuf.o)
+                                                  contiki-opo8001v2.a(queuebuf.o)
+                                                  contiki-opo8001v2.a(cc2538-rf.o)
+                                                  contiki-opo8001v2.a(cc2538-rf-debug)
+                                                  contiki-opo8001v2.a(opo.o)
+packetbuf_clear_hdr                               contiki-opo8001v2.a(packetbuf.o)
+packetbuf_compact                                 contiki-opo8001v2.a(packetbuf.o)
+packetbuf_copyfrom                                contiki-opo8001v2.a(packetbuf.o)
+                                                  contiki-opo8001v2.a(queuebuf.o)
+                                                  contiki-opo8001v2.a(cc2538-rf-debug)
+                                                  contiki-opo8001v2.a(opo.o)
+packetbuf_copyto                                  contiki-opo8001v2.a(packetbuf.o)
+                                                  contiki-opo8001v2.a(queuebuf.o)
+                                                  contiki-opo8001v2.a(opo.o)
+packetbuf_copyto_hdr                              contiki-opo8001v2.a(packetbuf.o)
+                                                  contiki-opo8001v2.a(queuebuf.o)
+packetbuf_datalen                                 contiki-opo8001v2.a(packetbuf.o)
+                                                  contiki-opo8001v2.a(queuebuf.o)
+                                                  contiki-opo8001v2.a(nullrdc.o)
+                                                  contiki-opo8001v2.a(framer-802154.o)
+                                                  contiki-opo8001v2.a(opo.o)
+packetbuf_dataptr                                 contiki-opo8001v2.a(packetbuf.o)
+                                                  contiki-opo8001v2.a(nullrdc.o)
+                                                  contiki-opo8001v2.a(framer-802154.o)
+                                                  contiki-opo8001v2.a(cc2538-rf.o)
+packetbuf_hdr_remove                              contiki-opo8001v2.a(packetbuf.o)
+packetbuf_hdralloc                                contiki-opo8001v2.a(packetbuf.o)
+                                                  contiki-opo8001v2.a(queuebuf.o)
+                                                  contiki-opo8001v2.a(framer-802154.o)
+packetbuf_hdrlen                                  contiki-opo8001v2.a(packetbuf.o)
+packetbuf_hdrptr                                  contiki-opo8001v2.a(packetbuf.o)
+                                                  contiki-opo8001v2.a(queuebuf.o)
+                                                  contiki-opo8001v2.a(nullrdc.o)
+                                                  contiki-opo8001v2.a(framer-802154.o)
+                                                  contiki-opo8001v2.a(cc2538-rf.o)
+packetbuf_hdrreduce                               contiki-opo8001v2.a(packetbuf.o)
+                                                  contiki-opo8001v2.a(framer-802154.o)
+packetbuf_is_reference                            contiki-opo8001v2.a(packetbuf.o)
+                                                  contiki-opo8001v2.a(queuebuf.o)
+packetbuf_reference                               contiki-opo8001v2.a(packetbuf.o)
+packetbuf_reference_ptr                           contiki-opo8001v2.a(packetbuf.o)
+                                                  contiki-opo8001v2.a(queuebuf.o)
+packetbuf_set_addr                                contiki-opo8001v2.a(packetbuf.o)
+                                                  contiki-opo8001v2.a(nullrdc.o)
+                                                  contiki-opo8001v2.a(framer-802154.o)
+                                                  contiki-opo8001v2.a(cc2538-rf.o)
+packetbuf_set_attr                                contiki-opo8001v2.a(packetbuf.o)
+                                                  contiki-opo8001v2.a(framer-802154.o)
+                                                  contiki-opo8001v2.a(cc2538-rf.o)
+packetbuf_set_datalen                             contiki-opo8001v2.a(packetbuf.o)
+                                                  contiki-opo8001v2.a(cc2538-rf.o)
+packetbuf_totlen                                  contiki-opo8001v2.a(packetbuf.o)
+                                                  contiki-opo8001v2.a(nullrdc.o)
+                                                  contiki-opo8001v2.a(cc2538-rf.o)
+perform_opo_tx                                    contiki-opo8001v2.a(opo.o)
+                                                  opo8001rxtx.co
+plug_debouncer                                    opo8001rxtx.co
+plugin_manager                                    opo8001rxtx.co
+printf                                            contiki-opo8001v2.a(dbg-printf.o)
+                                                  contiki-opo8001v2.a(gptimer.o)
+process_alloc_event                               contiki-opo8001v2.a(process.o)
+process_current                                   contiki-opo8001v2.a(process.o)
+                                                  contiki-opo8001v2.a(etimer.o)
+process_exit                                      contiki-opo8001v2.a(process.o)
+                                                  contiki-opo8001v2.a(autostart.o)
+process_init                                      contiki-opo8001v2.a(process.o)
+                                                  contiki-opo8001v2.a(contiki-main.o)
+process_is_running                                contiki-opo8001v2.a(process.o)
+process_list                                      contiki-opo8001v2.a(process.o)
+process_nevents                                   contiki-opo8001v2.a(process.o)
+                                                  contiki-opo8001v2.a(lpm.o)
+process_poll                                      contiki-opo8001v2.a(process.o)
+                                                  contiki-opo8001v2.a(etimer.o)
+                                                  contiki-opo8001v2.a(cc2538-rf.o)
+                                                  contiki-opo8001v2.a(cloudcomm.o)
+                                                  contiki-opo8001v2.a(opo.o)
+                                                  contiki-opo8001v2.a(nrf8001.o)
+                                                  opo8001rxtx.co
+process_post                                      contiki-opo8001v2.a(process.o)
+                                                  contiki-opo8001v2.a(etimer.o)
+process_post_synch                                contiki-opo8001v2.a(process.o)
+process_run                                       contiki-opo8001v2.a(process.o)
+                                                  contiki-opo8001v2.a(contiki-main.o)
+process_start                                     contiki-opo8001v2.a(process.o)
+                                                  contiki-opo8001v2.a(autostart.o)
+                                                  contiki-opo8001v2.a(cc2538-rf.o)
+                                                  contiki-opo8001v2.a(cloudcomm.o)
+                                                  contiki-opo8001v2.a(opo.o)
+                                                  contiki-opo8001v2.a(nrf8001.o)
+                                                  opo8001rxtx.co
+putchar                                           contiki-opo8001v2.a(dbg.o)
+puts                                              contiki-opo8001v2.a(dbg.o)
+queuebuf_addr                                     contiki-opo8001v2.a(queuebuf.o)
+queuebuf_attr                                     contiki-opo8001v2.a(queuebuf.o)
+queuebuf_datalen                                  contiki-opo8001v2.a(queuebuf.o)
+queuebuf_dataptr                                  contiki-opo8001v2.a(queuebuf.o)
+queuebuf_debug_print                              contiki-opo8001v2.a(queuebuf.o)
+queuebuf_free                                     contiki-opo8001v2.a(queuebuf.o)
+queuebuf_init                                     contiki-opo8001v2.a(queuebuf.o)
+queuebuf_new_from_packetbuf                       contiki-opo8001v2.a(queuebuf.o)
+queuebuf_to_packetbuf                             contiki-opo8001v2.a(queuebuf.o)
+                                                  contiki-opo8001v2.a(nullrdc.o)
+queuebuf_update_attr_from_packetbuf               contiki-opo8001v2.a(queuebuf.o)
+random_init                                       contiki-opo8001v2.a(random.o)
+                                                  contiki-opo8001v2.a(contiki-main.o)
+random_rand                                       contiki-opo8001v2.a(random.o)
+                                                  contiki-opo8001v2.a(framer-802154.o)
+                                                  opo8001rxtx.co
+register_opo_rx_callback                          contiki-opo8001v2.a(opo.o)
+                                                  opo8001rxtx.co
+register_opo_tx_callback                          contiki-opo8001v2.a(opo.o)
+                                                  opo8001rxtx.co
+reset_handler                                     obj_opo8001v2/startup-gcc.o
+rf_switch_init                                    contiki-opo8001v2.a(rf_switch.o)
+rtc_get_unixtime                                  contiki-opo8001v2.a(rtc.o)
+                                                  contiki-opo8001v2.a(opo.o)
+rtc_set_unixtime                                  contiki-opo8001v2.a(rtc.o)
+                                                  contiki-opo8001v2.a(cloudcomm.o)
+rtimer_arch_init                                  contiki-opo8001v2.a(rtimer-arch.o)
+                                                  contiki-opo8001v2.a(rtimer.o)
+rtimer_arch_next_trigger                          contiki-opo8001v2.a(rtimer-arch.o)
+rtimer_arch_now                                   contiki-opo8001v2.a(rtimer-arch.o)
+                                                  contiki-opo8001v2.a(cc2538-rf.o)
+                                                  contiki-opo8001v2.a(clock.o)
+rtimer_arch_schedule                              contiki-opo8001v2.a(rtimer-arch.o)
+                                                  contiki-opo8001v2.a(rtimer.o)
+rtimer_init                                       contiki-opo8001v2.a(rtimer.o)
+rtimer_isr                                        contiki-opo8001v2.a(rtimer-arch.o)
+rtimer_run_next                                   contiki-opo8001v2.a(rtimer.o)
+                                                  contiki-opo8001v2.a(rtimer-arch.o)
+rtimer_set                                        contiki-opo8001v2.a(rtimer.o)
+rv4162_binary_to_bcd                              contiki-opo8001v2.a(rv4162.o)
+rv4162_disable_clkout                             contiki-opo8001v2.a(rv4162.o)
+rv4162_enable_clkout                              contiki-opo8001v2.a(rv4162.o)
+                                                  contiki-opo8001v2.a(contiki-main.o)
+rv4162_get_unixtime                               contiki-opo8001v2.a(rv4162.o)
+                                                  contiki-opo8001v2.a(rtc.o)
+rv4162_init                                       contiki-opo8001v2.a(rv4162.o)
+rv4162_read_full_time                             contiki-opo8001v2.a(rv4162.o)
+rv4162_set_time                                   contiki-opo8001v2.a(rv4162.o)
+rv4162_set_unixtime                               contiki-opo8001v2.a(rv4162.o)
+                                                  contiki-opo8001v2.a(rtc.o)
+rv4162_slave_addr                                 contiki-opo8001v2.a(rv4162.o)
+rv4162_start_reg                                  contiki-opo8001v2.a(rv4162.o)
+schedule_vtimer                                   contiki-opo8001v2.a(vtimer.o)
+                                                  opo8001rxtx.co
+schedule_vtimer_ms                                contiki-opo8001v2.a(vtimer.o)
+                                                  contiki-opo8001v2.a(cloudcomm.o)
+                                                  contiki-opo8001v2.a(opo.o)
+                                                  opo8001rxtx.co
+send_rf_debug_msg                                 contiki-opo8001v2.a(cc2538-rf-debug)
+                                                  contiki-opo8001v2.a(vtimer.o)
+                                                  contiki-opo8001v2.a(cloudcomm.o)
+                                                  contiki-opo8001v2.a(opo.o)
+                                                  contiki-opo8001v2.a(sst25vf.o)
+                                                  contiki-opo8001v2.a(rv4162.o)
+                                                  contiki-opo8001v2.a(nrf8001.o)
+                                                  opo8001rxtx.co
+set_time_masks                                    contiki-opo8001v2.a(rv4162.o)
+setup_40kh_pwm                                    contiki-opo8001v2.a(opo.o)
+simple_network_driver                             contiki-opo8001v2.a(simple_network_)
+                                                  contiki-opo8001v2.a(nullmac.o)
+                                                  contiki-opo8001v2.a(netstack.o)
+simple_network_set_callback                       contiki-opo8001v2.a(simple_network_)
+                                                  contiki-opo8001v2.a(opo.o)
+simple_rf_txdone_handler                          contiki-opo8001v2.a(simple_rf_txdon)
+                                                  contiki-opo8001v2.a(cc2538-rf.o)
+                                                  contiki-opo8001v2.a(cc2538-rf-debug)
+                                                  contiki-opo8001v2.a(opo.o)
+simple_sfd_handler                                contiki-opo8001v2.a(simple_sfd_hand)
+                                                  contiki-opo8001v2.a(cc2538-rf.o)
+                                                  contiki-opo8001v2.a(opo.o)
+simplestore_clear_flash_chip                      contiki-opo8001v2.a(simplestore.o)
+                                                  contiki-opo8001v2.a(cloudcomm.o)
+simplestore_config                                contiki-opo8001v2.a(simplestore.o)
+                                                  contiki-opo8001v2.a(cloudcomm.o)
+simplestore_empty                                 contiki-opo8001v2.a(simplestore.o)
+simplestore_mark_last_page_done                   contiki-opo8001v2.a(simplestore.o)
+                                                  contiki-opo8001v2.a(cloudcomm.o)
+simplestore_pages_stored                          contiki-opo8001v2.a(simplestore.o)
+                                                  contiki-opo8001v2.a(cloudcomm.o)
+simplestore_read_next_page                        contiki-opo8001v2.a(simplestore.o)
+                                                  contiki-opo8001v2.a(cloudcomm.o)
+simplestore_roll_back_read                        contiki-opo8001v2.a(simplestore.o)
+simplestore_turn_off_flash                        contiki-opo8001v2.a(simplestore.o)
+simplestore_turn_on_flash                         contiki-opo8001v2.a(simplestore.o)
+simplestore_write_next_page                       contiki-opo8001v2.a(simplestore.o)
+                                                  contiki-opo8001v2.a(cloudcomm.o)
+snprintf                                          contiki-opo8001v2.a(dbg-snprintf.o)
+                                                  contiki-opo8001v2.a(cloudcomm.o)
+                                                  opo8001rxtx.co
+spi_cs_init                                       contiki-opo8001v2.a(spi.o)
+                                                  contiki-opo8001v2.a(sst25vf.o)
+                                                  contiki-opo8001v2.a(nrf8001.o)
+spi_disable                                       contiki-opo8001v2.a(spi.o)
+spi_enable                                        contiki-opo8001v2.a(spi.o)
+spi_flush_buffer                                  contiki-opo8001v2.a(spi.o)
+                                                  contiki-opo8001v2.a(sst25vf.o)
+                                                  contiki-opo8001v2.a(nrf8001.o)
+spi_init                                          contiki-opo8001v2.a(spi.o)
+                                                  contiki-opo8001v2.a(contiki-main.o)
+spi_read_byte                                     contiki-opo8001v2.a(spi.o)
+                                                  contiki-opo8001v2.a(sst25vf.o)
+                                                  contiki-opo8001v2.a(nrf8001.o)
+spi_set_mode                                      contiki-opo8001v2.a(spi.o)
+                                                  contiki-opo8001v2.a(sst25vf.o)
+                                                  contiki-opo8001v2.a(nrf8001.o)
+spi_wait_done                                     contiki-opo8001v2.a(spi.o)
+                                                  contiki-opo8001v2.a(nrf8001.o)
+spi_wait_rx_ready                                 contiki-opo8001v2.a(spi.o)
+spi_wait_tx_ready                                 contiki-opo8001v2.a(spi.o)
+spi_write_byte                                    contiki-opo8001v2.a(spi.o)
+                                                  contiki-opo8001v2.a(sst25vf.o)
+                                                  contiki-opo8001v2.a(nrf8001.o)
+sst25vf_32kb_erase                                contiki-opo8001v2.a(sst25vf.o)
+sst25vf_4kb_erase                                 contiki-opo8001v2.a(sst25vf.o)
+sst25vf_64kb_erase                                contiki-opo8001v2.a(sst25vf.o)
+sst25vf_chip_erase                                contiki-opo8001v2.a(sst25vf.o)
+                                                  contiki-opo8001v2.a(simplestore.o)
+sst25vf_default_callback                          contiki-opo8001v2.a(sst25vf.o)
+sst25vf_ewsr                                      contiki-opo8001v2.a(sst25vf.o)
+sst25vf_init                                      contiki-opo8001v2.a(sst25vf.o)
+                                                  contiki-opo8001v2.a(contiki-main.o)
+sst25vf_program                                   contiki-opo8001v2.a(sst25vf.o)
+                                                  contiki-opo8001v2.a(simplestore.o)
+sst25vf_program_sid                               contiki-opo8001v2.a(sst25vf.o)
+sst25vf_read_page                                 contiki-opo8001v2.a(sst25vf.o)
+                                                  contiki-opo8001v2.a(simplestore.o)
+sst25vf_read_sid                                  contiki-opo8001v2.a(sst25vf.o)
+sst25vf_read_status_register                      contiki-opo8001v2.a(sst25vf.o)
+sst25vf_turn_off                                  contiki-opo8001v2.a(sst25vf.o)
+                                                  contiki-opo8001v2.a(simplestore.o)
+sst25vf_turn_on                                   contiki-opo8001v2.a(sst25vf.o)
+                                                  contiki-opo8001v2.a(simplestore.o)
+sst25vf_write_disable                             contiki-opo8001v2.a(sst25vf.o)
+sst25vf_write_enable                              contiki-opo8001v2.a(sst25vf.o)
+sst25vf_write_status_register                     contiki-opo8001v2.a(sst25vf.o)
+strlen                                            /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7-m/libc.a(lib_a-strlen.o)
+                                                  contiki-opo8001v2.a(cc2538-rf-debug)
+sys_ctrl_init                                     contiki-opo8001v2.a(sys-ctrl.o)
+                                                  contiki-opo8001v2.a(contiki-main.o)
+sys_ctrl_reset                                    contiki-opo8001v2.a(sys-ctrl.o)
+timer_expired                                     contiki-opo8001v2.a(timer.o)
+                                                  contiki-opo8001v2.a(etimer.o)
+timer_remaining                                   contiki-opo8001v2.a(timer.o)
+timer_reset                                       contiki-opo8001v2.a(timer.o)
+                                                  contiki-opo8001v2.a(etimer.o)
+timer_restart                                     contiki-opo8001v2.a(timer.o)
+                                                  contiki-opo8001v2.a(etimer.o)
+timer_set                                         contiki-opo8001v2.a(timer.o)
+                                                  contiki-opo8001v2.a(etimer.o)
+tx_delay_callback                                 opo8001rxtx.co
+uart0_isr                                         contiki-opo8001v2.a(uart.o)
+uart1_isr                                         contiki-opo8001v2.a(uart.o)
+uart_init                                         contiki-opo8001v2.a(uart.o)
+uart_isr                                          contiki-opo8001v2.a(uart.o)
+uart_set_input                                    contiki-opo8001v2.a(uart.o)
+uart_write_byte                                   contiki-opo8001v2.a(uart.o)
+                                                  contiki-opo8001v2.a(dbg.o)
+udma_channel_disable                              contiki-opo8001v2.a(udma.o)
+udma_channel_enable                               contiki-opo8001v2.a(udma.o)
+                                                  contiki-opo8001v2.a(cc2538-rf.o)
+udma_channel_get_mode                             contiki-opo8001v2.a(udma.o)
+udma_channel_mask_clr                             contiki-opo8001v2.a(udma.o)
+udma_channel_mask_set                             contiki-opo8001v2.a(udma.o)
+                                                  contiki-opo8001v2.a(cc2538-rf.o)
+udma_channel_prio_set_default                     contiki-opo8001v2.a(udma.o)
+udma_channel_prio_set_high                        contiki-opo8001v2.a(udma.o)
+udma_channel_sw_request                           contiki-opo8001v2.a(udma.o)
+                                                  contiki-opo8001v2.a(cc2538-rf.o)
+udma_channel_use_alternate                        contiki-opo8001v2.a(udma.o)
+udma_channel_use_burst                            contiki-opo8001v2.a(udma.o)
+udma_channel_use_primary                          contiki-opo8001v2.a(udma.o)
+udma_channel_use_single                           contiki-opo8001v2.a(udma.o)
+udma_err_isr                                      contiki-opo8001v2.a(udma.o)
+                                                  obj_opo8001v2/startup-gcc.o
+udma_init                                         contiki-opo8001v2.a(udma.o)
+                                                  contiki-opo8001v2.a(contiki-main.o)
+udma_isr                                          contiki-opo8001v2.a(udma.o)
+                                                  obj_opo8001v2/startup-gcc.o
+udma_set_channel_assignment                       contiki-opo8001v2.a(udma.o)
+udma_set_channel_control_word                     contiki-opo8001v2.a(udma.o)
+                                                  contiki-opo8001v2.a(cc2538-rf.o)
+udma_set_channel_dst                              contiki-opo8001v2.a(udma.o)
+                                                  contiki-opo8001v2.a(cc2538-rf.o)
+udma_set_channel_src                              contiki-opo8001v2.a(udma.o)
+                                                  contiki-opo8001v2.a(cc2538-rf.o)
+ungate_gpt                                        contiki-opo8001v2.a(gptimer.o)
+                                                  contiki-opo8001v2.a(opo.o)
+ungate_gpt_pm0                                    contiki-opo8001v2.a(gptimer.o)
+ungate_gpt_running                                contiki-opo8001v2.a(gptimer.o)
+ungate_gpt_sleeping                               contiki-opo8001v2.a(gptimer.o)
+unplug_debouncer                                  opo8001rxtx.co
+vectors                                           obj_opo8001v2/startup-gcc.o
+vsnprintf                                         contiki-opo8001v2.a(dbg-snprintf.o)
+vtimer_arch_cancel                                contiki-opo8001v2.a(vtimer-arch.o)
+                                                  contiki-opo8001v2.a(vtimer.o)
+vtimer_arch_clear                                 contiki-opo8001v2.a(vtimer-arch.o)
+vtimer_arch_debug                                 contiki-opo8001v2.a(vtimer-arch.o)
+vtimer_arch_init                                  contiki-opo8001v2.a(vtimer-arch.o)
+                                                  contiki-opo8001v2.a(vtimer.o)
+vtimer_arch_next_trigger                          contiki-opo8001v2.a(vtimer-arch.o)
+                                                  contiki-opo8001v2.a(lpm.o)
+vtimer_arch_now                                   contiki-opo8001v2.a(vtimer-arch.o)
+                                                  contiki-opo8001v2.a(lpm.o)
+                                                  contiki-opo8001v2.a(cc2538-rf.o)
+                                                  contiki-opo8001v2.a(vtimer.o)
+                                                  contiki-opo8001v2.a(opo.o)
+vtimer_arch_schedule                              contiki-opo8001v2.a(vtimer-arch.o)
+                                                  contiki-opo8001v2.a(vtimer.o)
+vtimer_init                                       contiki-opo8001v2.a(vtimer.o)
+                                                  contiki-opo8001v2.a(contiki-main.o)
+vtimer_isr                                        contiki-opo8001v2.a(vtimer-arch.o)
+                                                  obj_opo8001v2/startup-gcc.o
+vtimer_now                                        contiki-opo8001v2.a(vtimer.o)
+vtimer_run_next                                   contiki-opo8001v2.a(vtimer.o)
+                                                  contiki-opo8001v2.a(vtimer-arch.o)
+wait_i2c_free                                     contiki-opo8001v2.a(i2c.o)
+                                                  contiki-opo8001v2.a(rv4162.o)
+watchdog_init                                     contiki-opo8001v2.a(watchdog.o)
+                                                  contiki-opo8001v2.a(contiki-main.o)
+watchdog_periodic                                 contiki-opo8001v2.a(watchdog.o)
+watchdog_reboot                                   contiki-opo8001v2.a(watchdog.o)
+watchdog_start                                    contiki-opo8001v2.a(watchdog.o)
+watchdog_stop                                     contiki-opo8001v2.a(watchdog.o)

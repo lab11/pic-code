@@ -1,0 +1,2413 @@
+Archive member included because of file (symbol)
+
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_thumb1_case_uqi.o)
+                              _build/host_interface.o (__gnu_thumb1_case_uqi)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_udivsi3.o)
+                              _build/system_stm32f0xx.o (__aeabi_uidiv)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_divsi3.o)
+                              _build/oneway_tag.o (__aeabi_idiv)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_dvmd_tls.o)
+                              /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_arm_cmpdf2.o)
+                              _build/delay.o (__aeabi_dcmplt)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_arm_cmpsf2.o)
+                              _build/delay.o (__aeabi_fcmplt)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_fixunsdfsi.o)
+                              _build/oneway_anchor.o (__aeabi_d2uiz)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_floatdidf.o)
+                              _build/oneway_tag.o (__aeabi_l2d)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_floatundidf.o)
+                              _build/oneway_tag.o (__aeabi_ul2d)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(divsf3.o)
+                              _build/delay.o (__aeabi_fdiv)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(eqsf2.o)
+                              /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_arm_cmpsf2.o) (__eqsf2)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(gesf2.o)
+                              /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_arm_cmpsf2.o) (__gesf2)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(lesf2.o)
+                              /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_arm_cmpsf2.o) (__lesf2)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(mulsf3.o)
+                              _build/delay.o (__aeabi_fmul)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(floatunsisf.o)
+                              _build/delay.o (__aeabi_ui2f)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(adddf3.o)
+                              _build/oneway_tag.o (__aeabi_dadd)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(divdf3.o)
+                              _build/oneway_anchor.o (__aeabi_ddiv)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(eqdf2.o)
+                              /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_arm_cmpdf2.o) (__eqdf2)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(gedf2.o)
+                              /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_arm_cmpdf2.o) (__gedf2)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(ledf2.o)
+                              /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_arm_cmpdf2.o) (__ledf2)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(muldf3.o)
+                              _build/dw1000.o (__aeabi_dmul)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(subdf3.o)
+                              _build/oneway_tag.o (__aeabi_dsub)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(fixdfsi.o)
+                              _build/dw1000.o (__aeabi_d2iz)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(floatsidf.o)
+                              _build/oneway_anchor.o (__aeabi_i2d)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(floatunsidf.o)
+                              _build/oneway_tag.o (__aeabi_ui2d)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_clzsi2.o)
+                              /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(divsf3.o) (__clzsi2)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-exit.o)
+                              /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o (exit)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+                              /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-exit.o) (_global_impure_ptr)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-init.o)
+                              /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o (__libc_init_array)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcmp.o)
+                              _build/oneway_anchor.o (memcmp)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+                              _build/calibration.o (memcpy)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+                              /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o (memset)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__call_atexit.o)
+                              /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-exit.o) (__call_exitprocs)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-atexit.o)
+                              /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__call_atexit.o) (atexit)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-fini.o)
+                              /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__call_atexit.o) (__libc_fini_array)
+/home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__atexit.o)
+                              /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-atexit.o) (__register_exitproc)
+
+Allocating common symbols
+Common symbol       size              file
+
+_anchor_ids_ranges  0x49              _build/oneway_common.o
+rxStructure         0x10              _build/host_interface.o
+CPAL_DMA_InitStructure
+                    0x2c              _build/stm32f0xx_i2c_cpal_hal.o
+_interrupt_reason   0x1               _build/host_interface.o
+_prng_state         0x10              _build/oneway_anchor.o
+I2C_InitStructure   0x1c              _build/stm32f0xx_i2c_cpal.o
+rxBuffer            0x80              _build/host_interface.o
+txBuffer            0x80              _build/host_interface.o
+_interrupt_buffer   0x4               _build/host_interface.o
+_interrupt_buffer_len
+                    0x1               _build/host_interface.o
+txStructure         0x10              _build/host_interface.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+ .text          0x00000000       0x60 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .data          0x00000000        0x4 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .bss           0x00000000       0x1c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .init_array    0x00000000        0x4 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .fini_array    0x00000000        0x4 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .eh_frame      0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .jcr           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .ARM.attributes
+                0x00000000       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+ .text          0x00000000       0x78 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.extab     0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.exidx     0x00000000        0x8 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.attributes
+                0x00000000       0x1b /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .text          0x00000000       0x14 _build/startup_stm32f031.os
+ .data          0x00000000        0x0 _build/startup_stm32f031.os
+ .bss           0x00000000        0x0 _build/startup_stm32f031.os
+ .text          0x00000000        0x0 _build/system_stm32f0xx.o
+ .data          0x00000000        0x0 _build/system_stm32f0xx.o
+ .bss           0x00000000        0x0 _build/system_stm32f0xx.o
+ .text.SystemCoreClockUpdate
+                0x00000000       0x68 _build/system_stm32f0xx.o
+ .data.AHBPrescTable
+                0x00000000       0x10 _build/system_stm32f0xx.o
+ .text          0x00000000        0x0 _build/calibration.o
+ .data          0x00000000        0x0 _build/calibration.o
+ .bss           0x00000000        0x0 _build/calibration.o
+ .text          0x00000000        0x0 _build/dw1000.o
+ .data          0x00000000        0x0 _build/dw1000.o
+ .bss           0x00000000        0x0 _build/dw1000.o
+ .text          0x00000000        0x0 _build/host_interface.o
+ .data          0x00000000        0x0 _build/host_interface.o
+ .bss           0x00000000        0x0 _build/host_interface.o
+ .text          0x00000000        0x0 _build/main.o
+ .data          0x00000000        0x0 _build/main.o
+ .bss           0x00000000        0x0 _build/main.o
+ .text          0x00000000        0x0 _build/oneway_anchor.o
+ .data          0x00000000        0x0 _build/oneway_anchor.o
+ .bss           0x00000000        0x0 _build/oneway_anchor.o
+ .text          0x00000000        0x0 _build/oneway_common.o
+ .data          0x00000000        0x0 _build/oneway_common.o
+ .bss           0x00000000        0x0 _build/oneway_common.o
+ .text          0x00000000        0x0 _build/oneway_tag.o
+ .data          0x00000000        0x0 _build/oneway_tag.o
+ .bss           0x00000000        0x0 _build/oneway_tag.o
+ .text          0x00000000        0x0 _build/led.o
+ .data          0x00000000        0x0 _build/led.o
+ .bss           0x00000000        0x0 _build/led.o
+ .text.led_init
+                0x00000000        0x6 _build/led.o
+ .text.led_on   0x00000000        0xa _build/led.o
+ .text.led_off  0x00000000        0xa _build/led.o
+ .text.led_toggle
+                0x00000000        0xa _build/led.o
+ .debug_info    0x00000000      0x3b3 _build/led.o
+ .debug_abbrev  0x00000000      0x14e _build/led.o
+ .debug_loc     0x00000000       0x21 _build/led.o
+ .debug_aranges
+                0x00000000       0x38 _build/led.o
+ .debug_ranges  0x00000000       0x28 _build/led.o
+ .debug_line    0x00000000      0x20c _build/led.o
+ .debug_str     0x00000000      0x3d7 _build/led.o
+ .comment       0x00000000       0x71 _build/led.o
+ .debug_frame   0x00000000       0x50 _build/led.o
+ .ARM.attributes
+                0x00000000       0x31 _build/led.o
+ .text          0x00000000        0x0 _build/timer.o
+ .data          0x00000000        0x0 _build/timer.o
+ .bss           0x00000000        0x0 _build/timer.o
+ .text          0x00000000        0x0 _build/prng.o
+ .data          0x00000000        0x0 _build/prng.o
+ .bss           0x00000000        0x0 _build/prng.o
+ .text          0x00000000        0x0 _build/delay.o
+ .data          0x00000000        0x0 _build/delay.o
+ .bss           0x00000000        0x0 _build/delay.o
+ .text          0x00000000        0x0 _build/stm32f0xx_gpio.o
+ .data          0x00000000        0x0 _build/stm32f0xx_gpio.o
+ .bss           0x00000000        0x0 _build/stm32f0xx_gpio.o
+ .text.GPIO_DeInit
+                0x00000000       0xa4 _build/stm32f0xx_gpio.o
+ .text.GPIO_StructInit
+                0x00000000       0x18 _build/stm32f0xx_gpio.o
+ .text.GPIO_PinLockConfig
+                0x00000000       0x24 _build/stm32f0xx_gpio.o
+ .text.GPIO_ReadInputData
+                0x00000000        0x6 _build/stm32f0xx_gpio.o
+ .text.GPIO_ReadOutputDataBit
+                0x00000000        0xc _build/stm32f0xx_gpio.o
+ .text.GPIO_ReadOutputData
+                0x00000000        0x6 _build/stm32f0xx_gpio.o
+ .text.GPIO_SetBits
+                0x00000000        0x4 _build/stm32f0xx_gpio.o
+ .text.GPIO_ResetBits
+                0x00000000        0x4 _build/stm32f0xx_gpio.o
+ .text.GPIO_Write
+                0x00000000        0x4 _build/stm32f0xx_gpio.o
+ .text          0x00000000        0x0 _build/stm32f0xx_rcc.o
+ .data          0x00000000        0x0 _build/stm32f0xx_rcc.o
+ .bss           0x00000000        0x0 _build/stm32f0xx_rcc.o
+ .text.RCC_DeInit
+                0x00000000       0x60 _build/stm32f0xx_rcc.o
+ .text.RCC_HSEConfig
+                0x00000000       0x10 _build/stm32f0xx_rcc.o
+ .text.RCC_AdjustHSICalibrationValue
+                0x00000000       0x14 _build/stm32f0xx_rcc.o
+ .text.RCC_HSICmd
+                0x00000000       0x18 _build/stm32f0xx_rcc.o
+ .text.RCC_AdjustHSI14CalibrationValue
+                0x00000000       0x14 _build/stm32f0xx_rcc.o
+ .text.RCC_HSI14Cmd
+                0x00000000       0x18 _build/stm32f0xx_rcc.o
+ .text.RCC_HSI14ADCRequestCmd
+                0x00000000       0x18 _build/stm32f0xx_rcc.o
+ .text.RCC_LSEConfig
+                0x00000000       0x20 _build/stm32f0xx_rcc.o
+ .text.RCC_LSEDriveConfig
+                0x00000000       0x18 _build/stm32f0xx_rcc.o
+ .text.RCC_LSICmd
+                0x00000000       0x18 _build/stm32f0xx_rcc.o
+ .text.RCC_PLLConfig
+                0x00000000       0x20 _build/stm32f0xx_rcc.o
+ .text.RCC_PLLCmd
+                0x00000000       0x24 _build/stm32f0xx_rcc.o
+ .text.RCC_HSI48Cmd
+                0x00000000       0x24 _build/stm32f0xx_rcc.o
+ .text.RCC_PREDIV1Config
+                0x00000000       0x14 _build/stm32f0xx_rcc.o
+ .text.RCC_ClockSecuritySystemCmd
+                0x00000000       0x24 _build/stm32f0xx_rcc.o
+ .text.RCC_MCOConfig
+                0x00000000       0x18 _build/stm32f0xx_rcc.o
+ .text.RCC_SYSCLKConfig
+                0x00000000       0x14 _build/stm32f0xx_rcc.o
+ .text.RCC_GetSYSCLKSource
+                0x00000000       0x10 _build/stm32f0xx_rcc.o
+ .text.RCC_HCLKConfig
+                0x00000000       0x14 _build/stm32f0xx_rcc.o
+ .text.RCC_PCLKConfig
+                0x00000000       0x18 _build/stm32f0xx_rcc.o
+ .text.RCC_ADCCLKConfig
+                0x00000000       0x30 _build/stm32f0xx_rcc.o
+ .text.RCC_CECCLKConfig
+                0x00000000       0x18 _build/stm32f0xx_rcc.o
+ .text.RCC_USARTCLKConfig
+                0x00000000       0x34 _build/stm32f0xx_rcc.o
+ .text.RCC_USBCLKConfig
+                0x00000000       0x18 _build/stm32f0xx_rcc.o
+ .text.RCC_GetClocksFreq
+                0x00000000      0x188 _build/stm32f0xx_rcc.o
+ .text.RCC_RTCCLKConfig
+                0x00000000       0x10 _build/stm32f0xx_rcc.o
+ .text.RCC_RTCCLKCmd
+                0x00000000       0x24 _build/stm32f0xx_rcc.o
+ .text.RCC_BackupResetCmd
+                0x00000000       0x24 _build/stm32f0xx_rcc.o
+ .text.RCC_AHBPeriphResetCmd
+                0x00000000       0x18 _build/stm32f0xx_rcc.o
+ .text.RCC_ITConfig
+                0x00000000       0x18 _build/stm32f0xx_rcc.o
+ .text.RCC_GetFlagStatus
+                0x00000000       0x2c _build/stm32f0xx_rcc.o
+ .text.RCC_WaitForHSEStartUp
+                0x00000000       0x2e _build/stm32f0xx_rcc.o
+ .text.RCC_ClearFlag
+                0x00000000       0x14 _build/stm32f0xx_rcc.o
+ .text.RCC_GetITStatus
+                0x00000000       0x14 _build/stm32f0xx_rcc.o
+ .text.RCC_ClearITPendingBit
+                0x00000000        0xc _build/stm32f0xx_rcc.o
+ .data.APBAHBPrescTable
+                0x00000000       0x10 _build/stm32f0xx_rcc.o
+ .text          0x00000000        0x0 _build/stm32f0xx_i2c.o
+ .data          0x00000000        0x0 _build/stm32f0xx_i2c.o
+ .bss           0x00000000        0x0 _build/stm32f0xx_i2c.o
+ .text.I2C_DeInit
+                0x00000000       0x34 _build/stm32f0xx_i2c.o
+ .text.I2C_StructInit
+                0x00000000       0x16 _build/stm32f0xx_i2c.o
+ .text.I2C_Cmd  0x00000000       0x12 _build/stm32f0xx_i2c.o
+ .text.I2C_SoftwareResetCmd
+                0x00000000       0x12 _build/stm32f0xx_i2c.o
+ .text.I2C_ITConfig
+                0x00000000       0x12 _build/stm32f0xx_i2c.o
+ .text.I2C_StretchClockCmd
+                0x00000000       0x1c _build/stm32f0xx_i2c.o
+ .text.I2C_StopModeCmd
+                0x00000000       0x1c _build/stm32f0xx_i2c.o
+ .text.I2C_DualAddressCmd
+                0x00000000       0x1c _build/stm32f0xx_i2c.o
+ .text.I2C_OwnAddress2Config
+                0x00000000       0x28 _build/stm32f0xx_i2c.o
+ .text.I2C_GeneralCallCmd
+                0x00000000       0x1c _build/stm32f0xx_i2c.o
+ .text.I2C_SlaveByteControlCmd
+                0x00000000       0x1c _build/stm32f0xx_i2c.o
+ .text.I2C_SlaveAddressConfig
+                0x00000000       0x10 _build/stm32f0xx_i2c.o
+ .text.I2C_10BitAddressingModeCmd
+                0x00000000       0x1c _build/stm32f0xx_i2c.o
+ .text.I2C_AutoEndCmd
+                0x00000000       0x1c _build/stm32f0xx_i2c.o
+ .text.I2C_ReloadCmd
+                0x00000000       0x1c _build/stm32f0xx_i2c.o
+ .text.I2C_NumberOfBytesConfig
+                0x00000000       0x14 _build/stm32f0xx_i2c.o
+ .text.I2C_MasterRequestConfig
+                0x00000000       0x1c _build/stm32f0xx_i2c.o
+ .text.I2C_GenerateSTART
+                0x00000000       0x1c _build/stm32f0xx_i2c.o
+ .text.I2C_GenerateSTOP
+                0x00000000       0x1c _build/stm32f0xx_i2c.o
+ .text.I2C_10BitAddressHeaderCmd
+                0x00000000       0x1c _build/stm32f0xx_i2c.o
+ .text.I2C_AcknowledgeConfig
+                0x00000000       0x1c _build/stm32f0xx_i2c.o
+ .text.I2C_GetAddressMatched
+                0x00000000        0xc _build/stm32f0xx_i2c.o
+ .text.I2C_GetTransferDirection
+                0x00000000        0xa _build/stm32f0xx_i2c.o
+ .text.I2C_TransferHandling
+                0x00000000       0x20 _build/stm32f0xx_i2c.o
+ .text.I2C_SMBusAlertCmd
+                0x00000000       0x1c _build/stm32f0xx_i2c.o
+ .text.I2C_ClockTimeoutCmd
+                0x00000000       0x1c _build/stm32f0xx_i2c.o
+ .text.I2C_ExtendedClockTimeoutCmd
+                0x00000000       0x16 _build/stm32f0xx_i2c.o
+ .text.I2C_IdleClockTimeoutCmd
+                0x00000000       0x1c _build/stm32f0xx_i2c.o
+ .text.I2C_TimeoutAConfig
+                0x00000000       0x10 _build/stm32f0xx_i2c.o
+ .text.I2C_TimeoutBConfig
+                0x00000000       0x1c _build/stm32f0xx_i2c.o
+ .text.I2C_CalculatePEC
+                0x00000000       0x1c _build/stm32f0xx_i2c.o
+ .text.I2C_PECRequestCmd
+                0x00000000       0x1c _build/stm32f0xx_i2c.o
+ .text.I2C_GetPEC
+                0x00000000        0x6 _build/stm32f0xx_i2c.o
+ .text.I2C_ReadRegister
+                0x00000000       0x16 _build/stm32f0xx_i2c.o
+ .text.I2C_SendData
+                0x00000000        0x4 _build/stm32f0xx_i2c.o
+ .text.I2C_ReceiveData
+                0x00000000        0x6 _build/stm32f0xx_i2c.o
+ .text.I2C_DMACmd
+                0x00000000       0x12 _build/stm32f0xx_i2c.o
+ .text.I2C_GetFlagStatus
+                0x00000000        0xc _build/stm32f0xx_i2c.o
+ .text.I2C_ClearFlag
+                0x00000000        0x4 _build/stm32f0xx_i2c.o
+ .text.I2C_GetITStatus
+                0x00000000       0x30 _build/stm32f0xx_i2c.o
+ .text.I2C_ClearITPendingBit
+                0x00000000        0x4 _build/stm32f0xx_i2c.o
+ .text          0x00000000        0x0 _build/stm32f0xx_dma.o
+ .data          0x00000000        0x0 _build/stm32f0xx_dma.o
+ .bss           0x00000000        0x0 _build/stm32f0xx_dma.o
+ .text.DMA_DeInit
+                0x00000000       0xf0 _build/stm32f0xx_dma.o
+ .text.DMA_StructInit
+                0x00000000       0x1a _build/stm32f0xx_dma.o
+ .text.DMA_RemapConfig
+                0x00000000       0x1e _build/stm32f0xx_dma.o
+ .text.DMA_SetCurrDataCounter
+                0x00000000        0x4 _build/stm32f0xx_dma.o
+ .text.DMA_GetCurrDataCounter
+                0x00000000        0x6 _build/stm32f0xx_dma.o
+ .text.DMA_ITConfig
+                0x00000000       0x12 _build/stm32f0xx_dma.o
+ .text.DMA_GetITStatus
+                0x00000000       0x20 _build/stm32f0xx_dma.o
+ .text.DMA_ClearITPendingBit
+                0x00000000       0x18 _build/stm32f0xx_dma.o
+ .text          0x00000000        0x0 _build/stm32f0xx_misc.o
+ .data          0x00000000        0x0 _build/stm32f0xx_misc.o
+ .bss           0x00000000        0x0 _build/stm32f0xx_misc.o
+ .text.NVIC_SystemLPConfig
+                0x00000000       0x18 _build/stm32f0xx_misc.o
+ .text.SysTick_CLKSourceConfig
+                0x00000000       0x1c _build/stm32f0xx_misc.o
+ .text          0x00000000        0x0 _build/stm32f0xx_tim.o
+ .data          0x00000000        0x0 _build/stm32f0xx_tim.o
+ .bss           0x00000000        0x0 _build/stm32f0xx_tim.o
+ .text.TI1_Config
+                0x00000000       0x2a _build/stm32f0xx_tim.o
+ .text.TI2_Config
+                0x00000000       0x38 _build/stm32f0xx_tim.o
+ .text.TIM_DeInit
+                0x00000000       0xe8 _build/stm32f0xx_tim.o
+ .text.TIM_TimeBaseStructInit
+                0x00000000       0x12 _build/stm32f0xx_tim.o
+ .text.TIM_PrescalerConfig
+                0x00000000        0x6 _build/stm32f0xx_tim.o
+ .text.TIM_CounterModeConfig
+                0x00000000        0xc _build/stm32f0xx_tim.o
+ .text.TIM_SetCounter
+                0x00000000        0x4 _build/stm32f0xx_tim.o
+ .text.TIM_SetAutoreload
+                0x00000000        0x4 _build/stm32f0xx_tim.o
+ .text.TIM_GetCounter
+                0x00000000        0x4 _build/stm32f0xx_tim.o
+ .text.TIM_GetPrescaler
+                0x00000000        0x6 _build/stm32f0xx_tim.o
+ .text.TIM_UpdateDisableConfig
+                0x00000000       0x12 _build/stm32f0xx_tim.o
+ .text.TIM_UpdateRequestConfig
+                0x00000000       0x12 _build/stm32f0xx_tim.o
+ .text.TIM_ARRPreloadConfig
+                0x00000000       0x12 _build/stm32f0xx_tim.o
+ .text.TIM_SelectOnePulseMode
+                0x00000000       0x10 _build/stm32f0xx_tim.o
+ .text.TIM_SetClockDivision
+                0x00000000       0x14 _build/stm32f0xx_tim.o
+ .text.TIM_BDTRConfig
+                0x00000000       0x20 _build/stm32f0xx_tim.o
+ .text.TIM_BDTRStructInit
+                0x00000000       0x12 _build/stm32f0xx_tim.o
+ .text.TIM_CtrlPWMOutputs
+                0x00000000       0x1a _build/stm32f0xx_tim.o
+ .text.TIM_OC1Init
+                0x00000000       0x7c _build/stm32f0xx_tim.o
+ .text.TIM_OC2Init
+                0x00000000       0x94 _build/stm32f0xx_tim.o
+ .text.TIM_OC3Init
+                0x00000000       0x84 _build/stm32f0xx_tim.o
+ .text.TIM_OC4Init
+                0x00000000       0x64 _build/stm32f0xx_tim.o
+ .text.TIM_OCStructInit
+                0x00000000       0x14 _build/stm32f0xx_tim.o
+ .text.TIM_SelectOCxM
+                0x00000000       0x4c _build/stm32f0xx_tim.o
+ .text.TIM_SetCompare1
+                0x00000000        0x4 _build/stm32f0xx_tim.o
+ .text.TIM_SetCompare2
+                0x00000000        0x4 _build/stm32f0xx_tim.o
+ .text.TIM_SetCompare3
+                0x00000000        0x4 _build/stm32f0xx_tim.o
+ .text.TIM_SetCompare4
+                0x00000000        0x4 _build/stm32f0xx_tim.o
+ .text.TIM_ForcedOC1Config
+                0x00000000        0xc _build/stm32f0xx_tim.o
+ .text.TIM_ForcedOC2Config
+                0x00000000       0x14 _build/stm32f0xx_tim.o
+ .text.TIM_ForcedOC3Config
+                0x00000000        0xc _build/stm32f0xx_tim.o
+ .text.TIM_ForcedOC4Config
+                0x00000000       0x14 _build/stm32f0xx_tim.o
+ .text.TIM_CCPreloadControl
+                0x00000000       0x12 _build/stm32f0xx_tim.o
+ .text.TIM_OC1PreloadConfig
+                0x00000000        0xc _build/stm32f0xx_tim.o
+ .text.TIM_OC2PreloadConfig
+                0x00000000       0x14 _build/stm32f0xx_tim.o
+ .text.TIM_OC3PreloadConfig
+                0x00000000        0xc _build/stm32f0xx_tim.o
+ .text.TIM_OC4PreloadConfig
+                0x00000000       0x14 _build/stm32f0xx_tim.o
+ .text.TIM_OC1FastConfig
+                0x00000000        0xc _build/stm32f0xx_tim.o
+ .text.TIM_OC2FastConfig
+                0x00000000       0x14 _build/stm32f0xx_tim.o
+ .text.TIM_OC3FastConfig
+                0x00000000        0xc _build/stm32f0xx_tim.o
+ .text.TIM_OC4FastConfig
+                0x00000000       0x14 _build/stm32f0xx_tim.o
+ .text.TIM_ClearOC1Ref
+                0x00000000        0xc _build/stm32f0xx_tim.o
+ .text.TIM_ClearOC2Ref
+                0x00000000       0x10 _build/stm32f0xx_tim.o
+ .text.TIM_ClearOC3Ref
+                0x00000000        0xc _build/stm32f0xx_tim.o
+ .text.TIM_ClearOC4Ref
+                0x00000000       0x10 _build/stm32f0xx_tim.o
+ .text.TIM_OC1PolarityConfig
+                0x00000000        0xc _build/stm32f0xx_tim.o
+ .text.TIM_OC1NPolarityConfig
+                0x00000000        0xc _build/stm32f0xx_tim.o
+ .text.TIM_OC2PolarityConfig
+                0x00000000       0x10 _build/stm32f0xx_tim.o
+ .text.TIM_OC2NPolarityConfig
+                0x00000000       0x10 _build/stm32f0xx_tim.o
+ .text.TIM_OC3PolarityConfig
+                0x00000000       0x14 _build/stm32f0xx_tim.o
+ .text.TIM_OC3NPolarityConfig
+                0x00000000       0x14 _build/stm32f0xx_tim.o
+ .text.TIM_OC4PolarityConfig
+                0x00000000       0x14 _build/stm32f0xx_tim.o
+ .text.TIM_SelectOCREFClear
+                0x00000000       0x10 _build/stm32f0xx_tim.o
+ .text.TIM_CCxCmd
+                0x00000000       0x18 _build/stm32f0xx_tim.o
+ .text.TIM_CCxNCmd
+                0x00000000       0x18 _build/stm32f0xx_tim.o
+ .text.TIM_SelectCOM
+                0x00000000       0x12 _build/stm32f0xx_tim.o
+ .text.TIM_ICStructInit
+                0x00000000       0x10 _build/stm32f0xx_tim.o
+ .text.TIM_GetCapture1
+                0x00000000        0x4 _build/stm32f0xx_tim.o
+ .text.TIM_GetCapture2
+                0x00000000        0x4 _build/stm32f0xx_tim.o
+ .text.TIM_GetCapture3
+                0x00000000        0x4 _build/stm32f0xx_tim.o
+ .text.TIM_GetCapture4
+                0x00000000        0x4 _build/stm32f0xx_tim.o
+ .text.TIM_SetIC1Prescaler
+                0x00000000       0x10 _build/stm32f0xx_tim.o
+ .text.TIM_SetIC2Prescaler
+                0x00000000       0x18 _build/stm32f0xx_tim.o
+ .text.TIM_PWMIConfig
+                0x00000000       0x68 _build/stm32f0xx_tim.o
+ .text.TIM_SetIC3Prescaler
+                0x00000000       0x10 _build/stm32f0xx_tim.o
+ .text.TIM_SetIC4Prescaler
+                0x00000000       0x18 _build/stm32f0xx_tim.o
+ .text.TIM_ICInit
+                0x00000000       0xbc _build/stm32f0xx_tim.o
+ .text.TIM_GenerateEvent
+                0x00000000        0x4 _build/stm32f0xx_tim.o
+ .text.TIM_GetFlagStatus
+                0x00000000        0xc _build/stm32f0xx_tim.o
+ .text.TIM_ClearFlag
+                0x00000000        0x8 _build/stm32f0xx_tim.o
+ .text.TIM_DMAConfig
+                0x00000000        0x8 _build/stm32f0xx_tim.o
+ .text.TIM_DMACmd
+                0x00000000       0x12 _build/stm32f0xx_tim.o
+ .text.TIM_SelectCCDMA
+                0x00000000       0x12 _build/stm32f0xx_tim.o
+ .text.TIM_InternalClockConfig
+                0x00000000        0xa _build/stm32f0xx_tim.o
+ .text.TIM_ITRxExternalClockConfig
+                0x00000000       0x14 _build/stm32f0xx_tim.o
+ .text.TIM_TIxExternalClockConfig
+                0x00000000       0x2c _build/stm32f0xx_tim.o
+ .text.TIM_SelectInputTrigger
+                0x00000000        0xc _build/stm32f0xx_tim.o
+ .text.TIM_SelectOutputTrigger
+                0x00000000       0x10 _build/stm32f0xx_tim.o
+ .text.TIM_SelectSlaveMode
+                0x00000000       0x10 _build/stm32f0xx_tim.o
+ .text.TIM_SelectMasterSlaveMode
+                0x00000000       0x10 _build/stm32f0xx_tim.o
+ .text.TIM_ETRConfig
+                0x00000000       0x14 _build/stm32f0xx_tim.o
+ .text.TIM_ETRClockMode1Config
+                0x00000000       0x14 _build/stm32f0xx_tim.o
+ .text.TIM_ETRClockMode2Config
+                0x00000000       0x14 _build/stm32f0xx_tim.o
+ .text.TIM_EncoderInterfaceConfig
+                0x00000000       0x30 _build/stm32f0xx_tim.o
+ .text.TIM_SelectHallSensor
+                0x00000000       0x12 _build/stm32f0xx_tim.o
+ .text.TIM_RemapConfig
+                0x00000000        0x6 _build/stm32f0xx_tim.o
+ .text          0x00000000        0x0 _build/stm32f0xx_spi.o
+ .data          0x00000000        0x0 _build/stm32f0xx_spi.o
+ .bss           0x00000000        0x0 _build/stm32f0xx_spi.o
+ .text.SPI_StructInit
+                0x00000000       0x1c _build/stm32f0xx_spi.o
+ .text.I2S_StructInit
+                0x00000000       0x12 _build/stm32f0xx_spi.o
+ .text.I2S_Init
+                0x00000000       0x9c _build/stm32f0xx_spi.o
+ .text.SPI_TIModeCmd
+                0x00000000       0x12 _build/stm32f0xx_spi.o
+ .text.I2S_Cmd  0x00000000       0x1c _build/stm32f0xx_spi.o
+ .text.SPI_DataSizeConfig
+                0x00000000       0x10 _build/stm32f0xx_spi.o
+ .text.SPI_BiDirectionalLineConfig
+                0x00000000       0x20 _build/stm32f0xx_spi.o
+ .text.SPI_NSSInternalSoftwareConfig
+                0x00000000       0x24 _build/stm32f0xx_spi.o
+ .text.SPI_NSSPulseModeCmd
+                0x00000000       0x12 _build/stm32f0xx_spi.o
+ .text.SPI_SendData8
+                0x00000000        0x4 _build/stm32f0xx_spi.o
+ .text.SPI_I2S_SendData16
+                0x00000000        0x4 _build/stm32f0xx_spi.o
+ .text.SPI_ReceiveData8
+                0x00000000        0x6 _build/stm32f0xx_spi.o
+ .text.SPI_I2S_ReceiveData16
+                0x00000000        0x6 _build/stm32f0xx_spi.o
+ .text.SPI_CRCLengthConfig
+                0x00000000       0x14 _build/stm32f0xx_spi.o
+ .text.SPI_CalculateCRC
+                0x00000000       0x1c _build/stm32f0xx_spi.o
+ .text.SPI_TransmitCRC
+                0x00000000        0xc _build/stm32f0xx_spi.o
+ .text.SPI_GetCRC
+                0x00000000        0xe _build/stm32f0xx_spi.o
+ .text.SPI_GetCRCPolynomial
+                0x00000000        0x6 _build/stm32f0xx_spi.o
+ .text.SPI_LastDMATransferCmd
+                0x00000000       0x14 _build/stm32f0xx_spi.o
+ .text.SPI_I2S_ITConfig
+                0x00000000       0x1a _build/stm32f0xx_spi.o
+ .text.SPI_GetTransmissionFIFOStatus
+                0x00000000        0xa _build/stm32f0xx_spi.o
+ .text.SPI_GetReceptionFIFOStatus
+                0x00000000        0xa _build/stm32f0xx_spi.o
+ .text.SPI_I2S_ClearFlag
+                0x00000000        0x8 _build/stm32f0xx_spi.o
+ .text.SPI_I2S_GetITStatus
+                0x00000000       0x2a _build/stm32f0xx_spi.o
+ .text          0x00000000        0x0 _build/stm32f0xx_pwr.o
+ .data          0x00000000        0x0 _build/stm32f0xx_pwr.o
+ .bss           0x00000000        0x0 _build/stm32f0xx_pwr.o
+ .text.PWR_DeInit
+                0x00000000       0x18 _build/stm32f0xx_pwr.o
+ .text.PWR_BackupAccessCmd
+                0x00000000       0x24 _build/stm32f0xx_pwr.o
+ .text.PWR_PVDLevelConfig
+                0x00000000       0x14 _build/stm32f0xx_pwr.o
+ .text.PWR_PVDCmd
+                0x00000000       0x18 _build/stm32f0xx_pwr.o
+ .text.PWR_WakeUpPinCmd
+                0x00000000       0x18 _build/stm32f0xx_pwr.o
+ .text.PWR_EnterSTOPMode
+                0x00000000       0x40 _build/stm32f0xx_pwr.o
+ .text.PWR_EnterSTANDBYMode
+                0x00000000       0x20 _build/stm32f0xx_pwr.o
+ .text.PWR_GetFlagStatus
+                0x00000000       0x14 _build/stm32f0xx_pwr.o
+ .text.PWR_ClearFlag
+                0x00000000       0x10 _build/stm32f0xx_pwr.o
+ .text          0x00000000        0x0 _build/stm32f0xx_exti.o
+ .data          0x00000000        0x0 _build/stm32f0xx_exti.o
+ .bss           0x00000000        0x0 _build/stm32f0xx_exti.o
+ .text.EXTI_DeInit
+                0x00000000       0x20 _build/stm32f0xx_exti.o
+ .text.EXTI_StructInit
+                0x00000000        0xe _build/stm32f0xx_exti.o
+ .text.EXTI_GenerateSWInterrupt
+                0x00000000       0x10 _build/stm32f0xx_exti.o
+ .text.EXTI_GetFlagStatus
+                0x00000000       0x14 _build/stm32f0xx_exti.o
+ .text.EXTI_ClearFlag
+                0x00000000        0xc _build/stm32f0xx_exti.o
+ .text          0x00000000        0x0 _build/stm32f0xx_syscfg.o
+ .data          0x00000000        0x0 _build/stm32f0xx_syscfg.o
+ .bss           0x00000000        0x0 _build/stm32f0xx_syscfg.o
+ .text.SYSCFG_DeInit
+                0x00000000       0x24 _build/stm32f0xx_syscfg.o
+ .text.SYSCFG_MemoryRemapConfig
+                0x00000000       0x14 _build/stm32f0xx_syscfg.o
+ .text.SYSCFG_DMAChannelRemapConfig
+                0x00000000       0x18 _build/stm32f0xx_syscfg.o
+ .text.SYSCFG_I2CFastModePlusConfig
+                0x00000000       0x18 _build/stm32f0xx_syscfg.o
+ .text.SYSCFG_IRDAEnvSelection
+                0x00000000       0x18 _build/stm32f0xx_syscfg.o
+ .text.SYSCFG_GetPendingIT
+                0x00000000       0x18 _build/stm32f0xx_syscfg.o
+ .text.SYSCFG_BreakConfig
+                0x00000000       0x10 _build/stm32f0xx_syscfg.o
+ .text.SYSCFG_GetFlagStatus
+                0x00000000       0x10 _build/stm32f0xx_syscfg.o
+ .text.SYSCFG_ClearFlag
+                0x00000000       0x10 _build/stm32f0xx_syscfg.o
+ .text          0x00000000        0x0 _build/stm32f0xx_i2c_cpal.o
+ .data          0x00000000        0x0 _build/stm32f0xx_i2c_cpal.o
+ .bss           0x00000000        0x0 _build/stm32f0xx_i2c_cpal.o
+ .text.CPAL_I2C_DeInit
+                0x00000000       0x4c _build/stm32f0xx_i2c_cpal.o
+ .text.CPAL_I2C_IsDeviceReady
+                0x00000000       0x94 _build/stm32f0xx_i2c_cpal.o
+ .bss.Num_Data  0x00000000        0x4 _build/stm32f0xx_i2c_cpal.o
+ .text          0x00000000        0x0 _build/stm32f0xx_i2c_cpal_hal.o
+ .data          0x00000000        0x0 _build/stm32f0xx_i2c_cpal_hal.o
+ .bss           0x00000000        0x0 _build/stm32f0xx_i2c_cpal_hal.o
+ .text.CPAL_I2C_HAL_ITDeInit
+                0x00000000       0x1c _build/stm32f0xx_i2c_cpal_hal.o
+ .rodata.CPAL_I2C_RXDR
+                0x00000000        0x8 _build/stm32f0xx_i2c_cpal_hal.o
+ .rodata.CPAL_I2C_TXDR
+                0x00000000        0x8 _build/stm32f0xx_i2c_cpal_hal.o
+ .rodata.CPAL_I2C_DMA_TX_HT_FLAG
+                0x00000000        0x8 _build/stm32f0xx_i2c_cpal_hal.o
+ .rodata.CPAL_I2C_DMA_RX_TC_FLAG
+                0x00000000        0x8 _build/stm32f0xx_i2c_cpal_hal.o
+ .rodata.CPAL_I2C_DMA_RX_TE_FLAG
+                0x00000000        0x8 _build/stm32f0xx_i2c_cpal_hal.o
+ .rodata.I2C_IT_DMA_PRIO
+                0x00000000        0x2 _build/stm32f0xx_i2c_cpal_hal.o
+ .rodata.CPAL_I2C_DMA_TX_TE_FLAG
+                0x00000000        0x8 _build/stm32f0xx_i2c_cpal_hal.o
+ .rodata.CPAL_I2C_DMA_TX_TC_FLAG
+                0x00000000        0x8 _build/stm32f0xx_i2c_cpal_hal.o
+ .data.CPAL_I2C_DMA_TX_Channel
+                0x00000000        0x8 _build/stm32f0xx_i2c_cpal_hal.o
+ .rodata.CPAL_I2C_DMA_CLK
+                0x00000000        0x8 _build/stm32f0xx_i2c_cpal_hal.o
+ .data.CPAL_I2C_DMA_RX_Channel
+                0x00000000        0x8 _build/stm32f0xx_i2c_cpal_hal.o
+ .rodata.CPAL_I2C_DMA_RX_HT_FLAG
+                0x00000000        0x8 _build/stm32f0xx_i2c_cpal_hal.o
+ .rodata.CPAL_I2C_DMA_IRQn
+                0x00000000        0x2 _build/stm32f0xx_i2c_cpal_hal.o
+ .data.CPAL_I2C_DMA
+                0x00000000        0x8 _build/stm32f0xx_i2c_cpal_hal.o
+ COMMON         0x00000000       0x2c _build/stm32f0xx_i2c_cpal_hal.o
+ .text          0x00000000        0x0 _build/deca_device.o
+ .data          0x00000000        0x0 _build/deca_device.o
+ .bss           0x00000000        0x0 _build/deca_device.o
+ .text.dwt_getldotune
+                0x00000000        0xc _build/deca_device.o
+ .text.dwt_getpartid
+                0x00000000        0xc _build/deca_device.o
+ .text.dwt_getlotid
+                0x00000000        0xc _build/deca_device.o
+ .text.dwt_getotptxpower
+                0x00000000       0x1c _build/deca_device.o
+ .text.dwt_readantennadelay
+                0x00000000       0x14 _build/deca_device.o
+ .text.dwt_connect_LNA
+                0x00000000       0x26 _build/deca_device.o
+ .text.dwt_readtxtimestamp
+                0x00000000       0x10 _build/deca_device.o
+ .text.dwt_readsystime
+                0x00000000       0x10 _build/deca_device.o
+ .text.dwt_readtxtimestamphi32
+                0x00000000        0xc _build/deca_device.o
+ .text.dwt_readtxtimestamplo32
+                0x00000000        0xc _build/deca_device.o
+ .text.dwt_readrxtimestamphi32
+                0x00000000        0xc _build/deca_device.o
+ .text.dwt_readrxtimestamplo32
+                0x00000000        0xc _build/deca_device.o
+ .text.dwt_readdignostics
+                0x00000000       0x68 _build/deca_device.o
+ .text.dwt_setchannel
+                0x00000000       0xb8 _build/deca_device.o
+ .text.dwt_setaddress16
+                0x00000000       0x1a _build/deca_device.o
+ .text.dwt_geteui
+                0x00000000       0x10 _build/deca_device.o
+ .text._dwt_otpsetmrregs
+                0x00000000      0x204 _build/deca_device.o
+ .text._dwt_otpprogword32
+                0x00000000       0x98 _build/deca_device.o
+ .text._dwt_aonconfigupload
+                0x00000000       0x2a _build/deca_device.o
+ .text.dwt_configuresleepcnt
+                0x00000000       0x78 _build/deca_device.o
+ .text.dwt_calibratesleepcnt
+                0x00000000       0xee _build/deca_device.o
+ .text.dwt_spicswakeup
+                0x00000000       0x40 _build/deca_device.o
+ .text.dwt_setleds
+                0x00000000       0xae _build/deca_device.o
+ .text.dwt_readaccdata
+                0x00000000       0x22 _build/deca_device.o
+ .text.dwt_otpwriteandverify
+                0x00000000       0x64 _build/deca_device.o
+ .text.dwt_loadopsettabfromotp
+                0x00000000       0x3e _build/deca_device.o
+ .text._dwt_disablesequencing
+                0x00000000       0x20 _build/deca_device.o
+ .text.dwt_checkoverrun
+                0x00000000       0x10 _build/deca_device.o
+ .text.dwt_setrxmode
+                0x00000000       0x3c _build/deca_device.o
+ .text.dwt_setpreambledetecttimeout
+                0x00000000       0x1a _build/deca_device.o
+ .text.dwt_configeventcounters
+                0x00000000       0x36 _build/deca_device.o
+ .text.dwt_readeventcounters
+                0x00000000       0x7e _build/deca_device.o
+ .text.dwt_softreset
+                0x00000000       0x80 _build/deca_device.o
+ .text.dwt_configcwmode
+                0x00000000       0xb0 _build/deca_device.o
+ .text.dwt_configcontinuousframemode
+                0x00000000       0x54 _build/deca_device.o
+ .text.dwt_readtempvbat
+                0x00000000       0xa6 _build/deca_device.o
+ .text.dwt_readwakeuptemp
+                0x00000000       0x1a _build/deca_device.o
+ .text.dwt_readwakeupvbat
+                0x00000000       0x1a _build/deca_device.o
+ .rodata.CSWTCH.63
+                0x00000000       0x14 _build/deca_device.o
+ .rodata.CSWTCH.64
+                0x00000000       0x14 _build/deca_device.o
+ .rodata.CSWTCH.65
+                0x00000000       0x14 _build/deca_device.o
+ .text          0x00000000        0x0 _build/deca_params_init.o
+ .data          0x00000000        0x0 _build/deca_params_init.o
+ .bss           0x00000000        0x0 _build/deca_params_init.o
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_thumb1_case_uqi.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_thumb1_case_uqi.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_divsi3.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_arm_cmpdf2.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_arm_cmpdf2.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_arm_cmpsf2.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_arm_cmpsf2.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_fixunsdfsi.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_fixunsdfsi.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_floatdidf.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_floatdidf.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_floatundidf.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_floatundidf.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(divsf3.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(divsf3.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(eqsf2.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(eqsf2.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(gesf2.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(gesf2.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(lesf2.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(lesf2.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(mulsf3.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(mulsf3.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(floatunsisf.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(floatunsisf.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(adddf3.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(adddf3.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(divdf3.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(divdf3.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(eqdf2.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(eqdf2.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(gedf2.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(gedf2.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(ledf2.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(ledf2.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(muldf3.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(muldf3.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(subdf3.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(subdf3.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(fixdfsi.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(fixdfsi.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(floatsidf.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(floatsidf.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(floatunsidf.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(floatunsidf.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_clzsi2.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_clzsi2.o)
+ .text          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-exit.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-exit.o)
+ .text.exit     0x00000000       0x20 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-exit.o)
+ .debug_frame   0x00000000       0x28 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000000       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-exit.o)
+ .text          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+ .data.impure_data
+                0x00000000      0x428 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+ .rodata.str1.4
+                0x00000000        0x4 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x00000000        0x4 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000000       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-impure.o)
+ .text          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-init.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-init.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-init.o)
+ .text.__libc_init_array
+                0x00000000       0x48 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-init.o)
+ .debug_frame   0x00000000       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000000       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-init.o)
+ .text          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcmp.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcmp.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcmp.o)
+ .text          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+ .text          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+ .text          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__call_atexit.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__call_atexit.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__call_atexit.o)
+ .text.startup.register_fini
+                0x00000000       0x18 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__call_atexit.o)
+ .init_array.00000
+                0x00000000        0x4 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x00000000      0x108 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00000000       0x54 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x00000000       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__call_atexit.o)
+ .text          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-atexit.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-atexit.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-atexit.o)
+ .text.atexit   0x00000000       0x10 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-atexit.o)
+ .debug_frame   0x00000000       0x28 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x00000000       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-atexit.o)
+ .text          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-fini.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-fini.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-fini.o)
+ .text.__libc_fini_array
+                0x00000000       0x34 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-fini.o)
+ .debug_frame   0x00000000       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-fini.o)
+ .ARM.attributes
+                0x00000000       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-fini.o)
+ .text          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__atexit.o)
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__atexit.o)
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__atexit.o)
+ .text.__register_exitproc
+                0x00000000       0xd4 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__atexit.o)
+ .debug_frame   0x00000000       0x3c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x00000000       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-__atexit.o)
+ .text          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+ .eh_frame      0x00000000        0x4 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+ .jcr           0x00000000        0x4 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+ .ARM.attributes
+                0x00000000       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+ .text          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+ .data          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+ .bss           0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00008000         xr
+RAM              0x20000000         0x00001000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+LOAD /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+LOAD /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+LOAD /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libm.a
+LOAD _build/startup_stm32f031.os
+LOAD _build/system_stm32f0xx.o
+LOAD _build/calibration.o
+LOAD _build/dw1000.o
+LOAD _build/host_interface.o
+LOAD _build/main.o
+LOAD _build/oneway_anchor.o
+LOAD _build/oneway_common.o
+LOAD _build/oneway_tag.o
+LOAD _build/led.o
+LOAD _build/timer.o
+LOAD _build/prng.o
+LOAD _build/delay.o
+LOAD _build/stm32f0xx_gpio.o
+LOAD _build/stm32f0xx_rcc.o
+LOAD _build/stm32f0xx_i2c.o
+LOAD _build/stm32f0xx_dma.o
+LOAD _build/stm32f0xx_misc.o
+LOAD _build/stm32f0xx_tim.o
+LOAD _build/stm32f0xx_spi.o
+LOAD _build/stm32f0xx_pwr.o
+LOAD _build/stm32f0xx_exti.o
+LOAD _build/stm32f0xx_syscfg.o
+LOAD _build/stm32f0xx_i2c_cpal.o
+LOAD _build/stm32f0xx_i2c_cpal_hal.o
+LOAD _build/deca_device.o
+LOAD _build/deca_params_init.o
+START GROUP
+LOAD /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a
+LOAD /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a
+END GROUP
+LOAD /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtend.o
+LOAD /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+                0x20001000                _estack = 0x20001000
+
+.isr_vector     0x08000000       0xc4
+                0x08000000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000       0xc4 _build/startup_stm32f031.os
+                0x08000000                g_pfnVectors
+                0x080000c4                . = ALIGN (0x4)
+
+.text           0x080000c4     0x6828
+                0x080000c4                . = ALIGN (0x4)
+ *(.text)
+ .text          0x080000c4       0x14 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_thumb1_case_uqi.o)
+                0x080000c4                __gnu_thumb1_case_uqi
+ .text          0x080000d8      0x120 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_udivsi3.o)
+                0x080000d8                __udivsi3
+                0x080000d8                __aeabi_uidiv
+                0x080001e4                __aeabi_uidivmod
+ .text          0x080001f8      0x1e0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_divsi3.o)
+                0x080001f8                __aeabi_idiv
+                0x080001f8                __divsi3
+                0x080003c4                __aeabi_idivmod
+ .text          0x080003d8        0x4 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_dvmd_tls.o)
+                0x080003d8                __aeabi_ldiv0
+                0x080003d8                __aeabi_idiv0
+ .text          0x080003dc       0x7c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_arm_cmpdf2.o)
+                0x080003dc                __aeabi_cdrcmple
+                0x080003ec                __aeabi_cdcmple
+                0x080003ec                __aeabi_cdcmpeq
+                0x080003fc                __aeabi_dcmpeq
+                0x08000408                __aeabi_dcmplt
+                0x0800041c                __aeabi_dcmple
+                0x08000430                __aeabi_dcmpgt
+                0x08000444                __aeabi_dcmpge
+ .text          0x08000458       0x74 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_arm_cmpsf2.o)
+                0x08000458                __aeabi_cfrcmple
+                0x08000460                __aeabi_cfcmple
+                0x08000460                __aeabi_cfcmpeq
+                0x08000470                __aeabi_fcmpeq
+                0x0800047c                __aeabi_fcmplt
+                0x08000490                __aeabi_fcmple
+                0x080004a4                __aeabi_fcmpgt
+                0x080004b8                __aeabi_fcmpge
+ .text          0x080004cc       0x3c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_fixunsdfsi.o)
+                0x080004cc                __fixunsdfsi
+                0x080004cc                __aeabi_d2uiz
+ .text          0x08000508       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_floatdidf.o)
+                0x08000508                __floatdidf
+                0x08000508                __aeabi_l2d
+ .text          0x08000534       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_floatundidf.o)
+                0x08000534                __aeabi_ul2d
+                0x08000534                __floatundidf
+ .text          0x08000560      0x270 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(divsf3.o)
+                0x08000560                __aeabi_fdiv
+ .text          0x080007d0       0x54 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(eqsf2.o)
+                0x080007d0                __nesf2
+                0x080007d0                __eqsf2
+ .text          0x08000824       0x94 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(gesf2.o)
+                0x08000824                __gtsf2
+                0x08000824                __gesf2
+ .text          0x080008b8       0x8c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(lesf2.o)
+                0x080008b8                __lesf2
+                0x080008b8                __ltsf2
+ .text          0x08000944      0x264 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(mulsf3.o)
+                0x08000944                __aeabi_fmul
+ .text          0x08000ba8       0x90 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(floatunsisf.o)
+                0x08000ba8                __aeabi_ui2f
+ .text          0x08000c38      0x650 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(adddf3.o)
+                0x08000c38                __aeabi_dadd
+ .text          0x08001288      0x648 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(divdf3.o)
+                0x08001288                __aeabi_ddiv
+ .text          0x080018d0       0x88 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(eqdf2.o)
+                0x080018d0                __eqdf2
+                0x080018d0                __nedf2
+ .text          0x08001958       0xe0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(gedf2.o)
+                0x08001958                __gtdf2
+                0x08001958                __gedf2
+ .text          0x08001a38       0xcc /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(ledf2.o)
+                0x08001a38                __ltdf2
+                0x08001a38                __ledf2
+ .text          0x08001b04      0x534 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(muldf3.o)
+                0x08001b04                __aeabi_dmul
+ .text          0x08002038      0x6f4 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(subdf3.o)
+                0x08002038                __aeabi_dsub
+ .text          0x0800272c       0x6c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(fixdfsi.o)
+                0x0800272c                __aeabi_d2iz
+ .text          0x08002798       0x78 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(floatsidf.o)
+                0x08002798                __aeabi_i2d
+ .text          0x08002810       0x64 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(floatunsidf.o)
+                0x08002810                __aeabi_ui2d
+ .text          0x08002874       0x3c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_clzsi2.o)
+                0x08002874                __clzsi2
+ *(.text.*)
+ .text.Reset_Handler
+                0x080028b0       0x7c _build/startup_stm32f031.os
+                0x080028b0                Reset_Handler
+ .text.Default_Handler
+                0x0800292c        0x2 _build/startup_stm32f031.os
+                0x0800292c                TIM1_CC_IRQHandler
+                0x0800292c                HardFault_Handler
+                0x0800292c                PVD_IRQHandler
+                0x0800292c                PendSV_Handler
+                0x0800292c                NMI_Handler
+                0x0800292c                SPI1_IRQHandler
+                0x0800292c                ADC1_IRQHandler
+                0x0800292c                RTC_IRQHandler
+                0x0800292c                TIM3_IRQHandler
+                0x0800292c                EXTI4_15_IRQHandler
+                0x0800292c                RCC_IRQHandler
+                0x0800292c                DMA1_Channel1_IRQHandler
+                0x0800292c                Default_Handler
+                0x0800292c                TIM14_IRQHandler
+                0x0800292c                DMA1_Channel4_5_IRQHandler
+                0x0800292c                EXTI0_1_IRQHandler
+                0x0800292c                SVC_Handler
+                0x0800292c                WWDG_IRQHandler
+                0x0800292c                TIM2_IRQHandler
+                0x0800292c                FLASH_IRQHandler
+                0x0800292c                USART1_IRQHandler
+                0x0800292c                TIM1_BRK_UP_TRG_COM_IRQHandler
+ *fill*         0x0800292e        0x2 
+ .text.SystemInit
+                0x08002930       0xf4 _build/system_stm32f0xx.o
+                0x08002930                SystemInit
+ .text.init     0x08002a24       0x44 _build/calibration.o
+ .text.send_calibration_pkt
+                0x08002a68       0x90 _build/calibration.o
+ .text.setup_round_antenna_channel
+                0x08002af8       0x34 _build/calibration.o
+ .text.finish   0x08002b2c       0xa4 _build/calibration.o
+ .text.calibration_rxcallback
+                0x08002bd0      0x118 _build/calibration.o
+ .text.calib_start_round
+                0x08002ce8       0x20 _build/calibration.o
+ .text.round_timeout
+                0x08002d08       0x30 _build/calibration.o
+ .text.calibration_txcallback
+                0x08002d38       0x70 _build/calibration.o
+ .text.calibration_configure
+                0x08002da8       0x2c _build/calibration.o
+                0x08002da8                calibration_configure
+ .text.calibration_start
+                0x08002dd4       0x50 _build/calibration.o
+                0x08002dd4                calibration_start
+ .text.calibration_stop
+                0x08002e24       0x14 _build/calibration.o
+                0x08002e24                calibration_stop
+ .text.calibration_reset
+                0x08002e38        0x8 _build/calibration.o
+                0x08002e38                calibration_reset
+ .text.setup_dma_write
+                0x08002e40       0x4c _build/dw1000.o
+ .text.spi_transfer
+                0x08002e8c       0xbc _build/dw1000.o
+ .text.dw1000_spi_fast
+                0x08002f48       0x18 _build/dw1000.o
+                0x08002f48                dw1000_spi_fast
+ .text.dw1000_spi_slow
+                0x08002f60       0x18 _build/dw1000.o
+                0x08002f60                dw1000_spi_slow
+ .text.DMA1_Channel2_3_IRQHandler
+                0x08002f78        0x2 _build/dw1000.o
+                0x08002f78                DMA1_Channel2_3_IRQHandler
+ .text.EXTI2_3_IRQHandler
+                0x08002f7a       0x1a _build/dw1000.o
+                0x08002f7a                EXTI2_3_IRQHandler
+ .text.dw1000_interrupt_fired
+                0x08002f94       0x2a _build/dw1000.o
+                0x08002f94                dw1000_interrupt_fired
+ *fill*         0x08002fbe        0x2 
+ .text.readfromspi
+                0x08002fc0       0x8c _build/dw1000.o
+                0x08002fc0                readfromspi
+ .text.writetospi
+                0x0800304c       0x54 _build/dw1000.o
+                0x0800304c                writetospi
+ .text.decamutexon
+                0x080030a0       0x28 _build/dw1000.o
+                0x080030a0                decamutexon
+ .text.decamutexoff
+                0x080030c8       0x24 _build/dw1000.o
+                0x080030c8                decamutexoff
+ .text.usleep   0x080030ec        0x8 _build/dw1000.o
+                0x080030ec                usleep
+ .text.dw1000_reset
+                0x080030f4       0x30 _build/dw1000.o
+                0x080030f4                dw1000_reset
+ .text.dw1000_choose_antenna
+                0x08003124       0x58 _build/dw1000.o
+                0x08003124                dw1000_choose_antenna
+ .text.dw1000_read_eui
+                0x0800317c       0x10 _build/dw1000.o
+                0x0800317c                dw1000_read_eui
+ .text.dw1000_get_txrx_delay
+                0x0800318c       0x34 _build/dw1000.o
+                0x0800318c                dw1000_get_txrx_delay
+ .text.dw1000_get_txrx_delay_raw
+                0x080031c0        0xc _build/dw1000.o
+                0x080031c0                dw1000_get_txrx_delay_raw
+ .text.dw1000_configure_settings
+                0x080031cc       0xc0 _build/dw1000.o
+                0x080031cc                dw1000_configure_settings
+ .text.dw1000_init
+                0x0800328c      0x2d8 _build/dw1000.o
+                0x0800328c                dw1000_init
+ .text.dw1000_sleep
+                0x08003564       0x1c _build/dw1000.o
+                0x08003564                dw1000_sleep
+ .text.dw1000_wakeup
+                0x08003580       0xd4 _build/dw1000.o
+                0x08003580                dw1000_wakeup
+ .text.dw1000_reset_configuration
+                0x08003654       0x48 _build/dw1000.o
+                0x08003654                dw1000_reset_configuration
+ .text.dw1000_update_channel
+                0x0800369c       0x10 _build/dw1000.o
+                0x0800369c                dw1000_update_channel
+ .text.dwtime_to_millimeters
+                0x080036ac       0x34 _build/dw1000.o
+                0x080036ac                dwtime_to_millimeters
+ .text.insert_sorted
+                0x080036e0       0x28 _build/dw1000.o
+                0x080036e0                insert_sorted
+ .text.host_interface_init
+                0x08003708       0xb8 _build/host_interface.o
+                0x08003708                host_interface_init
+ .text.host_interface_notify_ranges
+                0x080037c0       0x28 _build/host_interface.o
+                0x080037c0                host_interface_notify_ranges
+ .text.host_interface_notify_calibration
+                0x080037e8       0x2c _build/host_interface.o
+                0x080037e8                host_interface_notify_calibration
+ .text.host_interface_wait
+                0x08003814       0x24 _build/host_interface.o
+                0x08003814                host_interface_wait
+ .text.host_interface_respond
+                0x08003838       0x2c _build/host_interface.o
+                0x08003838                host_interface_respond
+ .text.host_interface_rx_fired
+                0x08003864       0x80 _build/host_interface.o
+                0x08003864                host_interface_rx_fired
+ .text.host_interface_tx_fired
+                0x080038e4        0x8 _build/host_interface.o
+                0x080038e4                host_interface_tx_fired
+ .text.host_interface_timeout_fired
+                0x080038ec        0x2 _build/host_interface.o
+                0x080038ec                host_interface_timeout_fired
+ .text.CPAL_TIMEOUT_UserCallback
+                0x080038ee        0xc _build/host_interface.o
+                0x080038ee                CPAL_TIMEOUT_UserCallback
+ *fill*         0x080038fa        0x2 
+ .text.CPAL_I2C_RXTC_UserCallback
+                0x080038fc       0xa0 _build/host_interface.o
+                0x080038fc                CPAL_I2C_RXTC_UserCallback
+ .text.CPAL_I2C_TXTC_UserCallback
+                0x0800399c        0xe _build/host_interface.o
+                0x0800399c                CPAL_I2C_TXTC_UserCallback
+ .text.CPAL_I2C_ERR_UserCallback
+                0x080039aa        0x2 _build/host_interface.o
+                0x080039aa                CPAL_I2C_ERR_UserCallback
+ .text.error    0x080039ac       0x1c _build/main.o
+ .text.mark_interrupt
+                0x080039c8        0xc _build/main.o
+                0x080039c8                mark_interrupt
+ .text.polypoint_start
+                0x080039d4       0x30 _build/main.o
+                0x080039d4                polypoint_start
+ .text.polypoint_stop
+                0x08003a04       0x30 _build/main.o
+                0x08003a04                polypoint_stop
+ .text.polypoint_configure_app
+                0x08003a34       0x50 _build/main.o
+                0x08003a34                polypoint_configure_app
+ .text.polypoint_ready
+                0x08003a84       0x10 _build/main.o
+                0x08003a84                polypoint_ready
+ .text.polypoint_tag_do_range
+                0x08003a94       0x20 _build/main.o
+                0x08003a94                polypoint_tag_do_range
+ .text.start_dw1000
+                0x08003ab4       0x38 _build/main.o
+                0x08003ab4                start_dw1000
+ .text.polypoint_reset
+                0x08003aec       0x44 _build/main.o
+                0x08003aec                polypoint_reset
+ .text.startup.main
+                0x08003b30      0x110 _build/main.o
+                0x08003b30                main
+ .text.anchor_txcallback
+                0x08003c40        0x2 _build/oneway_anchor.o
+ *fill*         0x08003c42        0x2 
+ .text.ranging_listening_window_setup
+                0x08003c44       0x60 _build/oneway_anchor.o
+ .text.ranging_broadcast_subsequence_task
+                0x08003ca4       0x30 _build/oneway_anchor.o
+ .text.anchor_rxcallback
+                0x08003cd4      0x1b8 _build/oneway_anchor.o
+ .text.oneway_anchor_init
+                0x08003e8c       0x7c _build/oneway_anchor.o
+                0x08003e8c                oneway_anchor_init
+ .text.oneway_anchor_start
+                0x08003f08       0x30 _build/oneway_anchor.o
+                0x08003f08                oneway_anchor_start
+ .text.ranging_listening_window_task
+                0x08003f38       0xf8 _build/oneway_anchor.o
+ .text.oneway_anchor_stop
+                0x08004030       0x20 _build/oneway_anchor.o
+                0x08004030                oneway_anchor_stop
+ .text.tag_execute_range_callback
+                0x08004050       0x10 _build/oneway_common.o
+ .text.oneway_configure
+                0x08004060       0x38 _build/oneway_common.o
+                0x08004060                oneway_configure
+ .text.oneway_start
+                0x08004098       0x64 _build/oneway_common.o
+                0x08004098                oneway_start
+ .text.oneway_stop
+                0x080040fc       0x30 _build/oneway_common.o
+                0x080040fc                oneway_stop
+ .text.oneway_reset
+                0x0800412c       0x20 _build/oneway_common.o
+                0x0800412c                oneway_reset
+ .text.oneway_do_range
+                0x0800414c       0x24 _build/oneway_common.o
+                0x0800414c                oneway_do_range
+ .text.oneway_get_config
+                0x08004170        0x8 _build/oneway_common.o
+                0x08004170                oneway_get_config
+ .text.oneway_set_ranges
+                0x08004178       0x64 _build/oneway_common.o
+                0x08004178                oneway_set_ranges
+ .text.oneway_subsequence_number_to_antenna
+                0x080041dc       0x28 _build/oneway_common.o
+                0x080041dc                oneway_subsequence_number_to_antenna
+ .text.oneway_set_ranging_broadcast_subsequence_settings
+                0x08004204       0x34 _build/oneway_common.o
+                0x08004204                oneway_set_ranging_broadcast_subsequence_settings
+ .text.oneway_set_ranging_listening_window_settings
+                0x08004238       0x1a _build/oneway_common.o
+                0x08004238                oneway_set_ranging_listening_window_settings
+ .text.oneway_get_ss_index_from_settings
+                0x08004252       0x1e _build/oneway_common.o
+                0x08004252                oneway_get_ss_index_from_settings
+ .text.oneway_get_txrxdelay_from_subsequence
+                0x08004270       0x1c _build/oneway_common.o
+                0x08004270                oneway_get_txrxdelay_from_subsequence
+ .text.ranging_broadcast_subsequence_task
+                0x0800428c       0xb8 _build/oneway_tag.o
+ .text.tag_rxcallback.part.0
+                0x08004344       0xf8 _build/oneway_tag.o
+ .text.tag_rxcallback
+                0x0800443c       0x2c _build/oneway_tag.o
+ .text.tag_txcallback
+                0x08004468       0x50 _build/oneway_tag.o
+ .text.oneway_tag_init
+                0x080044b8       0x5c _build/oneway_tag.o
+                0x080044b8                oneway_tag_init
+ .text.oneway_tag_start_ranging_event
+                0x08004514       0x5c _build/oneway_tag.o
+                0x08004514                oneway_tag_start_ranging_event
+ .text.oneway_tag_stop
+                0x08004570       0x20 _build/oneway_tag.o
+                0x08004570                oneway_tag_stop
+ .text.ranging_listening_window_task
+                0x08004590      0x31c _build/oneway_tag.o
+ .text.timer_init
+                0x080048ac       0x24 _build/timer.o
+                0x080048ac                timer_init
+ .text.timer_start
+                0x080048d0       0x78 _build/timer.o
+                0x080048d0                timer_start
+ .text.timer_stop
+                0x08004948       0x38 _build/timer.o
+                0x08004948                timer_stop
+ .text.timer_17_fired
+                0x08004980       0x14 _build/timer.o
+                0x08004980                timer_17_fired
+ .text.timer_16_fired
+                0x08004994       0x14 _build/timer.o
+                0x08004994                timer_16_fired
+ .text.TIM17_IRQHandler
+                0x080049a8       0x24 _build/timer.o
+                0x080049a8                TIM17_IRQHandler
+ .text.TIM16_IRQHandler
+                0x080049cc       0x24 _build/timer.o
+                0x080049cc                TIM16_IRQHandler
+ .text.ranval   0x080049f0       0x2c _build/prng.o
+                0x080049f0                ranval
+ .text.raninit  0x08004a1c       0x24 _build/prng.o
+                0x08004a1c                raninit
+ .text.uDelay   0x08004a40       0x58 _build/delay.o
+                0x08004a40                uDelay
+ .text.mDelay   0x08004a98       0x64 _build/delay.o
+                0x08004a98                mDelay
+ .text.GPIO_Init
+                0x08004afc       0x78 _build/stm32f0xx_gpio.o
+                0x08004afc                GPIO_Init
+ .text.GPIO_ReadInputDataBit
+                0x08004b74        0xc _build/stm32f0xx_gpio.o
+                0x08004b74                GPIO_ReadInputDataBit
+ .text.GPIO_WriteBit
+                0x08004b80        0xc _build/stm32f0xx_gpio.o
+                0x08004b80                GPIO_WriteBit
+ .text.GPIO_PinAFConfig
+                0x08004b8c       0x24 _build/stm32f0xx_gpio.o
+                0x08004b8c                GPIO_PinAFConfig
+ .text.RCC_I2CCLKConfig
+                0x08004bb0       0x18 _build/stm32f0xx_rcc.o
+                0x08004bb0                RCC_I2CCLKConfig
+ .text.RCC_AHBPeriphClockCmd
+                0x08004bc8       0x18 _build/stm32f0xx_rcc.o
+                0x08004bc8                RCC_AHBPeriphClockCmd
+ .text.RCC_APB2PeriphClockCmd
+                0x08004be0       0x18 _build/stm32f0xx_rcc.o
+                0x08004be0                RCC_APB2PeriphClockCmd
+ .text.RCC_APB1PeriphClockCmd
+                0x08004bf8       0x18 _build/stm32f0xx_rcc.o
+                0x08004bf8                RCC_APB1PeriphClockCmd
+ .text.RCC_APB2PeriphResetCmd
+                0x08004c10       0x18 _build/stm32f0xx_rcc.o
+                0x08004c10                RCC_APB2PeriphResetCmd
+ .text.RCC_APB1PeriphResetCmd
+                0x08004c28       0x18 _build/stm32f0xx_rcc.o
+                0x08004c28                RCC_APB1PeriphResetCmd
+ .text.I2C_Init
+                0x08004c40       0x64 _build/stm32f0xx_i2c.o
+                0x08004c40                I2C_Init
+ .text.DMA_Init
+                0x08004ca4       0x3c _build/stm32f0xx_dma.o
+                0x08004ca4                DMA_Init
+ .text.DMA_Cmd  0x08004ce0       0x1c _build/stm32f0xx_dma.o
+                0x08004ce0                DMA_Cmd
+ .text.DMA_GetFlagStatus
+                0x08004cfc       0x20 _build/stm32f0xx_dma.o
+                0x08004cfc                DMA_GetFlagStatus
+ .text.DMA_ClearFlag
+                0x08004d1c       0x18 _build/stm32f0xx_dma.o
+                0x08004d1c                DMA_ClearFlag
+ .text.NVIC_Init
+                0x08004d34       0x60 _build/stm32f0xx_misc.o
+                0x08004d34                NVIC_Init
+ .text.TIM_TimeBaseInit
+                0x08004d94       0x78 _build/stm32f0xx_tim.o
+                0x08004d94                TIM_TimeBaseInit
+ .text.TIM_Cmd  0x08004e0c       0x12 _build/stm32f0xx_tim.o
+                0x08004e0c                TIM_Cmd
+ .text.TIM_ITConfig
+                0x08004e1e       0x12 _build/stm32f0xx_tim.o
+                0x08004e1e                TIM_ITConfig
+ .text.TIM_GetITStatus
+                0x08004e30       0x16 _build/stm32f0xx_tim.o
+                0x08004e30                TIM_GetITStatus
+ .text.TIM_ClearITPendingBit
+                0x08004e46        0x8 _build/stm32f0xx_tim.o
+                0x08004e46                TIM_ClearITPendingBit
+ *fill*         0x08004e4e        0x2 
+ .text.SPI_I2S_DeInit
+                0x08004e50       0x44 _build/stm32f0xx_spi.o
+                0x08004e50                SPI_I2S_DeInit
+ .text.SPI_Init
+                0x08004e94       0x54 _build/stm32f0xx_spi.o
+                0x08004e94                SPI_Init
+ .text.SPI_Cmd  0x08004ee8       0x12 _build/stm32f0xx_spi.o
+                0x08004ee8                SPI_Cmd
+ *fill*         0x08004efa        0x2 
+ .text.SPI_RxFIFOThresholdConfig
+                0x08004efc       0x14 _build/stm32f0xx_spi.o
+                0x08004efc                SPI_RxFIFOThresholdConfig
+ .text.SPI_SSOutputCmd
+                0x08004f10       0x12 _build/stm32f0xx_spi.o
+                0x08004f10                SPI_SSOutputCmd
+ .text.SPI_I2S_DMACmd
+                0x08004f22       0x12 _build/stm32f0xx_spi.o
+                0x08004f22                SPI_I2S_DMACmd
+ .text.SPI_I2S_GetFlagStatus
+                0x08004f34        0xc _build/stm32f0xx_spi.o
+                0x08004f34                SPI_I2S_GetFlagStatus
+ .text.PWR_EnterSleepMode
+                0x08004f40       0x20 _build/stm32f0xx_pwr.o
+                0x08004f40                PWR_EnterSleepMode
+ .text.EXTI_Init
+                0x08004f60       0x64 _build/stm32f0xx_exti.o
+                0x08004f60                EXTI_Init
+ .text.EXTI_GetITStatus
+                0x08004fc4       0x14 _build/stm32f0xx_exti.o
+                0x08004fc4                EXTI_GetITStatus
+ .text.EXTI_ClearITPendingBit
+                0x08004fd8        0xc _build/stm32f0xx_exti.o
+                0x08004fd8                EXTI_ClearITPendingBit
+ .text.SYSCFG_EXTILineConfig
+                0x08004fe4       0x2c _build/stm32f0xx_syscfg.o
+                0x08004fe4                SYSCFG_EXTILineConfig
+ .text.CPAL_I2C_Init
+                0x08005010       0xe8 _build/stm32f0xx_i2c_cpal.o
+                0x08005010                CPAL_I2C_Init
+ .text.CPAL_I2C_StructInit
+                0x080050f8       0x34 _build/stm32f0xx_i2c_cpal.o
+                0x080050f8                CPAL_I2C_StructInit
+ .text.CPAL_I2C_Write
+                0x0800512c       0xc4 _build/stm32f0xx_i2c_cpal.o
+                0x0800512c                CPAL_I2C_Write
+ .text.CPAL_I2C_Read
+                0x080051f0       0xc4 _build/stm32f0xx_i2c_cpal.o
+                0x080051f0                CPAL_I2C_Read
+ .text.CPAL_I2C_EV_IRQHandler
+                0x080052b4      0x188 _build/stm32f0xx_i2c_cpal.o
+                0x080052b4                CPAL_I2C_EV_IRQHandler
+ .text.CPAL_I2C_ER_IRQHandler
+                0x0800543c       0x4c _build/stm32f0xx_i2c_cpal.o
+                0x0800543c                CPAL_I2C_ER_IRQHandler
+ .text.SysTick_Handler
+                0x08005488       0x44 _build/stm32f0xx_i2c_cpal.o
+                0x08005488                SysTick_Handler
+ .text.CPAL_I2C_HAL_CLKInit
+                0x080054cc       0x28 _build/stm32f0xx_i2c_cpal_hal.o
+                0x080054cc                CPAL_I2C_HAL_CLKInit
+ .text.CPAL_I2C_HAL_CLKDeInit
+                0x080054f4       0x28 _build/stm32f0xx_i2c_cpal_hal.o
+                0x080054f4                CPAL_I2C_HAL_CLKDeInit
+ .text.CPAL_I2C_HAL_GPIOInit
+                0x0800551c       0x90 _build/stm32f0xx_i2c_cpal_hal.o
+                0x0800551c                CPAL_I2C_HAL_GPIOInit
+ .text.CPAL_I2C_HAL_GPIODeInit
+                0x080055ac       0x48 _build/stm32f0xx_i2c_cpal_hal.o
+                0x080055ac                CPAL_I2C_HAL_GPIODeInit
+ .text.CPAL_I2C_HAL_ITInit
+                0x080055f4       0x3c _build/stm32f0xx_i2c_cpal_hal.o
+                0x080055f4                CPAL_I2C_HAL_ITInit
+ .text.I2C1_IRQHandler
+                0x08005630       0x2c _build/stm32f0xx_i2c_cpal_hal.o
+                0x08005630                I2C1_IRQHandler
+ .text.dwt_writetodevice
+                0x0800565c       0x44 _build/deca_device.o
+                0x0800565c                dwt_writetodevice
+ .text.dwt_writetxdata
+                0x080056a0       0x24 _build/deca_device.o
+                0x080056a0                dwt_writetxdata
+ .text.dwt_readfromdevice
+                0x080056c4       0x3c _build/deca_device.o
+                0x080056c4                dwt_readfromdevice
+ .text.dwt_readrxdata
+                0x08005700       0x14 _build/deca_device.o
+                0x08005700                dwt_readrxdata
+ .text.dwt_readrxtimestamp
+                0x08005714       0x10 _build/deca_device.o
+                0x08005714                dwt_readrxtimestamp
+ .text.dwt_read32bitoffsetreg
+                0x08005724       0x3c _build/deca_device.o
+                0x08005724                dwt_read32bitoffsetreg
+ .text.dwt_readdevid
+                0x08005760        0xc _build/deca_device.o
+                0x08005760                dwt_readdevid
+ .text.dwt_readsystimestamphi32
+                0x0800576c        0xc _build/deca_device.o
+                0x0800576c                dwt_readsystimestamphi32
+ .text.dwt_read16bitoffsetreg
+                0x08005778       0x2c _build/deca_device.o
+                0x08005778                dwt_read16bitoffsetreg
+ .text.dwt_write16bitoffsetreg
+                0x080057a4       0x1c _build/deca_device.o
+                0x080057a4                dwt_write16bitoffsetreg
+ .text.dwt_setrxantennadelay
+                0x080057c0       0x1c _build/deca_device.o
+                0x080057c0                dwt_setrxantennadelay
+ .text.dwt_settxantennadelay
+                0x080057dc       0x18 _build/deca_device.o
+                0x080057dc                dwt_settxantennadelay
+ .text.dwt_write32bitoffsetreg
+                0x080057f4       0x24 _build/deca_device.o
+                0x080057f4                dwt_write32bitoffsetreg
+ .text.dwt_configuretxrf
+                0x08005818       0x1c _build/deca_device.o
+                0x08005818                dwt_configuretxrf
+ .text.dwt_writetxfctrl
+                0x08005834       0x20 _build/deca_device.o
+                0x08005834                dwt_writetxfctrl
+ .text.dwt_enableframefilter
+                0x08005854       0x44 _build/deca_device.o
+                0x08005854                dwt_enableframefilter
+ .text.dwt_setpanid
+                0x08005898       0x1a _build/deca_device.o
+                0x08005898                dwt_setpanid
+ .text.dwt_seteui
+                0x080058b2       0x10 _build/deca_device.o
+                0x080058b2                dwt_seteui
+ .text._dwt_otpread
+                0x080058c2       0x46 _build/deca_device.o
+                0x080058c2                _dwt_otpread
+ .text._dwt_aonarrayupload
+                0x08005908       0x2a _build/deca_device.o
+                0x08005908                _dwt_aonarrayupload
+ .text.dwt_entersleep
+                0x08005932        0x8 _build/deca_device.o
+                0x08005932                dwt_entersleep
+ .text.dwt_configuresleep
+                0x0800593a       0x2e _build/deca_device.o
+                0x0800593a                dwt_configuresleep
+ .text.dwt_entersleepaftertx
+                0x08005968       0x2c _build/deca_device.o
+                0x08005968                dwt_entersleepaftertx
+ .text._dwt_configlde
+                0x08005994       0x50 _build/deca_device.o
+                0x08005994                _dwt_configlde
+ .text.dwt_setsmarttxpower
+                0x080059e4       0x34 _build/deca_device.o
+                0x080059e4                dwt_setsmarttxpower
+ .text.dwt_enableautoack
+                0x08005a18       0x40 _build/deca_device.o
+                0x08005a18                dwt_enableautoack
+ .text.dwt_setdblrxbuffmode
+                0x08005a58       0x38 _build/deca_device.o
+                0x08005a58                dwt_setdblrxbuffmode
+ .text.dwt_setautorxreenable
+                0x08005a90       0x40 _build/deca_device.o
+                0x08005a90                dwt_setautorxreenable
+ .text.dwt_setrxaftertxdelay
+                0x08005ad0       0x20 _build/deca_device.o
+                0x08005ad0                dwt_setrxaftertxdelay
+ .text.dwt_setcallbacks
+                0x08005af0        0xc _build/deca_device.o
+                0x08005af0                dwt_setcallbacks
+ .text._dwt_enableclocks
+                0x08005afc       0xb8 _build/deca_device.o
+                0x08005afc                _dwt_enableclocks
+ .text._dwt_loaducodefromrom
+                0x08005bb4       0x42 _build/deca_device.o
+                0x08005bb4                _dwt_loaducodefromrom
+ *fill*         0x08005bf6        0x2 
+ .text.dwt_initialise
+                0x08005bf8      0x110 _build/deca_device.o
+                0x08005bf8                dwt_initialise
+ .text.dwt_setdelayedtrxtime
+                0x08005d08       0x10 _build/deca_device.o
+                0x08005d08                dwt_setdelayedtrxtime
+ .text.dwt_starttx
+                0x08005d18       0x90 _build/deca_device.o
+                0x08005d18                dwt_starttx
+ .text.dwt_syncrxbufptrs
+                0x08005da8       0x38 _build/deca_device.o
+                0x08005da8                dwt_syncrxbufptrs
+ .text.dwt_forcetrxoff
+                0x08005de0       0x64 _build/deca_device.o
+                0x08005de0                dwt_forcetrxoff
+ .text.dwt_rxenable
+                0x08005e44       0x78 _build/deca_device.o
+                0x08005e44                dwt_rxenable
+ .text.dwt_setrxtimeout
+                0x08005ebc       0x7c _build/deca_device.o
+                0x08005ebc                dwt_setrxtimeout
+ .text.dwt_setinterrupt
+                0x08005f38       0x30 _build/deca_device.o
+                0x08005f38                dwt_setinterrupt
+ .text.dwt_rxreset
+                0x08005f68       0x2c _build/deca_device.o
+                0x08005f68                dwt_rxreset
+ .text.dwt_isr  0x08005f94      0x2b4 _build/deca_device.o
+                0x08005f94                dwt_isr
+ .text.dwt_xtaltrim
+                0x08006248       0x34 _build/deca_device.o
+                0x08006248                dwt_xtaltrim
+ .text.dwt_configure
+                0x0800627c      0x270 _build/deca_device.o
+                0x0800627c                dwt_configure
+ .text.memcmp   0x080064ec       0x50 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcmp.o)
+                0x080064ec                memcmp
+ .text.memcpy   0x0800653c       0x7c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+                0x0800653c                memcpy
+ .text.memset   0x080065b8       0x8c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+                0x080065b8                memset
+ *(.rodata)
+ .rodata        0x08006644       0x80 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(divsf3.o)
+ .rodata        0x080066c4       0x40 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(mulsf3.o)
+ .rodata        0x08006704       0x40 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(divdf3.o)
+ .rodata        0x08006744       0x40 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(muldf3.o)
+ *(.rodata*)
+ .rodata.channel_index_to_channel_rf_number
+                0x08006784        0x3 _build/calibration.o
+ .rodata.pgDelay
+                0x08006787        0x8 _build/dw1000.o
+                0x08006787                pgDelay
+ *fill*         0x0800678f        0x1 
+ .rodata.txPower
+                0x08006790       0x20 _build/dw1000.o
+                0x08006790                txPower
+ .rodata.channel_index_to_channel_rf_number
+                0x080067b0        0x3 _build/oneway_common.o
+ *fill*         0x080067b3        0x1 
+ .rodata.CPAL_I2C_SCL_GPIO_PINSOURCE
+                0x080067b4        0x4 _build/stm32f0xx_i2c_cpal_hal.o
+                0x080067b4                CPAL_I2C_SCL_GPIO_PINSOURCE
+ .rodata.I2C_IT_PRIO
+                0x080067b8        0x2 _build/stm32f0xx_i2c_cpal_hal.o
+                0x080067b8                I2C_IT_PRIO
+ .rodata.CPAL_I2C_IT_IRQn
+                0x080067ba        0x2 _build/stm32f0xx_i2c_cpal_hal.o
+                0x080067ba                CPAL_I2C_IT_IRQn
+ .rodata.CPAL_I2C_SDA_GPIO_PIN
+                0x080067bc        0x4 _build/stm32f0xx_i2c_cpal_hal.o
+                0x080067bc                CPAL_I2C_SDA_GPIO_PIN
+ .rodata.CPAL_I2C_SCL_GPIO_PIN
+                0x080067c0        0x4 _build/stm32f0xx_i2c_cpal_hal.o
+                0x080067c0                CPAL_I2C_SCL_GPIO_PIN
+ .rodata.CPAL_I2C_SCL_GPIO_CLK
+                0x080067c4        0x8 _build/stm32f0xx_i2c_cpal_hal.o
+                0x080067c4                CPAL_I2C_SCL_GPIO_CLK
+ .rodata.CPAL_I2C_AF
+                0x080067cc        0x8 _build/stm32f0xx_i2c_cpal_hal.o
+                0x080067cc                CPAL_I2C_AF
+ .rodata.CPAL_I2C_SDA_GPIO_PINSOURCE
+                0x080067d4        0x4 _build/stm32f0xx_i2c_cpal_hal.o
+                0x080067d4                CPAL_I2C_SDA_GPIO_PINSOURCE
+ .rodata.CPAL_I2C_SDA_GPIO_CLK
+                0x080067d8        0x8 _build/stm32f0xx_i2c_cpal_hal.o
+                0x080067d8                CPAL_I2C_SDA_GPIO_CLK
+ .rodata.CPAL_I2C_CLK
+                0x080067e0        0x8 _build/stm32f0xx_i2c_cpal_hal.o
+                0x080067e0                CPAL_I2C_CLK
+ .rodata._dwt_enableclocks
+                0x080067e8       0x38 _build/deca_device.o
+ .rodata.sftsh  0x08006820        0xc _build/deca_params_init.o
+                0x08006820                sftsh
+ .rodata.pll2_config
+                0x0800682c       0x1e _build/deca_params_init.o
+                0x0800682c                pll2_config
+ .rodata.dtune1
+                0x0800684a        0x4 _build/deca_params_init.o
+                0x0800684a                dtune1
+ *fill*         0x0800684e        0x2 
+ .rodata.agc_config
+                0x08006850        0x8 _build/deca_params_init.o
+                0x08006850                agc_config
+ .rodata.dwnsSFDlen
+                0x08006858        0x3 _build/deca_params_init.o
+                0x08006858                dwnsSFDlen
+ .rodata.chan_idx
+                0x0800685b        0x8 _build/deca_params_init.o
+                0x0800685b                chan_idx
+ *fill*         0x08006863        0x1 
+ .rodata.digital_bb_config
+                0x08006864       0x20 _build/deca_params_init.o
+                0x08006864                digital_bb_config
+ .rodata.pll2calcfg
+                0x08006884        0x1 _build/deca_params_init.o
+                0x08006884                pll2calcfg
+ *fill*         0x08006885        0x3 
+ .rodata.tx_config
+                0x08006888       0x18 _build/deca_params_init.o
+                0x08006888                tx_config
+ .rodata.lde_replicaCoeff
+                0x080068a0       0x32 _build/deca_params_init.o
+                0x080068a0                lde_replicaCoeff
+ .rodata.rx_config
+                0x080068d2        0x2 _build/deca_params_init.o
+                0x080068d2                rx_config
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.init)
+ .init          0x080068d4        0x4 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+                0x080068d4                _init
+ .init          0x080068d8        0x8 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+ *(.fini)
+ .fini          0x080068e0        0x4 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+                0x080068e0                _fini
+ .fini          0x080068e4        0x8 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+                0x080068ec                . = ALIGN (0x4)
+                0x080068ec                _etext = .
+                0x080068ec                _sidata = _etext
+
+.vfp11_veneer   0x080068ec        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x080068ec        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x080068ec        0x0
+ .iplt          0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+
+.rel.dyn        0x080068ec        0x0
+ .rel.iplt      0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+
+.data           0x20000000      0x1cc load address 0x080068ec
+                0x20000000                . = ALIGN (0x4)
+                0x20000000                _sdata = .
+                0x20000000                _data = .
+ *(.data)
+ *(.data.*)
+ .data.SystemCoreClock
+                0x20000000        0x4 _build/system_stm32f0xx.o
+                0x20000000                SystemCoreClock
+ .data._round_num
+                0x20000004        0x4 _build/calibration.o
+ .data._dw_slack_delay_multiplier
+                0x20000008        0x4 _build/calibration.o
+ .data.pp_calibration_pkt
+                0x2000000c       0x17 _build/calibration.o
+ .data.NULL_PKT
+                0x20000023        0x3 _build/host_interface.o
+                0x20000023                NULL_PKT
+ .data.INFO_PKT
+                0x20000026        0x3 _build/host_interface.o
+                0x20000026                INFO_PKT
+ .data.pp_anc_final_pkt
+                0x20000029      0x111 _build/oneway_anchor.o
+ .data.pp_tag_poll_pkt
+                0x2000013a       0x18 _build/oneway_tag.o
+ *fill*         0x20000152        0x2 
+ .data.timers   0x20000154       0x38 _build/timer.o
+                0x20000154                timers
+ .data.I2C1_DevStructure
+                0x2000018c       0x20 _build/stm32f0xx_i2c_cpal_hal.o
+                0x2000018c                I2C1_DevStructure
+ .data.CPAL_I2C_SCL_GPIO_PORT
+                0x200001ac        0x8 _build/stm32f0xx_i2c_cpal_hal.o
+                0x200001ac                CPAL_I2C_SCL_GPIO_PORT
+ .data.I2C_DevStructures
+                0x200001b4        0x8 _build/stm32f0xx_i2c_cpal_hal.o
+                0x200001b4                I2C_DevStructures
+ .data.CPAL_I2C_SDA_GPIO_PORT
+                0x200001bc        0x8 _build/stm32f0xx_i2c_cpal_hal.o
+                0x200001bc                CPAL_I2C_SDA_GPIO_PORT
+ .data.CPAL_I2C_DEVICE
+                0x200001c4        0x8 _build/stm32f0xx_i2c_cpal_hal.o
+                0x200001c4                CPAL_I2C_DEVICE
+ *(.RAMtext)
+                0x200001cc                . = ALIGN (0x4)
+                0x200001cc                _edata = .
+
+.igot.plt       0x200001cc        0x0 load address 0x08006ab8
+ .igot.plt      0x00000000        0x0 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtbegin.o
+
+.bss            0x200001d0      0xaa4 load address 0x08006ac0
+                0x200001d0                . = ALIGN (0x4)
+                0x200001d0                _sbss = .
+                0x200001d0                _bss = .
+ *(.bss)
+ *(.bss.*)
+ .bss._app_timer
+                0x200001d0        0x4 _build/calibration.o
+ .bss._calibration_response_buf
+                0x200001d4       0x40 _build/calibration.o
+ .bss._config   0x20000214        0x1 _build/calibration.o
+ .bss._got_init
+                0x20000215        0x1 _build/calibration.o
+ *fill*         0x20000216        0x2 
+ .bss._calibration_timing
+                0x20000218       0x18 _build/calibration.o
+ .bss._timeout_firing
+                0x20000230        0x1 _build/calibration.o
+ .bss.throwAway.7069
+                0x20000231        0x1 _build/dw1000.o
+ .bss._prog_values
+                0x20000232       0x16 _build/dw1000.o
+ .bss.global_tx_config
+                0x20000248        0x8 _build/dw1000.o
+ .bss.DMA_InitStructure
+                0x20000250       0x2c _build/dw1000.o
+ .bss.SPI_InitStructure
+                0x2000027c       0x12 _build/dw1000.o
+ .bss._stm_dw1000_interface_setup
+                0x2000028e        0x1 _build/dw1000.o
+ .bss._dw1000_asleep
+                0x2000028f        0x1 _build/dw1000.o
+ .bss._dw1000_config
+                0x20000290        0xc _build/dw1000.o
+ .bss.tx.7074   0x2000029c        0x1 _build/dw1000.o
+ *fill*         0x2000029d        0x3 
+ .bss.dw1000_irq_onoff
+                0x200002a0        0x4 _build/dw1000.o
+                0x200002a0                dw1000_irq_onoff
+ .bss._app_timer
+                0x200002a4        0x4 _build/main.o
+ .bss._state    0x200002a8        0x1 _build/main.o
+ .bss.interrupts_triggered
+                0x200002a9        0x6 _build/main.o
+                0x200002a9                interrupts_triggered
+ .bss._current_app
+                0x200002af        0x1 _build/main.o
+ .bss._ranging_operation_config
+                0x200002b0        0x6 _build/oneway_anchor.o
+ .bss._state    0x200002b6        0x1 _build/oneway_anchor.o
+ .bss._anchor_antenna_recv_num
+                0x200002b7        0x3 _build/oneway_anchor.o
+ *fill*         0x200002ba        0x2 
+ .bss._anchor_timer
+                0x200002bc        0x4 _build/oneway_anchor.o
+                0x200002bc                _anchor_timer
+ .bss._ranging_broadcast_ss_num
+                0x200002c0        0x1 _build/oneway_anchor.o
+ .bss._ranging_listening_window_num
+                0x200002c1        0x1 _build/oneway_anchor.o
+ *fill*         0x200002c2        0x2 
+ .bss._app_timer
+                0x200002c4        0x4 _build/oneway_common.o
+ .bss._config   0x200002c8        0x5 _build/oneway_common.o
+ .bss._state    0x200002cd        0x1 _build/oneway_tag.o
+                0x200002cd                _state
+ *fill*         0x200002ce        0x2 
+ .bss._anchor_responses
+                0x200002d0      0x660 _build/oneway_tag.o
+ .bss._ranging_listening_window_num
+                0x20000930        0x1 _build/oneway_tag.o
+ *fill*         0x20000931        0x3 
+ .bss._tag_timer
+                0x20000934        0x4 _build/oneway_tag.o
+                0x20000934                _tag_timer
+ .bss._ranges_millimeters
+                0x20000938       0x18 _build/oneway_tag.o
+                0x20000938                _ranges_millimeters
+ .bss._ranging_broadcast_ss_send_times
+                0x20000950       0xf0 _build/oneway_tag.o
+ .bss._ranging_broadcast_ss_num
+                0x20000a40        0x1 _build/oneway_tag.o
+ .bss._anchor_response_count
+                0x20000a41        0x1 _build/oneway_tag.o
+ *fill*         0x20000a42        0x2 
+ .bss.timer_callbacks
+                0x20000a44        0x8 _build/timer.o
+ .bss.used_timers
+                0x20000a4c        0x1 _build/timer.o
+ *fill*         0x20000a4d        0x3 
+ .bss.CR2_tmp   0x20000a50        0x4 _build/stm32f0xx_i2c_cpal.o
+                0x20000a50                CR2_tmp
+ .bss.dw1000local
+                0x20000a54       0x7c _build/deca_device.o
+ *(COMMON)
+ COMMON         0x20000ad0      0x12c _build/host_interface.o
+                0x20000ad0                rxStructure
+                0x20000ae0                _interrupt_reason
+                0x20000ae1                rxBuffer
+                0x20000b61                txBuffer
+                0x20000be4                _interrupt_buffer
+                0x20000be8                _interrupt_buffer_len
+                0x20000bec                txStructure
+ COMMON         0x20000bfc       0x10 _build/oneway_anchor.o
+                0x20000bfc                _prng_state
+ COMMON         0x20000c0c       0x49 _build/oneway_common.o
+                0x20000c0c                _anchor_ids_ranges
+ *fill*         0x20000c55        0x3 
+ COMMON         0x20000c58       0x1c _build/stm32f0xx_i2c_cpal.o
+                0x20000c58                I2C_InitStructure
+                0x20000c74                . = ALIGN (0x4)
+                0x20000c74                _ebss = .
+                0x20000c74                PROVIDE (end, _ebss)
+                0x20000c74                PROVIDE (_end, _ebss)
+                0x20000c74                __exidx_start = .
+                0x20000c74                __exidx_end = .
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x70
+ *(.comment)
+ .comment       0x00000000       0x70 _build/system_stm32f0xx.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 _build/calibration.o
+ .comment       0x00000000       0x71 _build/dw1000.o
+ .comment       0x00000000       0x71 _build/host_interface.o
+ .comment       0x00000000       0x71 _build/main.o
+ .comment       0x00000000       0x71 _build/oneway_anchor.o
+ .comment       0x00000000       0x71 _build/oneway_common.o
+ .comment       0x00000000       0x71 _build/oneway_tag.o
+ .comment       0x00000000       0x71 _build/timer.o
+ .comment       0x00000000       0x71 _build/prng.o
+ .comment       0x00000000       0x71 _build/delay.o
+ .comment       0x00000000       0x71 _build/stm32f0xx_gpio.o
+ .comment       0x00000000       0x71 _build/stm32f0xx_rcc.o
+ .comment       0x00000000       0x71 _build/stm32f0xx_i2c.o
+ .comment       0x00000000       0x71 _build/stm32f0xx_dma.o
+ .comment       0x00000000       0x71 _build/stm32f0xx_misc.o
+ .comment       0x00000000       0x71 _build/stm32f0xx_tim.o
+ .comment       0x00000000       0x71 _build/stm32f0xx_spi.o
+ .comment       0x00000000       0x71 _build/stm32f0xx_pwr.o
+ .comment       0x00000000       0x71 _build/stm32f0xx_exti.o
+ .comment       0x00000000       0x71 _build/stm32f0xx_syscfg.o
+ .comment       0x00000000       0x71 _build/stm32f0xx_i2c_cpal.o
+ .comment       0x00000000       0x71 _build/stm32f0xx_i2c_cpal_hal.o
+ .comment       0x00000000       0x71 _build/deca_device.o
+ .comment       0x00000000       0x71 _build/deca_params_init.o
+
+.ARM.attributes
+                0x00000000       0x28
+ .ARM.attributes
+                0x00000000       0x1e /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crti.o
+ .ARM.attributes
+                0x0000001e       0x21 _build/startup_stm32f031.os
+ .ARM.attributes
+                0x0000003f       0x31 _build/system_stm32f0xx.o
+ .ARM.attributes
+                0x00000070       0x31 _build/calibration.o
+ .ARM.attributes
+                0x000000a1       0x31 _build/dw1000.o
+ .ARM.attributes
+                0x000000d2       0x31 _build/host_interface.o
+ .ARM.attributes
+                0x00000103       0x31 _build/main.o
+ .ARM.attributes
+                0x00000134       0x31 _build/oneway_anchor.o
+ .ARM.attributes
+                0x00000165       0x31 _build/oneway_common.o
+ .ARM.attributes
+                0x00000196       0x31 _build/oneway_tag.o
+ .ARM.attributes
+                0x000001c7       0x31 _build/timer.o
+ .ARM.attributes
+                0x000001f8       0x31 _build/prng.o
+ .ARM.attributes
+                0x00000229       0x31 _build/delay.o
+ .ARM.attributes
+                0x0000025a       0x31 _build/stm32f0xx_gpio.o
+ .ARM.attributes
+                0x0000028b       0x31 _build/stm32f0xx_rcc.o
+ .ARM.attributes
+                0x000002bc       0x31 _build/stm32f0xx_i2c.o
+ .ARM.attributes
+                0x000002ed       0x31 _build/stm32f0xx_dma.o
+ .ARM.attributes
+                0x0000031e       0x31 _build/stm32f0xx_misc.o
+ .ARM.attributes
+                0x0000034f       0x31 _build/stm32f0xx_tim.o
+ .ARM.attributes
+                0x00000380       0x31 _build/stm32f0xx_spi.o
+ .ARM.attributes
+                0x000003b1       0x31 _build/stm32f0xx_pwr.o
+ .ARM.attributes
+                0x000003e2       0x31 _build/stm32f0xx_exti.o
+ .ARM.attributes
+                0x00000413       0x31 _build/stm32f0xx_syscfg.o
+ .ARM.attributes
+                0x00000444       0x31 _build/stm32f0xx_i2c_cpal.o
+ .ARM.attributes
+                0x00000475       0x31 _build/stm32f0xx_i2c_cpal_hal.o
+ .ARM.attributes
+                0x000004a6       0x31 _build/deca_device.o
+ .ARM.attributes
+                0x000004d7       0x31 _build/deca_params_init.o
+ .ARM.attributes
+                0x00000508       0x1e /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_thumb1_case_uqi.o)
+ .ARM.attributes
+                0x00000526       0x1e /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000544       0x1e /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x00000562       0x1e /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000580       0x1e /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x0000059e       0x1e /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_arm_cmpsf2.o)
+ .ARM.attributes
+                0x000005bc       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_fixunsdfsi.o)
+ .ARM.attributes
+                0x000005e8       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_floatdidf.o)
+ .ARM.attributes
+                0x00000614       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_floatundidf.o)
+ .ARM.attributes
+                0x00000640       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(divsf3.o)
+ .ARM.attributes
+                0x0000066c       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(eqsf2.o)
+ .ARM.attributes
+                0x00000698       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(gesf2.o)
+ .ARM.attributes
+                0x000006c4       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(lesf2.o)
+ .ARM.attributes
+                0x000006f0       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(mulsf3.o)
+ .ARM.attributes
+                0x0000071c       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(floatunsisf.o)
+ .ARM.attributes
+                0x00000748       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(adddf3.o)
+ .ARM.attributes
+                0x00000774       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(divdf3.o)
+ .ARM.attributes
+                0x000007a0       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(eqdf2.o)
+ .ARM.attributes
+                0x000007cc       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(gedf2.o)
+ .ARM.attributes
+                0x000007f8       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(ledf2.o)
+ .ARM.attributes
+                0x00000824       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(muldf3.o)
+ .ARM.attributes
+                0x00000850       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(subdf3.o)
+ .ARM.attributes
+                0x0000087c       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(fixdfsi.o)
+ .ARM.attributes
+                0x000008a8       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(floatsidf.o)
+ .ARM.attributes
+                0x000008d4       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(floatunsidf.o)
+ .ARM.attributes
+                0x00000900       0x1e /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_clzsi2.o)
+ .ARM.attributes
+                0x0000091e       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcmp.o)
+ .ARM.attributes
+                0x0000094a       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x00000976       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+ .ARM.attributes
+                0x000009a2       0x1e /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000     0x10b8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 _build/system_stm32f0xx.o
+ .debug_aranges
+                0x00000028       0x78 _build/calibration.o
+ .debug_aranges
+                0x000000a0       0xe0 _build/dw1000.o
+ .debug_aranges
+                0x00000180       0x78 _build/host_interface.o
+ .debug_aranges
+                0x000001f8       0x68 _build/main.o
+ .debug_aranges
+                0x00000260       0x58 _build/oneway_anchor.o
+ .debug_aranges
+                0x000002b8       0x80 _build/oneway_common.o
+ .debug_aranges
+                0x00000338       0x58 _build/oneway_tag.o
+ .debug_aranges
+                0x00000390       0x50 _build/timer.o
+ .debug_aranges
+                0x000003e0       0x28 _build/prng.o
+ .debug_aranges
+                0x00000408       0x28 _build/delay.o
+ .debug_aranges
+                0x00000430       0x80 _build/stm32f0xx_gpio.o
+ .debug_aranges
+                0x000004b0      0x160 _build/stm32f0xx_rcc.o
+ .debug_aranges
+                0x00000610      0x168 _build/stm32f0xx_i2c.o
+ .debug_aranges
+                0x00000778       0x78 _build/stm32f0xx_dma.o
+ .debug_aranges
+                0x000007f0       0x30 _build/stm32f0xx_misc.o
+ .debug_aranges
+                0x00000820      0x2f0 _build/stm32f0xx_tim.o
+ .debug_aranges
+                0x00000b10      0x110 _build/stm32f0xx_spi.o
+ .debug_aranges
+                0x00000c20       0x68 _build/stm32f0xx_pwr.o
+ .debug_aranges
+                0x00000c88       0x58 _build/stm32f0xx_exti.o
+ .debug_aranges
+                0x00000ce0       0x68 _build/stm32f0xx_syscfg.o
+ .debug_aranges
+                0x00000d48       0x60 _build/stm32f0xx_i2c_cpal.o
+ .debug_aranges
+                0x00000da8       0x50 _build/stm32f0xx_i2c_cpal_hal.o
+ .debug_aranges
+                0x00000df8      0x2a8 _build/deca_device.o
+ .debug_aranges
+                0x000010a0       0x18 _build/deca_params_init.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000    0x13f91
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x313 _build/system_stm32f0xx.o
+ .debug_info    0x00000313      0xe9d _build/calibration.o
+ .debug_info    0x000011b0     0x206d _build/dw1000.o
+ .debug_info    0x0000321d      0xe10 _build/host_interface.o
+ .debug_info    0x0000402d      0xd49 _build/main.o
+ .debug_info    0x00004d76     0x1060 _build/oneway_anchor.o
+ .debug_info    0x00005dd6      0xd05 _build/oneway_common.o
+ .debug_info    0x00006adb     0x146a _build/oneway_tag.o
+ .debug_info    0x00007f45      0x81d _build/timer.o
+ .debug_info    0x00008762      0x140 _build/prng.o
+ .debug_info    0x000088a2       0xf7 _build/delay.o
+ .debug_info    0x00008999      0x6a4 _build/stm32f0xx_gpio.o
+ .debug_info    0x0000903d      0xa8a _build/stm32f0xx_rcc.o
+ .debug_info    0x00009ac7      0xbf7 _build/stm32f0xx_i2c.o
+ .debug_info    0x0000a6be      0x4b0 _build/stm32f0xx_dma.o
+ .debug_info    0x0000ab6e      0x36f _build/stm32f0xx_misc.o
+ .debug_info    0x0000aedd     0x202d _build/stm32f0xx_tim.o
+ .debug_info    0x0000cf0a      0xb74 _build/stm32f0xx_spi.o
+ .debug_info    0x0000da7e      0x445 _build/stm32f0xx_pwr.o
+ .debug_info    0x0000dec3      0x313 _build/stm32f0xx_exti.o
+ .debug_info    0x0000e1d6      0x348 _build/stm32f0xx_syscfg.o
+ .debug_info    0x0000e51e      0x92e _build/stm32f0xx_i2c_cpal.o
+ .debug_info    0x0000ee4c      0xe7d _build/stm32f0xx_i2c_cpal_hal.o
+ .debug_info    0x0000fcc9     0x4060 _build/deca_device.o
+ .debug_info    0x00013d29      0x268 _build/deca_params_init.o
+
+.debug_abbrev   0x00000000     0x3873
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x14e _build/system_stm32f0xx.o
+ .debug_abbrev  0x0000014e      0x38a _build/calibration.o
+ .debug_abbrev  0x000004d8      0x44d _build/dw1000.o
+ .debug_abbrev  0x00000925      0x395 _build/host_interface.o
+ .debug_abbrev  0x00000cba      0x28f _build/main.o
+ .debug_abbrev  0x00000f49      0x398 _build/oneway_anchor.o
+ .debug_abbrev  0x000012e1      0x3e5 _build/oneway_common.o
+ .debug_abbrev  0x000016c6      0x3af _build/oneway_tag.o
+ .debug_abbrev  0x00001a75      0x22b _build/timer.o
+ .debug_abbrev  0x00001ca0       0xf2 _build/prng.o
+ .debug_abbrev  0x00001d92       0x87 _build/delay.o
+ .debug_abbrev  0x00001e19      0x1d4 _build/stm32f0xx_gpio.o
+ .debug_abbrev  0x00001fed      0x230 _build/stm32f0xx_rcc.o
+ .debug_abbrev  0x0000221d      0x1af _build/stm32f0xx_i2c.o
+ .debug_abbrev  0x000023cc      0x17f _build/stm32f0xx_dma.o
+ .debug_abbrev  0x0000254b      0x154 _build/stm32f0xx_misc.o
+ .debug_abbrev  0x0000269f      0x280 _build/stm32f0xx_tim.o
+ .debug_abbrev  0x0000291f      0x1e7 _build/stm32f0xx_spi.o
+ .debug_abbrev  0x00002b06      0x1b2 _build/stm32f0xx_pwr.o
+ .debug_abbrev  0x00002cb8      0x1b2 _build/stm32f0xx_exti.o
+ .debug_abbrev  0x00002e6a      0x172 _build/stm32f0xx_syscfg.o
+ .debug_abbrev  0x00002fdc      0x26d _build/stm32f0xx_i2c_cpal.o
+ .debug_abbrev  0x00003249      0x207 _build/stm32f0xx_i2c_cpal_hal.o
+ .debug_abbrev  0x00003450      0x3aa _build/deca_device.o
+ .debug_abbrev  0x000037fa       0x79 _build/deca_params_init.o
+
+.debug_line     0x00000000     0x69e2
+ *(.debug_line)
+ .debug_line    0x00000000      0x218 _build/system_stm32f0xx.o
+ .debug_line    0x00000218      0x405 _build/calibration.o
+ .debug_line    0x0000061d      0x632 _build/dw1000.o
+ .debug_line    0x00000c4f      0x450 _build/host_interface.o
+ .debug_line    0x0000109f      0x3a8 _build/main.o
+ .debug_line    0x00001447      0x3ec _build/oneway_anchor.o
+ .debug_line    0x00001833      0x3db _build/oneway_common.o
+ .debug_line    0x00001c0e      0x441 _build/oneway_tag.o
+ .debug_line    0x0000204f      0x2bc _build/timer.o
+ .debug_line    0x0000230b       0x80 _build/prng.o
+ .debug_line    0x0000238b      0x19c _build/delay.o
+ .debug_line    0x00002527      0x359 _build/stm32f0xx_gpio.o
+ .debug_line    0x00002880      0x621 _build/stm32f0xx_rcc.o
+ .debug_line    0x00002ea1      0x5d6 _build/stm32f0xx_i2c.o
+ .debug_line    0x00003477      0x342 _build/stm32f0xx_dma.o
+ .debug_line    0x000037b9      0x291 _build/stm32f0xx_misc.o
+ .debug_line    0x00003a4a      0xbab _build/stm32f0xx_tim.o
+ .debug_line    0x000045f5      0x518 _build/stm32f0xx_spi.o
+ .debug_line    0x00004b0d      0x369 _build/stm32f0xx_pwr.o
+ .debug_line    0x00004e76      0x2c2 _build/stm32f0xx_exti.o
+ .debug_line    0x00005138      0x28b _build/stm32f0xx_syscfg.o
+ .debug_line    0x000053c3      0x502 _build/stm32f0xx_i2c_cpal.o
+ .debug_line    0x000058c5      0x37e _build/stm32f0xx_i2c_cpal_hal.o
+ .debug_line    0x00005c43      0xd30 _build/deca_device.o
+ .debug_line    0x00006973       0x6f _build/deca_params_init.o
+
+.debug_frame    0x00000000     0x2c5c
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x40 _build/system_stm32f0xx.o
+ .debug_frame   0x00000040      0x150 _build/calibration.o
+ .debug_frame   0x00000190      0x298 _build/dw1000.o
+ .debug_frame   0x00000428      0x130 _build/host_interface.o
+ .debug_frame   0x00000558       0xfc _build/main.o
+ .debug_frame   0x00000654       0xe0 _build/oneway_anchor.o
+ .debug_frame   0x00000734      0x158 _build/oneway_common.o
+ .debug_frame   0x0000088c       0xf0 _build/oneway_tag.o
+ .debug_frame   0x0000097c       0xbc _build/timer.o
+ .debug_frame   0x00000a38       0x48 _build/prng.o
+ .debug_frame   0x00000a80       0x50 _build/delay.o
+ .debug_frame   0x00000ad0      0x108 _build/stm32f0xx_gpio.o
+ .debug_frame   0x00000bd8      0x2c4 _build/stm32f0xx_rcc.o
+ .debug_frame   0x00000e9c      0x2dc _build/stm32f0xx_i2c.o
+ .debug_frame   0x00001178       0xe0 _build/stm32f0xx_dma.o
+ .debug_frame   0x00001258       0x4c _build/stm32f0xx_misc.o
+ .debug_frame   0x000012a4      0x694 _build/stm32f0xx_tim.o
+ .debug_frame   0x00001938      0x22c _build/stm32f0xx_spi.o
+ .debug_frame   0x00001b64       0xc0 _build/stm32f0xx_pwr.o
+ .debug_frame   0x00001c24       0x98 _build/stm32f0xx_exti.o
+ .debug_frame   0x00001cbc       0xb8 _build/stm32f0xx_syscfg.o
+ .debug_frame   0x00001d74       0xf4 _build/stm32f0xx_i2c_cpal.o
+ .debug_frame   0x00001e68       0xd8 _build/stm32f0xx_i2c_cpal_hal.o
+ .debug_frame   0x00001f40      0x894 _build/deca_device.o
+ .debug_frame   0x000027d4       0x20 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_udivsi3.o)
+ .debug_frame   0x000027f4       0x20 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_divsi3.o)
+ .debug_frame   0x00002814       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_fixunsdfsi.o)
+ .debug_frame   0x00002840       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_floatdidf.o)
+ .debug_frame   0x0000286c       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(_floatundidf.o)
+ .debug_frame   0x00002898       0x3c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(divsf3.o)
+ .debug_frame   0x000028d4       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(eqsf2.o)
+ .debug_frame   0x00002900       0x30 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(gesf2.o)
+ .debug_frame   0x00002930       0x30 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(lesf2.o)
+ .debug_frame   0x00002960       0x3c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(mulsf3.o)
+ .debug_frame   0x0000299c       0x28 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(floatunsisf.o)
+ .debug_frame   0x000029c4       0x38 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(adddf3.o)
+ .debug_frame   0x000029fc       0x3c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(divdf3.o)
+ .debug_frame   0x00002a38       0x38 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(eqdf2.o)
+ .debug_frame   0x00002a70       0x38 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(gedf2.o)
+ .debug_frame   0x00002aa8       0x38 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(ledf2.o)
+ .debug_frame   0x00002ae0       0x3c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(muldf3.o)
+ .debug_frame   0x00002b1c       0x3c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(subdf3.o)
+ .debug_frame   0x00002b58       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(fixdfsi.o)
+ .debug_frame   0x00002b84       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(floatsidf.o)
+ .debug_frame   0x00002bb0       0x28 /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/armv6-m/libgcc.a(floatunsidf.o)
+ .debug_frame   0x00002bd8       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcmp.o)
+ .debug_frame   0x00002c04       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memcpy.o)
+ .debug_frame   0x00002c30       0x2c /home/brghena/toolchains/gcc-arm-none-eabi-4_9-2014q4/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv6-m/libc.a(lib_a-memset.o)
+
+.debug_str      0x00000000     0x541d
+ *(.debug_str)
+ .debug_str     0x00000000      0x2ce _build/system_stm32f0xx.o
+                                0x33a (size before relaxing)
+ .debug_str     0x000002ce      0x6f0 _build/calibration.o
+                                0x91e (size before relaxing)
+ .debug_str     0x000009be      0xbc4 _build/dw1000.o
+                               0x1008 (size before relaxing)
+ .debug_str     0x00001582      0x797 _build/host_interface.o
+                                0xcab (size before relaxing)
+ .debug_str     0x00001d19      0x138 _build/main.o
+                                0xaa2 (size before relaxing)
+ .debug_str     0x00001e51      0x379 _build/oneway_anchor.o
+                                0xa5e (size before relaxing)
+ .debug_str     0x000021ca      0x259 _build/oneway_common.o
+                                0xa25 (size before relaxing)
+ .debug_str     0x00002423      0x364 _build/oneway_tag.o
+                                0xe67 (size before relaxing)
+ .debug_str     0x00002787       0xb0 _build/timer.o
+                                0x70f (size before relaxing)
+ .debug_str     0x00002837       0x16 _build/prng.o
+                                0x1ba (size before relaxing)
+ .debug_str     0x0000284d       0x12 _build/delay.o
+                                0x1d2 (size before relaxing)
+ .debug_str     0x0000285f      0x161 _build/stm32f0xx_gpio.o
+                                0x549 (size before relaxing)
+ .debug_str     0x000029c0      0x4f5 _build/stm32f0xx_rcc.o
+                                0x836 (size before relaxing)
+ .debug_str     0x00002eb5      0x3d1 _build/stm32f0xx_i2c.o
+                                0x6e8 (size before relaxing)
+ .debug_str     0x00003286      0x15b _build/stm32f0xx_dma.o
+                                0x47c (size before relaxing)
+ .debug_str     0x000033e1      0x124 _build/stm32f0xx_misc.o
+                                0x38d (size before relaxing)
+ .debug_str     0x00003505      0xa78 _build/stm32f0xx_tim.o
+                                0xea3 (size before relaxing)
+ .debug_str     0x00003f7d      0x353 _build/stm32f0xx_spi.o
+                                0x80e (size before relaxing)
+ .debug_str     0x000042d0      0x15f _build/stm32f0xx_pwr.o
+                                0x3cf (size before relaxing)
+ .debug_str     0x0000442f       0xe2 _build/stm32f0xx_exti.o
+                                0x3c6 (size before relaxing)
+ .debug_str     0x00004511      0x1e9 _build/stm32f0xx_syscfg.o
+                                0x40f (size before relaxing)
+ .debug_str     0x000046fa      0x27e _build/stm32f0xx_i2c_cpal.o
+                                0x83c (size before relaxing)
+ .debug_str     0x00004978      0x2a9 _build/stm32f0xx_i2c_cpal_hal.o
+                                0xdd1 (size before relaxing)
+ .debug_str     0x00004c21      0x7d8 _build/deca_device.o
+                                0xd3c (size before relaxing)
+ .debug_str     0x000053f9       0x24 _build/deca_params_init.o
+                                0x279 (size before relaxing)
+
+.debug_loc      0x00000000     0x7851
+ *(.debug_loc)
+ .debug_loc     0x00000000       0xe7 _build/system_stm32f0xx.o
+ .debug_loc     0x000000e7      0x3c1 _build/calibration.o
+ .debug_loc     0x000004a8      0x5d4 _build/dw1000.o
+ .debug_loc     0x00000a7c      0x2c6 _build/host_interface.o
+ .debug_loc     0x00000d42      0x1c0 _build/main.o
+ .debug_loc     0x00000f02      0x333 _build/oneway_anchor.o
+ .debug_loc     0x00001235      0x3d0 _build/oneway_common.o
+ .debug_loc     0x00001605      0x6f9 _build/oneway_tag.o
+ .debug_loc     0x00001cfe       0xb5 _build/timer.o
+ .debug_loc     0x00001db3       0x91 _build/prng.o
+ .debug_loc     0x00001e44       0x58 _build/delay.o
+ .debug_loc     0x00001e9c      0x32a _build/stm32f0xx_gpio.o
+ .debug_loc     0x000021c6      0x8c0 _build/stm32f0xx_rcc.o
+ .debug_loc     0x00002a86      0x5f1 _build/stm32f0xx_i2c.o
+ .debug_loc     0x00003077      0x1f8 _build/stm32f0xx_dma.o
+ .debug_loc     0x0000326f       0xb9 _build/stm32f0xx_misc.o
+ .debug_loc     0x00003328     0x1ab0 _build/stm32f0xx_tim.o
+ .debug_loc     0x00004dd8      0x629 _build/stm32f0xx_spi.o
+ .debug_loc     0x00005401      0x187 _build/stm32f0xx_pwr.o
+ .debug_loc     0x00005588      0x149 _build/stm32f0xx_exti.o
+ .debug_loc     0x000056d1      0x1fb _build/stm32f0xx_syscfg.o
+ .debug_loc     0x000058cc      0x26b _build/stm32f0xx_i2c_cpal.o
+ .debug_loc     0x00005b37      0x113 _build/stm32f0xx_i2c_cpal_hal.o
+ .debug_loc     0x00005c4a     0x1c07 _build/deca_device.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+OUTPUT(_build/firmware.elf elf32-littlearm)
+
+.debug_ranges   0x00000000     0x11b0
+ .debug_ranges  0x00000000       0x30 _build/system_stm32f0xx.o
+ .debug_ranges  0x00000030       0x80 _build/calibration.o
+ .debug_ranges  0x000000b0       0xd0 _build/dw1000.o
+ .debug_ranges  0x00000180       0xb0 _build/host_interface.o
+ .debug_ranges  0x00000230       0x58 _build/main.o
+ .debug_ranges  0x00000288       0x68 _build/oneway_anchor.o
+ .debug_ranges  0x000002f0       0xb8 _build/oneway_common.o
+ .debug_ranges  0x000003a8       0x60 _build/oneway_tag.o
+ .debug_ranges  0x00000408       0x40 _build/timer.o
+ .debug_ranges  0x00000448       0x18 _build/prng.o
+ .debug_ranges  0x00000460       0x18 _build/delay.o
+ .debug_ranges  0x00000478       0x70 _build/stm32f0xx_gpio.o
+ .debug_ranges  0x000004e8      0x150 _build/stm32f0xx_rcc.o
+ .debug_ranges  0x00000638      0x158 _build/stm32f0xx_i2c.o
+ .debug_ranges  0x00000790       0x68 _build/stm32f0xx_dma.o
+ .debug_ranges  0x000007f8       0x20 _build/stm32f0xx_misc.o
+ .debug_ranges  0x00000818      0x330 _build/stm32f0xx_tim.o
+ .debug_ranges  0x00000b48      0x100 _build/stm32f0xx_spi.o
+ .debug_ranges  0x00000c48       0x58 _build/stm32f0xx_pwr.o
+ .debug_ranges  0x00000ca0       0x48 _build/stm32f0xx_exti.o
+ .debug_ranges  0x00000ce8       0x58 _build/stm32f0xx_syscfg.o
+ .debug_ranges  0x00000d40       0x50 _build/stm32f0xx_i2c_cpal.o
+ .debug_ranges  0x00000d90       0x40 _build/stm32f0xx_i2c_cpal_hal.o
+ .debug_ranges  0x00000dd0      0x3e0 _build/deca_device.o
