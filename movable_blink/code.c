@@ -2,6 +2,8 @@
  * Code to actually cause a blinking action
  */
 
+#include "led.h"
+
 typedef struct {
     unsigned int* entry_loc;        /* Entry point for user application */
     unsigned int* init_data_loc;    /* Data initialization information in flash */
@@ -40,66 +42,41 @@ Load_Info app_info = {
     .bss_end_offset     = (unsigned int)(&_ebss),
 };
 
-/* GPIO pin definitions */
-#define GPIO_C_BASE  0x400DB000  // GPIO C base address
-#define GPIO_D_BASE  0x400DC000  // GPIO D base address
-#define GPIO_DIR     0x00000400  // Direction offset
-#define GPIO_DATA    0x00000000  // Data offset
-
 /* Pin definitions for various cc2538 systems */
-#define ATUM_LEDS_BASE GPIO_D_BASE
 #define ATUM_RED_LED   3
 #define ATUM_BLUE_LED  4
 #define ATUM_GREEN_LED 5
 
-#define SDL_LEDS_BASE  GPIO_C_BASE
 #define SDL_RED_LED    1
 #define SDL_GREEN_LED  0
 #define SDL_BIG_LED    5
 
-
-void led_on (unsigned int, unsigned char);
-void led_off (unsigned int, unsigned char);
-
 // global variables get placed in .data and are referenced in GOT
-unsigned int LED_BASE = ATUM_LEDS_BASE;
-unsigned int BLUE_LED = ATUM_BLUE_LED;
-unsigned int GREEN_LED = ATUM_GREEN_LED;
+static unsigned int BLUE_LED = ATUM_BLUE_LED;
+static unsigned int GREEN_LED = ATUM_GREEN_LED;
 // unitialized global varaibles get placed in .bss and are referenced in GOT
-unsigned int RED_LED;
-unsigned int TIME_DELAY;
-
-void led_on (unsigned int led_base, unsigned char led_num) {
-    *((volatile unsigned int*)(((led_base) | GPIO_DATA) + ((1 << led_num) << 2))) = 0x00; // LED on
-
-    return;
-}
-
-void led_off (unsigned int led_base, unsigned char led_num) {
-    *((volatile unsigned int*)(((led_base) | GPIO_DATA) + ((1 << led_num) << 2))) = 0xFF; // LED off
-
-    return;
-}
+static unsigned int RED_LED;
+static unsigned int TIME_DELAY;
 
 void main () {
     // Initialize variables
     RED_LED = ATUM_RED_LED;
     TIME_DELAY = 400000;
     
-    *((volatile unsigned int*)(LED_BASE | GPIO_DIR)) |= (1 << RED_LED); // Sets the LED pin to be an output
-    *((volatile unsigned int*)(LED_BASE | GPIO_DIR)) |= (1 << BLUE_LED); // Sets the LED pin to be an output
-    *((volatile unsigned int*)(LED_BASE | GPIO_DIR)) |= (1 << GREEN_LED); // Sets the LED pin to be an output
+    init_led(RED_LED);
+    init_led(BLUE_LED);
+    init_led(GREEN_LED);
 
     while(1) {
 
-        led_off(LED_BASE, RED_LED);
-        //led_off(LED_BASE, BLUE_LED);
-        //led_on(LED_BASE, GREEN_LED);
+        //led_off(RED_LED);
+        led_off(BLUE_LED);
+        //led_on(GREEN_LED);
         for (volatile unsigned int i=0; i<TIME_DELAY; i++);
 
-        led_on(LED_BASE, RED_LED);
-        //led_on(LED_BASE, BLUE_LED);
-        //led_off(LED_BASE, GREEN_LED);
+        //led_on(RED_LED);
+        led_on(BLUE_LED);
+        //led_off(GREEN_LED);
         for (volatile unsigned int i=0; i<TIME_DELAY; i++);
     }
 }

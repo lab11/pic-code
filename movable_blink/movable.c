@@ -146,7 +146,7 @@ void main(void) {
     /* Perform application load functions */
     Load_Info* code_info = (Load_Info*)&_apps;
     unsigned int* flash_location = (unsigned int*)&_apps;
-    unsigned int* sram_location = 0x20001000; // arbitrary choice for testing
+    unsigned int* sram_location = (unsigned int*)0x20001000; // arbitrary choice for testing
     // copy data into data section
     //  Data start location assumes .text starts at address 0, and needs to be
     //  updated to the actual location in flash

@@ -13,7 +13,7 @@ CFLAGS += -ffunction-sections -fdata-sections
 CFLAGS += -fno-strict-aliasing
 # this line seemed pretty unncessary
 #CFLAGS += -fshort-enums -fomit-frame-pointer
-CFLAGS += -Wall -O0
+CFLAGS += -Wall -O0 -g
 LDFLAGS += -nostartfiles
 LDFLAGS += -T cc2538.ld
 LDFLAGS += -Wl,-gc-sections,--sort-section=alignment
