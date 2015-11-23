@@ -47,7 +47,7 @@ Load_Info app_info = {
 
 void main () {
     led_init(LED_0);
-    const uint32_t time_delay = 40000;
+    const uint32_t time_delay = 640000;
 
     while (1) {
 

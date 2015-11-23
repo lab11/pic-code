@@ -183,6 +183,8 @@ $(HEX): $(OBJS)
 	$(OBJCOPY) -Oihex $(ELF) $(HEX)
 	$(OBJCOPY) -Obinary $(ELF) $(BIN)
 	$(OBJDUMP) $(OBJDUMP_FLAGS) $(ELF) > $(LST)
+	arm-none-eabi-ld -r -b binary -o ../code_to_load.o $(BIN)
+	$(OBJCOPY) --rename-section .data=.app ../code_to_load.o
 	$(SIZE) $(ELF)
 
 size: $(ELF)
