@@ -6,6 +6,7 @@ PROJECT_NAME = $(shell basename "$(realpath ./)")
 
 APPLICATION_SRCS = $(notdir $(wildcard ./*.c))
 APPLICATION_SRCS += led.c
+APPLICATION_SRCS += simple_ble.c
 
 DEVICE = NRF51
 SOFTDEVICE_MODEL = s110
@@ -139,6 +140,13 @@ ifdef USE_BLE
     SOURCE_PATHS += $(wildcard $(SDK_SOURCE_PATH)ble/*/)
     SOURCE_PATHS += $(wildcard $(SDK_SOURCE_PATH)ble/ble_services/*/)
     CFLAGS += -DBLE_STACK_SUPPORT_REQD
+endif
+
+ifdef SOFTDEVICE_MODEL
+	LIBRARY_PATHS += $(SDK_INCLUDE_PATH)softdevice/common/softdevice_handler/
+	LIBRARY_PATHS += $(SDK_INCLUDE_PATH)softdevice/$(SOFTDEVICE_MODEL)/headers/
+	SOURCE_PATHS += $(SDK_INCLUDE_PATH)softdevice/common/softdevice_handler/
+	SOURCE_PATHS += $(SDK_INCLUDE_PATH)softdevice/$(SOFTDEVICE_MODEL)/headers/
 endif
 
 endif # SDK 10

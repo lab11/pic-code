@@ -5,3 +5,4 @@ erase-all.jlink
 flash-softdevice.jlink
 *.d
 *.o
+node_modules/

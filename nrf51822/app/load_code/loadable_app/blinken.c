@@ -46,15 +46,15 @@ Load_Info app_info = {
 //static uint32_t time_delay = 40000;
 
 void main () {
-    led_init(LED_0);
+    led_init(25);
     const uint32_t time_delay = 640000;
 
     while (1) {
 
-        led_on(LED_0);
+        led_on(25);
         for (volatile int i=0; i<time_delay; i++);
 
-        led_off(LED_0);
+        led_off(25);
         for (volatile int i=0; i<time_delay; i++);
     }
 }
