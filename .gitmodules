@@ -2,5 +2,5 @@
 	path = cc2538-bsl
 	url = https://github.com/lab11/cc2538-bsl.git
 [submodule "nrf51822/nrf5x-base"]
-	path = nrf51822/nrf5x-base
-	url = git@github.com:lab11/nrf5x-base.git
+    path = nrf51822/nrf5x-base
+    url = https://github.com/lab11/nrf5x-base.git
