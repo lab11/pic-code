@@ -20,6 +20,9 @@
 
 static ble_app_t app;
 
+APP_TIMER_DEF(blink_timer);
+
+
 // Intervals for advertising and connections
 static simple_ble_config_t ble_config = {
     .platform_id       = 0x40,              // used as 4th octect in device BLE address
@@ -97,42 +100,25 @@ void load_app (unsigned char* app_start) {
     // never reached
 }
 
-// Randomly generated UUID
-const ble_uuid128_t upload_uuid128 = {
-    {0x73, 0xd7, 0x5e, 0x49, 0x0c, 0x60, 0x47, 0x72,
-     0x8f, 0x5d, 0xb1, 0xc3, 0x78, 0x78, 0x91, 0x89}
-};
-
-ble_uuid_t upload_uuid;
-
-#define UPLOAD_SHORT_UUID               0x0C60
-#define UPLOAD_CHAR_BINBLOB_SHORT_UUID  0x0C61
-#define UPLOAD_CHAR_LOADCODE_SHORT_UUID 0x0C62
 
 void services_init (void) {
 
     // Add main app upload service
-    app.service_handle = simple_ble_add_service(&upload_uuid128,
-                                                &upload_uuid,
-                                                UPLOAD_SHORT_UUID);
+    simple_ble_add_service(&upload_service_handle);
 
     // Add the characteristic to write data blobs
-    simple_ble_add_characteristic(0, 1, 0, // read, write, notify
-                                  upload_uuid.type,
-                                  UPLOAD_CHAR_BINBLOB_SHORT_UUID,
+    simple_ble_add_characteristic(0, 1, 0, 0, // read, write, notify, vlen
                                   500, (uint8_t*)app.upload_bin_blob_buffer,
-                                  app.service_handle,
+                                  &upload_service_handle,
                                   &app.char_upload_binblob_handle);
 
     // Add the characteristic to notify with ACKs
     //TODO
 
     // Add the characteristic to say app is complete, load it
-    simple_ble_add_characteristic(0, 1, 0, // read, write, notify
-                                  upload_uuid.type,
-                                  UPLOAD_CHAR_LOADCODE_SHORT_UUID,
+    simple_ble_add_characteristic(0, 1, 0, 0, // read, write, notify, vlen
                                   1, (uint8_t*)&app.upload_load_code_flag,
-                                  app.service_handle,
+                                  &upload_service_handle,
                                   &app.char_upload_loadcode_handle);
 
     // Add the characteristic for app loading status
@@ -161,14 +147,14 @@ static uint32_t* app_blob_addr = (uint32_t*)0x00030000;
 void ble_evt_write (ble_evt_t* p_ble_evt) {
     ble_gatts_evt_write_t* p_evt_write = &p_ble_evt->evt.gatts_evt.params.write;
 
-    if (p_evt_write->handle == app.char_upload_binblob_handle.value_handle) {
+    if (simple_ble_is_char_event(p_ble_evt, &app.char_upload_binblob_handle)) {
         // binary blob with new app code
         //app.upload_bin_blob_buffer = p_evt_write->data;
         memcpy((uint8_t*)app.upload_bin_blob_buffer, p_evt_write->data, p_evt_write->len);
         app.upload_bin_blob_length = p_evt_write->len;
         app.upload_bin_blob_flag   = true;
 
-    } else if (p_evt_write->handle == app.char_upload_loadcode_handle.value_handle) {
+    } else if (simple_ble_is_char_event(p_ble_evt, &app.char_upload_loadcode_handle)) {
         // load code from previously received binary blobs
         if (p_evt_write->data[0] != 0) {
             app.upload_load_code_flag = true;
@@ -181,9 +167,45 @@ void ble_evt_write (ble_evt_t* p_ble_evt) {
 
 void ble_error(uint32_t error_code) {
     // app_error_handler was called
-    led_on(LED_0);
+    led_init(25);
+    led_on(25);
 }
 
+/*
+void SVC_Handler() {
+    // see which SP we are using
+    uint32_t control_reg_val = 0xFFFFFFFF;
+    __asm(" mrs %0, CONTROL \n"
+            : "=r" (control_reg_val));
+    if (control_reg_val & 0x02) {
+        //led_on(LED_0);
+        while(1);
+    }
+
+    //if ((SCB->ICSR & SCB_ICSR_VECTACTIVE_Msk) == 11) {
+    //    led_on(LED_0);
+    //}
+}
+*/
+
+static void timer_handler (void* p_context) {
+    led_toggle(LED_0);
+}
+
+void start_timers (void) {
+    uint32_t err_code;
+
+    // Initialize timer module
+    APP_TIMER_INIT(APP_TIMER_PRESCALER, APP_TIMER_OP_QUEUE_SIZE, false);
+
+    // Create timer
+    err_code = app_timer_create(&blink_timer, APP_TIMER_MODE_REPEATED, timer_handler);
+    APP_ERROR_CHECK(err_code);
+
+    // Start timer
+    err_code = app_timer_start(blink_timer, APP_TIMER_TICKS(500, APP_TIMER_PRESCALER), NULL);
+    APP_ERROR_CHECK(err_code);
+}
 
 int main (void) {
     led_init(LED_0);
@@ -193,6 +215,8 @@ int main (void) {
     app.upload_load_code_flag = false;
     app.upload_bin_blob_flag = false;
     memset((uint8_t*)app.upload_bin_blob_buffer, 0x00, 500);
+    app.char_upload_binblob_handle.uuid16 = UPLOAD_CHAR_BINBLOB_SHORT_UUID;
+    app.char_upload_loadcode_handle.uuid16 = UPLOAD_CHAR_LOADCODE_SHORT_UUID;
 
     // Setup BLE
     simple_ble_init(&ble_config);
@@ -200,12 +224,41 @@ int main (void) {
     // Advertise because why not
     simple_adv_only_name();
 
+/*
+    // see which SP we are using
+    uint32_t write_val = 0x2;
+    __asm(" mrs r2, MSP \n\t"
+          " msr PSP, r2 \n"
+          :
+          :
+          : "r2");
+    __asm(" msr CONTROL, %0 \n"
+            :
+            : "r" (write_val));
+    //XXX: I'm not changing to PSP correctly. It crashes instead of working...
+
+    //uint32_t control_reg_val = 0xFFFFFFFF;
+    //__asm(" mrs %0, CONTROL \n"
+    //        : "=r" (control_reg_val));
+    //if (control_reg_val & 0x02) {
+    //    led_on(LED_0);
+    //}
+
+    // call SVC to see if that works
+    __asm(" svc 0x0F   \n"
+          );
+    while(1);
+*/
+
+    // Create and start timers
+    start_timers();
+
     while (1) {
         power_manage();
 
         if (app.upload_load_code_flag) {
             // load code!
-            load_app((unsigned int*)0x00030000);
+            load_app((unsigned char*)0x00030000);
             //load_app((unsigned char*)&_apps);
         }
 

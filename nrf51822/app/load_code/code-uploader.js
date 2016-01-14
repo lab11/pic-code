@@ -3,10 +3,15 @@ var async = require('async');
 var noble = require('noble');
 var fs = require('fs');
 
-var peripheralId = process.argv[2];
+var peripheralId = 'c098e5404536';
+if (process.argv.length >= 3) {
+    peripheralId = process.argv[2];
+}
+console.log("Looking for " + peripheralId);
 
 noble.on('stateChange', function(state) {
   if (state === 'poweredOn') {
+    console.log("Staring scans...");
     noble.startScanning();
   } else {
     noble.stopScanning();
@@ -101,6 +106,7 @@ function explore(peripheral) {
     process.exit(0);
   });
 
+  console.log("Trying to connect");
   peripheral.connect(function(error) {
     console.log('Connected');
     var load_code_uuid = '89910c60c3b15d8f7247600c495ed773';
